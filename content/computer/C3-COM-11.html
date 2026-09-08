@@ -1,0 +1,204 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Move the Flower | GoKurious Class 3</title></head><body style="margin:0"><div id="gk-computer-c3-com-11"><style>
+    #gk-computer-c3-com-11{--gk-brand:#4338ca;--gk-ink:#312e81;--gk-soft:#e0e7ff;--gk-teal:#0e9aa7;--gk-teal-dark:#087681;--gk-teal-soft:#dff7f9;--gk-amber:#f59e0b;--gk-amber-soft:#fef3c7;--gk-text:#1e293b;--gk-muted:#475569;--gk-line:#e2e8f0;--gk-bg:#f8fbff;--gk-white:#fff;--gk-maths:#6d28d9;--gk-maths-soft:#ede9fe;--gk-green:#15803d;--gk-green-soft:#dcfce7;--gk-rose:#be123c;--gk-rose-soft:#fff1f2;color-scheme:light;background:var(--gk-bg);color:var(--gk-text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans",Arial,sans-serif;font-size:16px;line-height:1.6;width:100%;overflow-wrap:break-word;text-align:left}
+    #gk-computer-c3-com-11 *{box-sizing:border-box}
+    #gk-computer-c3-com-11 [hidden]{display:none!important}
+    #gk-computer-c3-com-11 h1,#gk-computer-c3-com-11 h2,#gk-computer-c3-com-11 h3,#gk-computer-c3-com-11 p{margin:0;color:inherit}
+    #gk-computer-c3-com-11 h1{font-size:clamp(27px,4.4vw,38px);font-weight:800;line-height:1.18;letter-spacing:-1px}
+    #gk-computer-c3-com-11 h2{font-size:23px;font-weight:750;line-height:1.3;letter-spacing:-.4px}
+    #gk-computer-c3-com-11 h3{font-size:18px;font-weight:750;line-height:1.4}
+    #gk-computer-c3-com-11 a{color:var(--gk-brand);text-decoration:none}
+    #gk-computer-c3-com-11 a:hover{text-decoration:underline}
+    #gk-computer-c3-com-11 button,#gk-computer-c3-com-11 input{font:inherit}
+    #gk-computer-c3-com-11 button{cursor:pointer;touch-action:manipulation}
+    #gk-computer-c3-com-11 button:disabled{cursor:default}
+    #gk-computer-c3-com-11 .gk-top{background:var(--gk-white);border-bottom:1px solid var(--gk-line);padding:18px 28px;display:flex;justify-content:space-between;align-items:center;gap:22px;flex-wrap:wrap}
+    #gk-computer-c3-com-11 .gk-brand{font-size:27px;font-weight:800;letter-spacing:-1.2px;line-height:1.2;white-space:nowrap;color:var(--gk-ink)}
+    #gk-computer-c3-com-11 .gk-brand span{color:var(--gk-teal)}
+    #gk-computer-c3-com-11 .gk-tagline{font-size:12px;letter-spacing:.8px;color:var(--gk-muted);margin-top:4px;white-space:nowrap}
+    #gk-computer-c3-com-11 .gk-nav{display:flex;gap:20px;flex-wrap:wrap;align-items:center}
+    #gk-computer-c3-com-11 .gk-nav a{font-size:14px;font-weight:650;color:var(--gk-text)}
+    #gk-computer-c3-com-11 .gk-main{padding:22px 28px 36px;max-width:1120px;margin:auto}
+    #gk-computer-c3-com-11 .gk-crumb{font-size:13px;color:var(--gk-muted);margin-bottom:17px}
+    #gk-computer-c3-com-11 .gk-meta{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:12px;font-size:14px;color:var(--gk-muted)}
+    #gk-computer-c3-com-11 .gk-pill{display:inline-flex;align-items:center;border-radius:999px;padding:3px 11px;background:var(--gk-tech-soft);color:var(--gk-tech);font-weight:650}
+    #gk-computer-c3-com-11 .gk-intro{margin-top:10px;max-width:750px;color:var(--gk-muted)}
+    #gk-computer-c3-com-11 .gk-question{margin:19px 0 25px;padding:13px 17px;background:var(--gk-amber-soft);border-radius:14px;font-size:16px}
+    #gk-computer-c3-com-11 .gk-question strong{color:#92400e}
+    #gk-computer-c3-com-11 .gk-section-title{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:0 0 13px}
+    #gk-computer-c3-com-11 .gk-section-title .gk-subtle{font-size:13px;color:var(--gk-muted)}
+    #gk-computer-c3-com-11 .gk-lab{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(265px,1fr);gap:20px;align-items:start}
+    #gk-computer-c3-com-11 .gk-card{background:var(--gk-white);border:1px solid var(--gk-line);border-radius:24px;box-shadow:0 1px 2px #0f172a0d,0 8px 24px -12px #1e293b2e;min-width:0}
+    #gk-computer-c3-com-11 .gk-stage-card{padding:13px}
+    #gk-computer-c3-com-11 .gk-stage{border-radius:16px;background:#fffbeb;overflow:hidden;position:relative}
+    #gk-computer-c3-com-11 .gk-stage-heading{text-align:center;padding:16px 12px 0;font-size:14px;font-weight:650;color:#785223}
+    #gk-computer-c3-com-11 .gk-stage svg{display:block;width:100%;height:252px;touch-action:none;user-select:none}
+    #gk-computer-c3-com-11 .gk-scene-caption{text-align:center;font-size:14px;min-height:42px;padding:0 12px 14px;color:#785223}
+    #gk-computer-c3-com-11 .gk-piece-labels{display:flex;justify-content:center;gap:24px;padding:13px 8px;font-size:14px;flex-wrap:wrap}
+    #gk-computer-c3-com-11 .gk-piece-labels span{display:inline-flex;gap:7px;align-items:center}
+    #gk-computer-c3-com-11 .gk-dot{width:12px;height:12px;display:inline-block;border-radius:50%;background:var(--gk-brand)}
+    #gk-computer-c3-com-11 .gk-dot.gk-right{background:var(--gk-teal)}
+    #gk-computer-c3-com-11 .gk-observe{background:var(--gk-soft);border-radius:16px;padding:16px 18px;min-height:118px}
+    #gk-computer-c3-com-11 .gk-observe h3{font-size:13px;letter-spacing:1.1px;text-transform:uppercase;color:var(--gk-brand);margin-bottom:7px}
+    #gk-computer-c3-com-11 .gk-observe p{font-size:15px;color:var(--gk-ink);line-height:1.65}
+    #gk-computer-c3-com-11 .gk-controls{padding:20px}
+    #gk-computer-c3-com-11 .gk-controls-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:20px}
+    #gk-computer-c3-com-11 .gk-btn{border:1px solid var(--gk-line);background:#f1f5fb;color:var(--gk-text);border-radius:999px;padding:9px 15px;min-height:44px;font-size:14px;font-weight:650;display:inline-flex;align-items:center;justify-content:center;gap:7px;text-decoration:none}
+    #gk-computer-c3-com-11 .gk-btn:hover{background:var(--gk-soft)}
+    #gk-computer-c3-com-11 .gk-btn-primary{background:var(--gk-brand);color:var(--gk-white);border-color:var(--gk-brand);width:100%;font-size:16px;padding:11px 16px}
+    #gk-computer-c3-com-11 .gk-btn-primary:hover{background:var(--gk-ink)}
+    #gk-computer-c3-com-11 .gk-btn[aria-pressed="true"]{background:var(--gk-soft);color:var(--gk-brand);border-color:var(--gk-brand)}
+    #gk-computer-c3-com-11 .gk-label{font-size:15px;font-weight:700;display:block;margin:0 0 10px}
+    #gk-computer-c3-com-11 .gk-segments{display:flex;gap:8px;margin-bottom:22px;flex-wrap:wrap}
+    #gk-computer-c3-com-11 .gk-choice{display:flex;align-items:center;justify-content:center;gap:6px;border:1px solid var(--gk-line);border-radius:999px;padding:8px 12px;min-height:44px;font-size:14px;cursor:pointer}
+    #gk-computer-c3-com-11 .gk-choice:has(input:checked){background:var(--gk-tech-soft);border-color:var(--gk-tech);color:var(--gk-tech)}
+    #gk-computer-c3-com-11 .gk-choice input{accent-color:var(--gk-tech);width:16px;height:16px;margin:0}
+    #gk-computer-c3-com-11 .gk-control-row{display:flex;justify-content:space-between;gap:8px;align-items:center}
+    #gk-computer-c3-com-11 .gk-control-row output{font-size:13px;color:var(--gk-brand);font-weight:650}
+    #gk-computer-c3-com-11 .gk-range{width:100%;height:44px;accent-color:var(--gk-brand);cursor:ew-resize;display:block;margin:3px 0 0}
+    #gk-computer-c3-com-11 .gk-range-ends{display:flex;justify-content:space-between;font-size:12px;color:var(--gk-muted);margin-top:-3px;margin-bottom:20px}
+    #gk-computer-c3-com-11 .gk-instruction{font-size:14px;color:var(--gk-muted);margin:12px 0 20px}
+    #gk-computer-c3-com-11 .gk-actions{border-top:1px solid var(--gk-line);padding-top:16px;display:flex;gap:8px;flex-wrap:wrap}
+    #gk-computer-c3-com-11 .gk-actions .gk-btn{font-size:13px;padding:8px 12px}
+    #gk-computer-c3-com-11 .gk-visit{font-size:12px;color:var(--gk-muted);margin-top:9px}
+    #gk-computer-c3-com-11 .gk-content{margin-top:32px;padding-top:28px;border-top:1px solid var(--gk-line)}
+    #gk-computer-c3-com-11 .gk-content h2{margin-bottom:15px}
+    #gk-computer-c3-com-11 .gk-article p{margin:0 0 16px;max-width:820px}
+    #gk-computer-c3-com-11 .gk-key{border-left:4px solid var(--gk-tech);padding:13px 18px;background:var(--gk-tech-soft);margin:20px 0;border-radius:0 12px 12px 0;max-width:820px;font-size:18px}
+    #gk-computer-c3-com-11 .gk-fraction{display:inline-flex;vertical-align:middle;flex-direction:column;line-height:1.1;margin:0 7px;text-align:center;font-size:22px;color:var(--gk-tech)}
+    #gk-computer-c3-com-11 .gk-fraction span:first-child{border-bottom:2px solid currentColor;padding:0 4px 3px}
+    #gk-computer-c3-com-11 .gk-fraction span:last-child{padding:3px 4px 0}
+    #gk-computer-c3-com-11 .gk-outcome{background:var(--gk-teal-soft);border-radius:14px;padding:15px 18px;margin-top:21px;font-size:15px;max-width:820px}
+    #gk-computer-c3-com-11 .gk-outcome strong{display:block;color:var(--gk-teal-dark);font-size:14px;margin-bottom:3px}
+    #gk-computer-c3-com-11 .gk-try-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:14px}
+    #gk-computer-c3-com-11 .gk-try{padding:18px;border-radius:16px;background:var(--gk-white);border:1px solid var(--gk-line)}
+    #gk-computer-c3-com-11 .gk-step{color:var(--gk-brand);font-size:13px;font-weight:750;margin-bottom:7px}
+    #gk-computer-c3-com-11 .gk-try h3{font-size:16px;margin-bottom:7px}
+    #gk-computer-c3-com-11 .gk-try p{font-size:14px;color:var(--gk-muted)}
+    #gk-computer-c3-com-11 .gk-score{color:var(--gk-brand);background:var(--gk-soft);font-size:14px;padding:5px 13px;border-radius:999px;font-weight:650;white-space:nowrap}
+    #gk-computer-c3-com-11 .gk-quiz-item{padding:22px 0;border-top:1px solid var(--gk-line)}
+    #gk-computer-c3-com-11 .gk-quiz-item:first-child{border-top:0;padding-top:4px}
+    #gk-computer-c3-com-11 .gk-qno{font-size:13px;font-weight:700;color:var(--gk-tech);margin-bottom:5px}
+    #gk-computer-c3-com-11 .gk-quiz-item h3{font-size:17px;font-weight:650;margin-bottom:13px}
+    #gk-computer-c3-com-11 .gk-answers{display:grid;gap:8px}
+    #gk-computer-c3-com-11 .gk-answer{background:var(--gk-white);border:1px solid var(--gk-line);padding:11px 14px;border-radius:12px;color:var(--gk-text);text-align:left;display:flex;gap:12px;align-items:center;min-height:48px;font-size:15px;width:100%}
+    #gk-computer-c3-com-11 .gk-answer:hover{border-color:var(--gk-brand);background:#f4f3ff}
+    #gk-computer-c3-com-11 .gk-answer[aria-pressed="true"]{border-color:var(--gk-brand);background:var(--gk-soft)}
+    #gk-computer-c3-com-11 .gk-answer.gk-correct{border-color:var(--gk-green);background:var(--gk-green-soft)}
+    #gk-computer-c3-com-11 .gk-answer.gk-incorrect{border-color:var(--gk-rose);background:var(--gk-rose-soft)}
+    #gk-computer-c3-com-11 .gk-answer-letter{font-size:13px;font-weight:700;color:var(--gk-muted);flex-shrink:0}
+    #gk-computer-c3-com-11 .gk-feedback{padding:12px 14px;margin-top:10px;border-radius:12px;font-size:14px;background:var(--gk-soft);color:var(--gk-ink)}
+    #gk-computer-c3-com-11 .gk-feedback.gk-success{background:var(--gk-green-soft);color:#166534}
+    #gk-computer-c3-com-11 .gk-quiz-finish{padding:16px;background:var(--gk-green-soft);border-radius:16px;color:#166534;margin:9px 0 12px}
+    #gk-computer-c3-com-11 .gk-diy{background:var(--gk-amber-soft);padding:22px;border-radius:20px;margin-top:24px}
+    #gk-computer-c3-com-11 .gk-diy h3{margin-bottom:8px}
+    #gk-computer-c3-com-11 ol,#gk-computer-c3-com-11 ul{padding-left:23px;margin:11px 0}
+    #gk-computer-c3-com-11 li{padding:3px 0}
+    #gk-computer-c3-com-11 .gk-diy p,#gk-computer-c3-com-11 .gk-diy li{font-size:15px}
+    #gk-computer-c3-com-11 details{border-bottom:1px solid var(--gk-line);padding:14px 0}
+    #gk-computer-c3-com-11 summary{font-weight:650;cursor:pointer;min-height:30px}
+    #gk-computer-c3-com-11 details p{margin-top:9px;color:var(--gk-muted);font-size:15px}
+    #gk-computer-c3-com-11 .gk-grown-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:18px}
+    #gk-computer-c3-com-11 .gk-grown-grid h3{font-size:17px;margin-bottom:7px}
+    #gk-computer-c3-com-11 .gk-grown-grid li{font-size:15px}
+    #gk-computer-c3-com-11 .gk-source{font-size:13px;color:var(--gk-muted);margin-top:22px}
+    #gk-computer-c3-com-11 .gk-footer{padding:25px 28px;background:var(--gk-white);border-top:1px solid var(--gk-line);display:flex;gap:20px;align-items:center;justify-content:space-between;flex-wrap:wrap;font-size:13px;color:var(--gk-muted)}
+    #gk-computer-c3-com-11 .gk-footer strong{color:var(--gk-ink);font-size:17px}
+    #gk-computer-c3-com-11 .gk-footer a{font-size:13px}
+    #gk-computer-c3-com-11 .gk-footer-links{display:flex;gap:16px;flex-wrap:wrap}
+    #gk-computer-c3-com-11 .gk-screenreader{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+    @media(max-width:760px){#gk-computer-c3-com-11 .gk-lab{grid-template-columns:1fr}#gk-computer-c3-com-11 .gk-top{padding:16px 20px;gap:14px}#gk-computer-c3-com-11 .gk-main{padding:19px 20px 28px}#gk-computer-c3-com-11 .gk-nav{gap:16px}#gk-computer-c3-com-11 .gk-try-grid{grid-template-columns:1fr}#gk-computer-c3-com-11 .gk-grown-grid{grid-template-columns:1fr;gap:15px}#gk-computer-c3-com-11 .gk-controls{padding:18px}#gk-computer-c3-com-11 .gk-controls-head{margin-bottom:14px}#gk-computer-c3-com-11 .gk-segments{margin-bottom:16px}#gk-computer-c3-com-11 .gk-instruction{margin-bottom:15px}}
+    @media(max-width:400px){#gk-computer-c3-com-11 .gk-top,#gk-computer-c3-com-11 .gk-main,#gk-computer-c3-com-11 .gk-footer{padding-left:14px;padding-right:14px}#gk-computer-c3-com-11 .gk-nav{gap:13px}#gk-computer-c3-com-11 .gk-nav a{font-size:13px}#gk-computer-c3-com-11 .gk-stage-card{padding:9px}#gk-computer-c3-com-11 .gk-meta{gap:7px;font-size:13px}#gk-computer-c3-com-11 .gk-section-title{align-items:flex-start}#gk-computer-c3-com-11 .gk-section-title .gk-subtle{display:none}#gk-computer-c3-com-11 .gk-piece-labels{gap:15px;font-size:13px}}
+    @media(prefers-reduced-motion:reduce){#gk-computer-c3-com-11 *{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+  
+#gk-computer-c3-com-11 :focus-visible{outline:3px solid #b45309;outline-offset:3px}#gk-computer-c3-com-11 .gk-stage{background:#fffbeb}#gk-computer-c3-com-11 .gk-model{min-height:270px;padding:8px}#gk-computer-c3-com-11 .gk-model svg{width:100%;height:auto;display:block;min-height:190px;max-height:340px}#gk-computer-c3-com-11 .gk-model-controls{display:grid;gap:14px}#gk-computer-c3-com-11 .gk-select{width:100%;max-width:100%;min-height:46px;border:1px solid #94a3b8;border-radius:12px;padding:8px;font:inherit;background:white;color:#1e293b}#gk-computer-c3-com-11 .gk-control-block{min-width:0}#gk-computer-c3-com-11 .gk-control-block .gk-label{margin-bottom:5px}#gk-computer-c3-com-11 .gk-check{display:flex;gap:10px;align-items:center;min-height:44px;cursor:pointer}#gk-computer-c3-com-11 .gk-check input{width:20px;height:20px;accent-color:#4338ca;flex-shrink:0}#gk-computer-c3-com-11 .gk-picture-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}#gk-computer-c3-com-11 .gk-picture-tile{padding:14px 9px;background:white;border:1px solid #cbd5e1;border-radius:16px;display:grid;text-align:center;gap:4px;font-size:14px;min-width:0}#gk-computer-c3-com-11 .gk-picture-icon{font-size:36px}#gk-computer-c3-com-11 .gk-model summary,#gk-computer-c3-com-11 summary{min-height:44px}#gk-computer-c3-com-11 .gk-chip-row{display:flex;flex-wrap:wrap;gap:8px;padding:10px}#gk-computer-c3-com-11 .gk-model button{min-height:44px}#gk-computer-c3-com-11 .gk-model h3{padding:8px}#gk-computer-c3-com-11 .gk-model table{width:100%;border-collapse:collapse;font-size:14px}#gk-computer-c3-com-11 .gk-model th,#gk-computer-c3-com-11 .gk-model td{padding:8px;text-align:left;border-bottom:1px solid #cbd5e1}#gk-computer-c3-com-11 .gk-meter{height:16px;background:#dbeafe;border-radius:99px;overflow:hidden;margin:8px 0}#gk-computer-c3-com-11 .gk-meter span{display:block;height:100%;background:#4338ca;transition:width .35s}#gk-computer-c3-com-11 .gk-source a{text-decoration:underline}#gk-computer-c3-com-11 .gk-score{white-space:normal}#gk-computer-c3-com-11 .gk-stage-heading{color:#92400e}#gk-computer-c3-com-11 .gk-scene-caption{color:#92400e}#gk-computer-c3-com-11 .gk-animation{animation:gk-C3-COM-11-bob .8s ease-in-out alternate 4}@keyframes gk-C3-COM-11-bob{to{transform:translateY(-8px)}}#gk-computer-c3-com-11 .gk-rain{animation:gk-C3-COM-11-rain .6s linear 4}#gk-computer-c3-com-11 .gk-air{animation:gk-C3-COM-11-air 1s ease-in-out alternate 4}#gk-computer-c3-com-11 .gk-arrive{animation:gk-C3-COM-11-arrive .5s ease-out}#gk-computer-c3-com-11 .gk-route-step{animation:gk-C3-COM-11-arrive .6s ease-out both;padding:7px}@keyframes gk-C3-COM-11-rain{from{transform:translateY(-10px);opacity:.5}to{transform:translateY(12px);opacity:1}}@keyframes gk-C3-COM-11-air{from{transform:translateX(-12px)}to{transform:translateX(12px)}}@keyframes gk-C3-COM-11-arrive{from{opacity:.35;transform:translateY(-8px)}to{opacity:1;transform:translateY(0)}}
+#gk-computer-c3-com-11{--gk-tech:#b45309;--gk-tech-soft:#fef3c7}
+#gk-computer-c3-com-11 .gk-board{display:grid;gap:12px;padding:10px;min-width:0}
+#gk-computer-c3-com-11 .gk-panel{padding:12px;border:1px solid #cbd5e1;border-radius:12px;background:#fff;min-width:0;overflow-wrap:anywhere}
+#gk-computer-c3-com-11 .gk-row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+#gk-computer-c3-com-11 .gk-keyboard{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:5px;padding:6px}
+#gk-computer-c3-com-11 .gk-keyboard button{padding:6px;min-width:0;min-height:44px}
+#gk-computer-c3-com-11 button[aria-pressed=true]{background:#e0e7ff;border:2px solid #4338ca;color:#312e81}
+#gk-computer-c3-com-11 .gk-slot{min-height:64px;border:2px dashed #b45309;padding:10px;border-radius:12px;background:#fff}
+#gk-computer-c3-com-11 .gk-active{border:3px solid #b45309;background:#fef3c7}
+#gk-computer-c3-com-11 .gk-paper{background:#fff;border:1px solid #94a3b8;padding:16px;white-space:pre-wrap;min-height:90px;overflow-wrap:anywhere;line-height:1.7}
+#gk-computer-c3-com-11 .gk-readout{font-weight:700;color:#312e81;white-space:pre-wrap;overflow-wrap:anywhere}
+#gk-computer-c3-com-11 canvas{display:block;width:100%;height:auto;touch-action:none;background:white;border:1px solid #64748b;border-radius:8px}
+#gk-computer-c3-com-11 .gk-model svg.gk-interactive{touch-action:none;max-height:none;min-height:0}
+#gk-computer-c3-com-11 .gk-model .gk-mini svg{min-height:0;height:76px;max-height:76px}
+#gk-computer-c3-com-11 .gk-grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+#gk-computer-c3-com-11 .gk-grid2>*{min-width:0}
+#gk-computer-c3-com-11 .gk-tile{background:white;border:1px solid #94a3b8;border-radius:12px;padding:10px;min-height:64px;overflow-wrap:anywhere}
+#gk-computer-c3-com-11 .gk-tile small{display:block;font-size:13px;font-weight:400}
+#gk-computer-c3-com-11 .gk-cursor{border-left:3px solid #b45309;padding-left:2px}
+#gk-computer-c3-com-11 .gk-tiny{font-size:13px;line-height:1.5}
+#gk-computer-c3-com-11 .gk-caption{margin:4px 0;font-size:14px;color:#475569}
+#gk-computer-c3-com-11 button:disabled{opacity:.55;cursor:default}
+#gk-computer-c3-com-11 input,#gk-computer-c3-com-11 textarea{box-sizing:border-box;min-width:0}
+#gk-computer-c3-com-11 .gk-model svg text{pointer-events:none}
+#gk-computer-c3-com-11 .gk-model h3{margin:0}
+#gk-computer-c3-com-11 .gk-board p{margin:3px 0}
+#gk-computer-c3-com-11 .gk-nav a{min-height:44px;display:inline-flex;align-items:center}
+#gk-computer-c3-com-11 .gk-range{min-height:44px}
+@media(max-width:600px){#gk-computer-c3-com-11 .gk-board{padding:5px}#gk-computer-c3-com-11 .gk-model{padding:3px}#gk-computer-c3-com-11 .gk-lab{gap:14px}#gk-computer-c3-com-11 .gk-controls{padding:16px}#gk-computer-c3-com-11 .gk-keyboard{gap:4px;padding:2px}#gk-computer-c3-com-11 .gk-row .gk-btn{flex:1 1 auto}}
+@media(prefers-reduced-motion:reduce){#gk-computer-c3-com-11 *,#gk-computer-c3-com-11 *::before,#gk-computer-c3-com-11 *::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+@media(min-width:900px){#gk-computer-c3-com-11 .gk-part-cards,#gk-computer-c3-com-11 .gk-part-slots{grid-template-columns:repeat(3,minmax(0,1fr))}#gk-computer-c3-com-11 .gk-part-cards svg{height:52px;max-height:52px}#gk-computer-c3-com-11 .gk-part-cards button{padding:6px;font-size:13px}#gk-computer-c3-com-11 .gk-part-slots button{padding:6px;font-size:13px}}
+</style>
+ <header class="gk-top" id="gk-computer-c3-com-11-top"><a href="#gk-computer-c3-com-11-top" aria-label="GoKurious lesson home"><div class="gk-brand">Go<span>Kurious</span></div><div class="gk-tagline">Think. Create. Learn.</div></a><nav class="gk-nav" aria-label="Lesson navigation"><a href="#gk-computer-c3-com-11-lab">Play</a><a href="#gk-computer-c3-com-11-article">Read & discover</a><a href="#gk-computer-c3-com-11-quiz">Challenges</a><a href="#gk-computer-c3-com-11-grownups">Parents & teachers</a></nav></header>
+ <main class="gk-main"><div class="gk-crumb">Computer / Class 3 / Unit III — More about Paint Brush</div><div class="gk-meta"><span class="gk-pill">Computer</span><span>Class 3</span><span>8 min</span><span>C3-COM-11</span></div><h1>Move the Flower</h1><p class="gk-intro">Choose a rectangular region around a flower and move it. Compare a tight selection with a wide one.</p><p class="gk-question"><strong>Wonder about it:</strong> What moves if your selection includes the flower and part of the sky?</p>
+ <section id="gk-computer-c3-com-11-lab"><div class="gk-section-title"><h2>Interactive activity</h2><span class="gk-subtle">Explore first. Then find out why.</span></div><div class="gk-lab"><div class="gk-card gk-stage-card"><div class="gk-stage"><div class="gk-stage-heading">A selection carries its background</div><div class="gk-model"></div><p class="gk-scene-caption"></p></div><div class="gk-observe" aria-live="polite" aria-atomic="true"><h3>What changed?</h3><p class="gk-observation"></p></div></div><aside class="gk-card gk-controls" aria-label="Simulator controls"><div class="gk-controls-head"><h3>Controls</h3><button type="button" class="gk-btn gk-main-reset">Reset activity</button></div><div class="gk-model-controls"></div></aside></div></section>
+ <article class="gk-content gk-article" id="gk-computer-c3-com-11-article"><h2>What’s going on here?</h2><p>A picture contains many tiny coloured points called pixels. A rectangular selection chooses all the pixels inside its boundary. That includes the object you want and any background around it. Selecting is like placing a paper window over a picture and saying, “This whole area is the part I want to work with.”</p><p>Our flower begins on a white background. The target is an indigo dashed box on a pale green area. Choose Draw selection and drag from one corner to another around the flower. The amber dashed boundary shows the selected rectangle. Check that you included the petals and the bottom of the stem before deciding that the selection is ready.</p><p>Choose Move selected region, then drag to move it. You can also use the direction buttons. The pixels inside the rectangle move together, and their old area becomes white. If your selection included white background, that white background moves too. You may see a white rectangle cover part of the pale green target. This is evidence of what your boundary included.</p><p>Reset before trying another boundary. The Tight flower selection button chooses the flower with a small amount of surrounding white space. The Wide flower selection button chooses more background. These buttons let you compare the same idea without needing to drag precisely. Move each selection and describe how much extra white area travels with the flower.</p><p>A useful selection includes all of the object you need, with as little unwanted background as possible. Too small a selection can leave petals or a stem behind. Too wide a selection brings extra background and may not fit the target. Moving is different from zooming: moving changes where selected pixels are in the picture. Try a tighter boundary and explain the improvement using what you can see.</p><div class="gk-outcome"><strong>Learning outcome</strong>I can select a picture region and move the selection.</div></article>
+ <section class="gk-content"><h2>Try this</h2><div class="gk-try-grid"><div class="gk-try"><div class="gk-step">01 · Predict</div><p>Predict whether white space inside a selection will move too.</p></div><div class="gk-try"><div class="gk-step">02 · Experiment</div><p>Move a wide selection, reset, then move a tight selection into the target.</p></div><div class="gk-try"><div class="gk-step">03 · Explain</div><p>Explain why a tighter complete selection carries less extra background.</p></div></div></section>
+ <section class="gk-content" id="gk-computer-c3-com-11-quiz"><div class="gk-section-title"><h2>Challenge questions</h2><span class="gk-score" aria-live="polite">Score: 0 / 3</span></div><div class="gk-questions"></div><button type="button" class="gk-btn gk-quiz-reset">Try the questions again</button></section>
+ <section class="gk-content"><h2>Make it real</h2><div class="gk-diy"><h3>Move a paper picture region</h3><p><strong>You need:</strong> Paper, crayons and two rectangular paper frames</p><ol><li>Draw a flower on a lightly shaded background.</li><li>Place a large frame around it and point to all the background inside.</li><li>Use a smaller frame that still includes the whole flower.</li></ol><p>Notice how the chosen region changes even though the flower is the same.</p></div></section>
+ <section class="gk-content"><h2>Little questions, big discoveries</h2><details><summary>Why did a white rectangle cover the target?</summary><p>White background inside the selection moved with the flower. It is part of the selected region.</p></details><details><summary>Can I practise without drawing a precise boundary?</summary><p>Yes. Choose Tight flower selection or Wide flower selection, then use the direction buttons.</p></details><details><summary>Why will my selection not move farther?</summary><p>It has reached the picture edge. The model keeps the whole selected rectangle inside the canvas.</p></details></section>
+ <section class="gk-content" id="gk-computer-c3-com-11-grownups"><h2>Talk about it: parents & teachers</h2><div class="gk-grown-grid"><div><h3>At home</h3><ul><li>Use a paper frame to discuss what is inside and outside a selected area before moving the model flower.</li><li>Let your child explain one change in the model before offering help. Give time for another attempt.</li></ul></div><div><h3>In the classroom</h3><ul><li>Compare wide and tight selections after a reset. Ask learners to point to evidence that background moved.</li><li>Ask pairs to predict, take turns with the controls, and describe the evidence they observed. Use the three challenges to identify a point to revisit.</li></ul></div></div><p class="gk-source">School reference: KVS Regional Office Guwahati, <em>Class III Computer</em> (undated; school-hosted copy uploaded in 2024), Unit III — More about Paint Brush. PDF pp. 16–17; Rectangular Selection and Freeform Selection. <a href="https://cdnbbsr.s3waas.gov.in/s3kv010d32885b6eb38469cb85178eea00/uploads/2024/06/2024060376.pdf" target="_blank" rel="noopener noreferrer">School reference (PDF)</a>. Original lesson text and illustrations.</p></section>
+ </main><footer class="gk-footer"><div><strong>GoKurious</strong><br>Learn by asking what if.</div><div class="gk-footer-links"><a href="#gk-computer-c3-com-11-lab">Back to the activity</a><a href="#gk-computer-c3-com-11-quiz">Try the challenges</a></div><button type="button" class="gk-btn gk-complete" aria-pressed="false">Mark completed for this visit</button></footer>
+ <script>(function runtime(rootId,data,mount){
+ const root=document.getElementById(rootId),q=s=>root.querySelector(s),e=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+ const stage=q('.gk-model'),controls=q('.gk-model-controls'),observation=q('.gk-observation');
+ const el=(tag,cls,text)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(text!==undefined)n.textContent=text;return n;};
+ const H={root,q,e,stage,controls,el,reset:null,
+  state(obj){stage.dataset.state=JSON.stringify(obj);},
+  board(title){stage.replaceChildren();stage.append(el('h3','',title));const b=el('div','gk-board');stage.append(b);return b;},
+  input(label,value,fn,max=24,multiline=false){const wrap=el('div','gk-control-block'),l=el('label','gk-label',label),n=el(multiline?'textarea':'input','gk-select');n.id=rootId+'-input-'+controls.children.length;l.htmlFor=n.id;if(!multiline)n.type='text';n.value=value;n.maxLength=max;if(multiline)n.rows=3;n.addEventListener('input',()=>fn(n.value));wrap.append(l,n);controls.append(wrap);return n;},
+  press(b,on){b.setAttribute('aria-pressed',String(on));},
+  drag(n,key){n.draggable=true;n.addEventListener('dragstart',e=>{e.dataTransfer.setData('text/plain',rootId+':'+key);e.dataTransfer.effectAllowed='move';});},
+  drop(n,fn){n.addEventListener('dragover',e=>e.preventDefault());n.addEventListener('drop',e=>{e.preventDefault();const v=e.dataTransfer.getData('text/plain');if(v.startsWith(rootId+':'))fn(v.slice(rootId.length+1));});},
+  point(n,event,w=480,h=300){const r=n.getBoundingClientRect();return [Math.max(0,Math.min(w,(event.clientX-r.left)*w/r.width)),Math.max(0,Math.min(h,(event.clientY-r.top)*h/r.height))];},
+  say(text){observation.textContent=text;},
+  caption(text){q('.gk-scene-caption').textContent=text;},
+  svg(markup,label){stage.innerHTML=`<svg viewBox="0 0 480 300" role="img" aria-label="${e(label)}">${markup}</svg>`;},
+  rect(x,y,w,h,fill='#dff7f9',extra=''){return `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="8" fill="${fill}" ${extra}/>`;},
+  circle(x,y,r,fill,extra=''){return `<circle cx="${x}" cy="${y}" r="${r}" fill="${fill}" ${extra}/>`;},
+  line(x,y,x2,y2,color='#15803d',width=7){return `<path d="M${x},${y}L${x2},${y2}" fill="none" stroke="${color}" stroke-width="${width}" stroke-linecap="round"/>`;},
+  text(x,y,text,size=24,fill='#1e293b'){return `<text x="${x}" y="${y}" text-anchor="middle" font-family="system-ui,sans-serif" font-size="${size}" fill="${fill}">${e(text)}</text>`;},
+  leaf(x,y,scale=1,fill='#22a06b',angle=0){return `<g transform="translate(${x} ${y}) rotate(${angle}) scale(${scale})"><path d="M0,0 Q-46,-54 0,-72 Q46,-54 0,0" fill="${fill}"/><path d="M0,0L0,-61" stroke="#166534" stroke-width="3"/></g>`;},
+  button(label,fn,host=controls){const b=el('button','gk-btn',label);b.type='button';b.addEventListener('click',fn);host.append(b);return b;},
+  select(label,values,fn){const id=rootId+'-control-'+controls.children.length,wrap=el('div','gk-control-block');const l=el('label','gk-label',label);l.htmlFor=id;const s=el('select','gk-select');s.id=id;values.forEach((v,i)=>{const o=el('option','',v);o.value=String(i);s.append(o);});s.addEventListener('change',()=>fn(Number(s.value)));wrap.append(l,s);controls.append(wrap);return s;},
+  check(label,fn,checked=false){const wrap=el('label','gk-check'),c=el('input');c.type='checkbox';c.checked=checked;c.addEventListener('change',()=>fn(c.checked));wrap.append(c,document.createTextNode(label));controls.append(wrap);return c;},
+  range(label,min,max,value,fn){const id=rootId+'-range-'+controls.children.length,wrap=el('div','gk-control-block'),l=el('label','gk-label',label),s=el('input','gk-range');l.htmlFor=id;s.id=id;s.type='range';s.min=min;s.max=max;s.step=1;s.value=value;s.addEventListener('input',()=>fn(Number(s.value)));wrap.append(l,s);controls.append(wrap);return s;},
+  note(text){controls.append(el('p','gk-instruction',text));},
+  tiles(items){stage.replaceChildren();const grid=el('div','gk-picture-grid');items.forEach(item=>{const tile=el('div','gk-picture-tile');tile.append(el('span','gk-picture-icon',item[0]),el('strong','',item[1]),el('span','',item[2]||''));grid.append(tile);});stage.append(grid);},
+ };
+ mount(H);
+ q('.gk-main-reset').addEventListener('click',()=>H.reset());
+ root.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',event=>{const target=document.getElementById(a.getAttribute('href').slice(1));if(target&&root.contains(target)){event.preventDefault();target.scrollIntoView({block:'start'});}}));
+ const answers=[null,null,null];
+ const update=()=>{const score=answers.filter((a,i)=>a===data.quiz[i].correct).length;q('.gk-score').textContent=`Score: ${score} / 3`;};
+ data.quiz.forEach((item,i)=>{
+  const wrap=el('div','gk-quiz-item'),heading=el('h3','',`${i+1}. ${item.title}`),group=el('div','gk-answers'),feedback=el('div','gk-feedback');
+  heading.id=rootId+'-question-'+i;group.setAttribute('role','group');group.setAttribute('aria-labelledby',heading.id);feedback.id=rootId+'-feedback-'+i;feedback.setAttribute('aria-live','polite');feedback.hidden=true;
+  item.options.forEach((opt,j)=>{const b=H.button(opt,()=>{answers[i]=j;Array.from(group.children).forEach((x,k)=>{x.setAttribute('aria-pressed',String(k===j));x.classList.toggle('gk-correct',k===j&&j===item.correct);x.classList.toggle('gk-incorrect',k===j&&j!==item.correct);});feedback.hidden=false;feedback.textContent=(j===item.correct?'Correct. ':'Try again. ')+item.feedback[j];feedback.classList.toggle('gk-success',j===item.correct);update();},group);b.className='gk-answer';b.setAttribute('aria-pressed','false');b.setAttribute('aria-describedby',feedback.id);});
+  wrap.append(heading,group,feedback);q('.gk-questions').append(wrap);
+ });
+ q('.gk-quiz-reset').addEventListener('click',()=>{answers.fill(null);root.querySelectorAll('.gk-answer').forEach(b=>{b.setAttribute('aria-pressed','false');b.classList.remove('gk-correct','gk-incorrect');});root.querySelectorAll('.gk-feedback').forEach(f=>{f.hidden=true;f.textContent='';});update();});
+ q('.gk-complete').addEventListener('click',event=>{const b=event.currentTarget,done=b.getAttribute('aria-pressed')!=='true';b.setAttribute('aria-pressed',String(done));b.textContent=done?'Completed for this visit':'Mark completed for this visit';});
+})("gk-computer-c3-com-11",{"quiz":[{"title":"What moves with the selected flower?","options":["All pixels inside the boundary","Only pixels named flower","Every pixel in the whole canvas"],"correct":0,"feedback":["Yes. A rectangular selection includes object and background pixels inside its boundary.","Look again. A rectangular selection includes object and background pixels inside its boundary.","Look again. A rectangular selection includes object and background pixels inside its boundary."]},{"title":"What can a selection that is too small do?","options":["Always include the whole picture","Leave part of the flower behind","Automatically grow the stem"],"correct":1,"feedback":["Look again. Anything outside the boundary stays behind, so a small selection may miss petals or stem.","Yes. Anything outside the boundary stays behind, so a small selection may miss petals or stem.","Look again. Anything outside the boundary stays behind, so a small selection may miss petals or stem."]},{"title":"Why try a tighter complete boundary?","options":["It changes the flower into text","It makes the monitor smaller","It includes less extra background"],"correct":2,"feedback":["Look again. A tight complete selection keeps the flower while carrying less surrounding background.","Look again. A tight complete selection keeps the flower while carrying less surrounding background.","Yes. A tight complete selection keeps the flower while carrying less surrounding background."]}]},function(H){
+ let selection,anchor,mode,moved;const b=H.board('Move the whole flower'),canvas=H.el('canvas');canvas.width=480;canvas.height=300;canvas.setAttribute('aria-label','Draw a selection around the flower, then move it. Tight and wide selection buttons are also available.');b.append(canvas);const ctx=canvas.getContext('2d'),base=document.createElement('canvas');base.width=480;base.height=300;const c=base.getContext('2d');
+ function draw(){ctx.drawImage(base,0,0);ctx.strokeStyle='#4338ca';ctx.lineWidth=3;ctx.setLineDash([7,5]);ctx.strokeRect(310,50,140,220);if(selection){ctx.strokeStyle='#b45309';ctx.strokeRect(selection.x,selection.y,selection.w,selection.h);}ctx.setLineDash([]);H.state({selection,mode,moved});H.caption('Amber dashed boundary = selected pixels, including background. Indigo dashed box = target.');}
+ function move(dx,dy){if(!selection||selection.w<2||selection.h<2){H.say('Select a region before moving it.');return;}const s=selection,nx=Math.max(0,Math.min(480-s.w,s.x+dx)),ny=Math.max(0,Math.min(300-s.h,s.y+dy));if(nx===s.x&&ny===s.y){H.say('The selection is at the edge of this picture.');return;}const pixels=c.getImageData(s.x,s.y,s.w,s.h);c.fillStyle='white';c.fillRect(s.x,s.y,s.w,s.h);c.putImageData(pixels,nx,ny);selection={...s,x:nx,y:ny};moved++;draw();H.say('Selected pixels moved, including any white background inside the boundary. '+(nx>=300?'Compare the selected region with the target.':'Try moving farther towards the target.'));}
+ canvas.addEventListener('pointerdown',e=>{anchor=H.point(canvas,e).map(Math.round);canvas.setPointerCapture(e.pointerId);});canvas.addEventListener('pointermove',e=>{if(!anchor||mode!==0)return;const p=H.point(canvas,e).map(Math.round);selection={x:Math.min(anchor[0],p[0]),y:Math.min(anchor[1],p[1]),w:Math.abs(p[0]-anchor[0]),h:Math.abs(p[1]-anchor[1])};draw();});canvas.addEventListener('pointerup',e=>{if(!anchor)return;const p=H.point(canvas,e).map(Math.round);if(mode===1)move(p[0]-anchor[0],p[1]-anchor[1]);else H.say(selection&&selection.w>1?'Selection drawn. Choose Move selected region, then drag or use arrow buttons.':'Drag across an area to create a selection.');anchor=null;});canvas.addEventListener('pointercancel',()=>anchor=null);
+ const s=H.select('Canvas action',['Draw selection','Move selected region'],i=>{mode=i;draw();H.say(i?'Drag to move the selected rectangle. Its background moves too.':'Drag from one corner to another around the flower.');});H.button('Tight flower selection',()=>{selection={x:70,y:60,w:100,h:200};draw();H.say('A tight boundary includes the flower with little extra background.');});H.button('Wide flower selection',()=>{selection={x:30,y:20,w:200,h:260};draw();H.say('A wide boundary includes the flower and more white background.');});[['Move right',80,0],['Move left',-80,0],['Move down',0,20],['Move up',0,-20]].forEach(([t,x,y])=>H.button(t,()=>move(x,y)));H.note('Draw a rectangle with a pointer, or choose a tight or wide boundary. Reset before comparing a new selection.');
+ H.reset=()=>{selection=null;anchor=null;mode=0;moved=0;s.value=0;c.fillStyle='white';c.fillRect(0,0,480,300);c.fillStyle='#dcfce7';c.fillRect(300,45,160,230);c.fillStyle='#166534';c.fillRect(116,105,8,150);c.beginPath();c.ellipse(100,190,22,9,-.6,0,Math.PI*2);c.fill();c.fillStyle='#db2777';[[105,88],[135,88],[100,110],[140,110],[120,125]].forEach(([x,y])=>{c.beginPath();c.arc(x,y,17,0,Math.PI*2);c.fill();});c.fillStyle='#facc15';c.beginPath();c.arc(120,104,16,0,Math.PI*2);c.fill();draw();H.say('Select the flower and move it into the indigo target. A tighter selection carries less background.');};H.reset();
+});</script></div></body></html>

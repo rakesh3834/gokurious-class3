@@ -1,0 +1,201 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Little Web Window | GoKurious Class 3</title></head><body style="margin:0"><div id="gk-computer-c3-com-19"><style>
+    #gk-computer-c3-com-19{--gk-brand:#4338ca;--gk-ink:#312e81;--gk-soft:#e0e7ff;--gk-teal:#0e9aa7;--gk-teal-dark:#087681;--gk-teal-soft:#dff7f9;--gk-amber:#f59e0b;--gk-amber-soft:#fef3c7;--gk-text:#1e293b;--gk-muted:#475569;--gk-line:#e2e8f0;--gk-bg:#f8fbff;--gk-white:#fff;--gk-maths:#6d28d9;--gk-maths-soft:#ede9fe;--gk-green:#15803d;--gk-green-soft:#dcfce7;--gk-rose:#be123c;--gk-rose-soft:#fff1f2;color-scheme:light;background:var(--gk-bg);color:var(--gk-text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans",Arial,sans-serif;font-size:16px;line-height:1.6;width:100%;overflow-wrap:break-word;text-align:left}
+    #gk-computer-c3-com-19 *{box-sizing:border-box}
+    #gk-computer-c3-com-19 [hidden]{display:none!important}
+    #gk-computer-c3-com-19 h1,#gk-computer-c3-com-19 h2,#gk-computer-c3-com-19 h3,#gk-computer-c3-com-19 p{margin:0;color:inherit}
+    #gk-computer-c3-com-19 h1{font-size:clamp(27px,4.4vw,38px);font-weight:800;line-height:1.18;letter-spacing:-1px}
+    #gk-computer-c3-com-19 h2{font-size:23px;font-weight:750;line-height:1.3;letter-spacing:-.4px}
+    #gk-computer-c3-com-19 h3{font-size:18px;font-weight:750;line-height:1.4}
+    #gk-computer-c3-com-19 a{color:var(--gk-brand);text-decoration:none}
+    #gk-computer-c3-com-19 a:hover{text-decoration:underline}
+    #gk-computer-c3-com-19 button,#gk-computer-c3-com-19 input{font:inherit}
+    #gk-computer-c3-com-19 button{cursor:pointer;touch-action:manipulation}
+    #gk-computer-c3-com-19 button:disabled{cursor:default}
+    #gk-computer-c3-com-19 .gk-top{background:var(--gk-white);border-bottom:1px solid var(--gk-line);padding:18px 28px;display:flex;justify-content:space-between;align-items:center;gap:22px;flex-wrap:wrap}
+    #gk-computer-c3-com-19 .gk-brand{font-size:27px;font-weight:800;letter-spacing:-1.2px;line-height:1.2;white-space:nowrap;color:var(--gk-ink)}
+    #gk-computer-c3-com-19 .gk-brand span{color:var(--gk-teal)}
+    #gk-computer-c3-com-19 .gk-tagline{font-size:12px;letter-spacing:.8px;color:var(--gk-muted);margin-top:4px;white-space:nowrap}
+    #gk-computer-c3-com-19 .gk-nav{display:flex;gap:20px;flex-wrap:wrap;align-items:center}
+    #gk-computer-c3-com-19 .gk-nav a{font-size:14px;font-weight:650;color:var(--gk-text)}
+    #gk-computer-c3-com-19 .gk-main{padding:22px 28px 36px;max-width:1120px;margin:auto}
+    #gk-computer-c3-com-19 .gk-crumb{font-size:13px;color:var(--gk-muted);margin-bottom:17px}
+    #gk-computer-c3-com-19 .gk-meta{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:12px;font-size:14px;color:var(--gk-muted)}
+    #gk-computer-c3-com-19 .gk-pill{display:inline-flex;align-items:center;border-radius:999px;padding:3px 11px;background:var(--gk-tech-soft);color:var(--gk-tech);font-weight:650}
+    #gk-computer-c3-com-19 .gk-intro{margin-top:10px;max-width:750px;color:var(--gk-muted)}
+    #gk-computer-c3-com-19 .gk-question{margin:19px 0 25px;padding:13px 17px;background:var(--gk-amber-soft);border-radius:14px;font-size:16px}
+    #gk-computer-c3-com-19 .gk-question strong{color:#92400e}
+    #gk-computer-c3-com-19 .gk-section-title{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:0 0 13px}
+    #gk-computer-c3-com-19 .gk-section-title .gk-subtle{font-size:13px;color:var(--gk-muted)}
+    #gk-computer-c3-com-19 .gk-lab{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(265px,1fr);gap:20px;align-items:start}
+    #gk-computer-c3-com-19 .gk-card{background:var(--gk-white);border:1px solid var(--gk-line);border-radius:24px;box-shadow:0 1px 2px #0f172a0d,0 8px 24px -12px #1e293b2e;min-width:0}
+    #gk-computer-c3-com-19 .gk-stage-card{padding:13px}
+    #gk-computer-c3-com-19 .gk-stage{border-radius:16px;background:#fffbeb;overflow:hidden;position:relative}
+    #gk-computer-c3-com-19 .gk-stage-heading{text-align:center;padding:16px 12px 0;font-size:14px;font-weight:650;color:#785223}
+    #gk-computer-c3-com-19 .gk-stage svg{display:block;width:100%;height:252px;touch-action:none;user-select:none}
+    #gk-computer-c3-com-19 .gk-scene-caption{text-align:center;font-size:14px;min-height:42px;padding:0 12px 14px;color:#785223}
+    #gk-computer-c3-com-19 .gk-piece-labels{display:flex;justify-content:center;gap:24px;padding:13px 8px;font-size:14px;flex-wrap:wrap}
+    #gk-computer-c3-com-19 .gk-piece-labels span{display:inline-flex;gap:7px;align-items:center}
+    #gk-computer-c3-com-19 .gk-dot{width:12px;height:12px;display:inline-block;border-radius:50%;background:var(--gk-brand)}
+    #gk-computer-c3-com-19 .gk-dot.gk-right{background:var(--gk-teal)}
+    #gk-computer-c3-com-19 .gk-observe{background:var(--gk-soft);border-radius:16px;padding:16px 18px;min-height:118px}
+    #gk-computer-c3-com-19 .gk-observe h3{font-size:13px;letter-spacing:1.1px;text-transform:uppercase;color:var(--gk-brand);margin-bottom:7px}
+    #gk-computer-c3-com-19 .gk-observe p{font-size:15px;color:var(--gk-ink);line-height:1.65}
+    #gk-computer-c3-com-19 .gk-controls{padding:20px}
+    #gk-computer-c3-com-19 .gk-controls-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:20px}
+    #gk-computer-c3-com-19 .gk-btn{border:1px solid var(--gk-line);background:#f1f5fb;color:var(--gk-text);border-radius:999px;padding:9px 15px;min-height:44px;font-size:14px;font-weight:650;display:inline-flex;align-items:center;justify-content:center;gap:7px;text-decoration:none}
+    #gk-computer-c3-com-19 .gk-btn:hover{background:var(--gk-soft)}
+    #gk-computer-c3-com-19 .gk-btn-primary{background:var(--gk-brand);color:var(--gk-white);border-color:var(--gk-brand);width:100%;font-size:16px;padding:11px 16px}
+    #gk-computer-c3-com-19 .gk-btn-primary:hover{background:var(--gk-ink)}
+    #gk-computer-c3-com-19 .gk-btn[aria-pressed="true"]{background:var(--gk-soft);color:var(--gk-brand);border-color:var(--gk-brand)}
+    #gk-computer-c3-com-19 .gk-label{font-size:15px;font-weight:700;display:block;margin:0 0 10px}
+    #gk-computer-c3-com-19 .gk-segments{display:flex;gap:8px;margin-bottom:22px;flex-wrap:wrap}
+    #gk-computer-c3-com-19 .gk-choice{display:flex;align-items:center;justify-content:center;gap:6px;border:1px solid var(--gk-line);border-radius:999px;padding:8px 12px;min-height:44px;font-size:14px;cursor:pointer}
+    #gk-computer-c3-com-19 .gk-choice:has(input:checked){background:var(--gk-tech-soft);border-color:var(--gk-tech);color:var(--gk-tech)}
+    #gk-computer-c3-com-19 .gk-choice input{accent-color:var(--gk-tech);width:16px;height:16px;margin:0}
+    #gk-computer-c3-com-19 .gk-control-row{display:flex;justify-content:space-between;gap:8px;align-items:center}
+    #gk-computer-c3-com-19 .gk-control-row output{font-size:13px;color:var(--gk-brand);font-weight:650}
+    #gk-computer-c3-com-19 .gk-range{width:100%;height:44px;accent-color:var(--gk-brand);cursor:ew-resize;display:block;margin:3px 0 0}
+    #gk-computer-c3-com-19 .gk-range-ends{display:flex;justify-content:space-between;font-size:12px;color:var(--gk-muted);margin-top:-3px;margin-bottom:20px}
+    #gk-computer-c3-com-19 .gk-instruction{font-size:14px;color:var(--gk-muted);margin:12px 0 20px}
+    #gk-computer-c3-com-19 .gk-actions{border-top:1px solid var(--gk-line);padding-top:16px;display:flex;gap:8px;flex-wrap:wrap}
+    #gk-computer-c3-com-19 .gk-actions .gk-btn{font-size:13px;padding:8px 12px}
+    #gk-computer-c3-com-19 .gk-visit{font-size:12px;color:var(--gk-muted);margin-top:9px}
+    #gk-computer-c3-com-19 .gk-content{margin-top:32px;padding-top:28px;border-top:1px solid var(--gk-line)}
+    #gk-computer-c3-com-19 .gk-content h2{margin-bottom:15px}
+    #gk-computer-c3-com-19 .gk-article p{margin:0 0 16px;max-width:820px}
+    #gk-computer-c3-com-19 .gk-key{border-left:4px solid var(--gk-tech);padding:13px 18px;background:var(--gk-tech-soft);margin:20px 0;border-radius:0 12px 12px 0;max-width:820px;font-size:18px}
+    #gk-computer-c3-com-19 .gk-fraction{display:inline-flex;vertical-align:middle;flex-direction:column;line-height:1.1;margin:0 7px;text-align:center;font-size:22px;color:var(--gk-tech)}
+    #gk-computer-c3-com-19 .gk-fraction span:first-child{border-bottom:2px solid currentColor;padding:0 4px 3px}
+    #gk-computer-c3-com-19 .gk-fraction span:last-child{padding:3px 4px 0}
+    #gk-computer-c3-com-19 .gk-outcome{background:var(--gk-teal-soft);border-radius:14px;padding:15px 18px;margin-top:21px;font-size:15px;max-width:820px}
+    #gk-computer-c3-com-19 .gk-outcome strong{display:block;color:var(--gk-teal-dark);font-size:14px;margin-bottom:3px}
+    #gk-computer-c3-com-19 .gk-try-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:14px}
+    #gk-computer-c3-com-19 .gk-try{padding:18px;border-radius:16px;background:var(--gk-white);border:1px solid var(--gk-line)}
+    #gk-computer-c3-com-19 .gk-step{color:var(--gk-brand);font-size:13px;font-weight:750;margin-bottom:7px}
+    #gk-computer-c3-com-19 .gk-try h3{font-size:16px;margin-bottom:7px}
+    #gk-computer-c3-com-19 .gk-try p{font-size:14px;color:var(--gk-muted)}
+    #gk-computer-c3-com-19 .gk-score{color:var(--gk-brand);background:var(--gk-soft);font-size:14px;padding:5px 13px;border-radius:999px;font-weight:650;white-space:nowrap}
+    #gk-computer-c3-com-19 .gk-quiz-item{padding:22px 0;border-top:1px solid var(--gk-line)}
+    #gk-computer-c3-com-19 .gk-quiz-item:first-child{border-top:0;padding-top:4px}
+    #gk-computer-c3-com-19 .gk-qno{font-size:13px;font-weight:700;color:var(--gk-tech);margin-bottom:5px}
+    #gk-computer-c3-com-19 .gk-quiz-item h3{font-size:17px;font-weight:650;margin-bottom:13px}
+    #gk-computer-c3-com-19 .gk-answers{display:grid;gap:8px}
+    #gk-computer-c3-com-19 .gk-answer{background:var(--gk-white);border:1px solid var(--gk-line);padding:11px 14px;border-radius:12px;color:var(--gk-text);text-align:left;display:flex;gap:12px;align-items:center;min-height:48px;font-size:15px;width:100%}
+    #gk-computer-c3-com-19 .gk-answer:hover{border-color:var(--gk-brand);background:#f4f3ff}
+    #gk-computer-c3-com-19 .gk-answer[aria-pressed="true"]{border-color:var(--gk-brand);background:var(--gk-soft)}
+    #gk-computer-c3-com-19 .gk-answer.gk-correct{border-color:var(--gk-green);background:var(--gk-green-soft)}
+    #gk-computer-c3-com-19 .gk-answer.gk-incorrect{border-color:var(--gk-rose);background:var(--gk-rose-soft)}
+    #gk-computer-c3-com-19 .gk-answer-letter{font-size:13px;font-weight:700;color:var(--gk-muted);flex-shrink:0}
+    #gk-computer-c3-com-19 .gk-feedback{padding:12px 14px;margin-top:10px;border-radius:12px;font-size:14px;background:var(--gk-soft);color:var(--gk-ink)}
+    #gk-computer-c3-com-19 .gk-feedback.gk-success{background:var(--gk-green-soft);color:#166534}
+    #gk-computer-c3-com-19 .gk-quiz-finish{padding:16px;background:var(--gk-green-soft);border-radius:16px;color:#166534;margin:9px 0 12px}
+    #gk-computer-c3-com-19 .gk-diy{background:var(--gk-amber-soft);padding:22px;border-radius:20px;margin-top:24px}
+    #gk-computer-c3-com-19 .gk-diy h3{margin-bottom:8px}
+    #gk-computer-c3-com-19 ol,#gk-computer-c3-com-19 ul{padding-left:23px;margin:11px 0}
+    #gk-computer-c3-com-19 li{padding:3px 0}
+    #gk-computer-c3-com-19 .gk-diy p,#gk-computer-c3-com-19 .gk-diy li{font-size:15px}
+    #gk-computer-c3-com-19 details{border-bottom:1px solid var(--gk-line);padding:14px 0}
+    #gk-computer-c3-com-19 summary{font-weight:650;cursor:pointer;min-height:30px}
+    #gk-computer-c3-com-19 details p{margin-top:9px;color:var(--gk-muted);font-size:15px}
+    #gk-computer-c3-com-19 .gk-grown-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:18px}
+    #gk-computer-c3-com-19 .gk-grown-grid h3{font-size:17px;margin-bottom:7px}
+    #gk-computer-c3-com-19 .gk-grown-grid li{font-size:15px}
+    #gk-computer-c3-com-19 .gk-source{font-size:13px;color:var(--gk-muted);margin-top:22px}
+    #gk-computer-c3-com-19 .gk-footer{padding:25px 28px;background:var(--gk-white);border-top:1px solid var(--gk-line);display:flex;gap:20px;align-items:center;justify-content:space-between;flex-wrap:wrap;font-size:13px;color:var(--gk-muted)}
+    #gk-computer-c3-com-19 .gk-footer strong{color:var(--gk-ink);font-size:17px}
+    #gk-computer-c3-com-19 .gk-footer a{font-size:13px}
+    #gk-computer-c3-com-19 .gk-footer-links{display:flex;gap:16px;flex-wrap:wrap}
+    #gk-computer-c3-com-19 .gk-screenreader{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+    @media(max-width:760px){#gk-computer-c3-com-19 .gk-lab{grid-template-columns:1fr}#gk-computer-c3-com-19 .gk-top{padding:16px 20px;gap:14px}#gk-computer-c3-com-19 .gk-main{padding:19px 20px 28px}#gk-computer-c3-com-19 .gk-nav{gap:16px}#gk-computer-c3-com-19 .gk-try-grid{grid-template-columns:1fr}#gk-computer-c3-com-19 .gk-grown-grid{grid-template-columns:1fr;gap:15px}#gk-computer-c3-com-19 .gk-controls{padding:18px}#gk-computer-c3-com-19 .gk-controls-head{margin-bottom:14px}#gk-computer-c3-com-19 .gk-segments{margin-bottom:16px}#gk-computer-c3-com-19 .gk-instruction{margin-bottom:15px}}
+    @media(max-width:400px){#gk-computer-c3-com-19 .gk-top,#gk-computer-c3-com-19 .gk-main,#gk-computer-c3-com-19 .gk-footer{padding-left:14px;padding-right:14px}#gk-computer-c3-com-19 .gk-nav{gap:13px}#gk-computer-c3-com-19 .gk-nav a{font-size:13px}#gk-computer-c3-com-19 .gk-stage-card{padding:9px}#gk-computer-c3-com-19 .gk-meta{gap:7px;font-size:13px}#gk-computer-c3-com-19 .gk-section-title{align-items:flex-start}#gk-computer-c3-com-19 .gk-section-title .gk-subtle{display:none}#gk-computer-c3-com-19 .gk-piece-labels{gap:15px;font-size:13px}}
+    @media(prefers-reduced-motion:reduce){#gk-computer-c3-com-19 *{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+  
+#gk-computer-c3-com-19 :focus-visible{outline:3px solid #b45309;outline-offset:3px}#gk-computer-c3-com-19 .gk-stage{background:#fffbeb}#gk-computer-c3-com-19 .gk-model{min-height:270px;padding:8px}#gk-computer-c3-com-19 .gk-model svg{width:100%;height:auto;display:block;min-height:190px;max-height:340px}#gk-computer-c3-com-19 .gk-model-controls{display:grid;gap:14px}#gk-computer-c3-com-19 .gk-select{width:100%;max-width:100%;min-height:46px;border:1px solid #94a3b8;border-radius:12px;padding:8px;font:inherit;background:white;color:#1e293b}#gk-computer-c3-com-19 .gk-control-block{min-width:0}#gk-computer-c3-com-19 .gk-control-block .gk-label{margin-bottom:5px}#gk-computer-c3-com-19 .gk-check{display:flex;gap:10px;align-items:center;min-height:44px;cursor:pointer}#gk-computer-c3-com-19 .gk-check input{width:20px;height:20px;accent-color:#4338ca;flex-shrink:0}#gk-computer-c3-com-19 .gk-picture-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}#gk-computer-c3-com-19 .gk-picture-tile{padding:14px 9px;background:white;border:1px solid #cbd5e1;border-radius:16px;display:grid;text-align:center;gap:4px;font-size:14px;min-width:0}#gk-computer-c3-com-19 .gk-picture-icon{font-size:36px}#gk-computer-c3-com-19 .gk-model summary,#gk-computer-c3-com-19 summary{min-height:44px}#gk-computer-c3-com-19 .gk-chip-row{display:flex;flex-wrap:wrap;gap:8px;padding:10px}#gk-computer-c3-com-19 .gk-model button{min-height:44px}#gk-computer-c3-com-19 .gk-model h3{padding:8px}#gk-computer-c3-com-19 .gk-model table{width:100%;border-collapse:collapse;font-size:14px}#gk-computer-c3-com-19 .gk-model th,#gk-computer-c3-com-19 .gk-model td{padding:8px;text-align:left;border-bottom:1px solid #cbd5e1}#gk-computer-c3-com-19 .gk-meter{height:16px;background:#dbeafe;border-radius:99px;overflow:hidden;margin:8px 0}#gk-computer-c3-com-19 .gk-meter span{display:block;height:100%;background:#4338ca;transition:width .35s}#gk-computer-c3-com-19 .gk-source a{text-decoration:underline}#gk-computer-c3-com-19 .gk-score{white-space:normal}#gk-computer-c3-com-19 .gk-stage-heading{color:#92400e}#gk-computer-c3-com-19 .gk-scene-caption{color:#92400e}#gk-computer-c3-com-19 .gk-animation{animation:gk-C3-COM-19-bob .8s ease-in-out alternate 4}@keyframes gk-C3-COM-19-bob{to{transform:translateY(-8px)}}#gk-computer-c3-com-19 .gk-rain{animation:gk-C3-COM-19-rain .6s linear 4}#gk-computer-c3-com-19 .gk-air{animation:gk-C3-COM-19-air 1s ease-in-out alternate 4}#gk-computer-c3-com-19 .gk-arrive{animation:gk-C3-COM-19-arrive .5s ease-out}#gk-computer-c3-com-19 .gk-route-step{animation:gk-C3-COM-19-arrive .6s ease-out both;padding:7px}@keyframes gk-C3-COM-19-rain{from{transform:translateY(-10px);opacity:.5}to{transform:translateY(12px);opacity:1}}@keyframes gk-C3-COM-19-air{from{transform:translateX(-12px)}to{transform:translateX(12px)}}@keyframes gk-C3-COM-19-arrive{from{opacity:.35;transform:translateY(-8px)}to{opacity:1;transform:translateY(0)}}
+#gk-computer-c3-com-19{--gk-tech:#b45309;--gk-tech-soft:#fef3c7}
+#gk-computer-c3-com-19 .gk-board{display:grid;gap:12px;padding:10px;min-width:0}
+#gk-computer-c3-com-19 .gk-panel{padding:12px;border:1px solid #cbd5e1;border-radius:12px;background:#fff;min-width:0;overflow-wrap:anywhere}
+#gk-computer-c3-com-19 .gk-row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+#gk-computer-c3-com-19 .gk-keyboard{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:5px;padding:6px}
+#gk-computer-c3-com-19 .gk-keyboard button{padding:6px;min-width:0;min-height:44px}
+#gk-computer-c3-com-19 button[aria-pressed=true]{background:#e0e7ff;border:2px solid #4338ca;color:#312e81}
+#gk-computer-c3-com-19 .gk-slot{min-height:64px;border:2px dashed #b45309;padding:10px;border-radius:12px;background:#fff}
+#gk-computer-c3-com-19 .gk-active{border:3px solid #b45309;background:#fef3c7}
+#gk-computer-c3-com-19 .gk-paper{background:#fff;border:1px solid #94a3b8;padding:16px;white-space:pre-wrap;min-height:90px;overflow-wrap:anywhere;line-height:1.7}
+#gk-computer-c3-com-19 .gk-readout{font-weight:700;color:#312e81;white-space:pre-wrap;overflow-wrap:anywhere}
+#gk-computer-c3-com-19 canvas{display:block;width:100%;height:auto;touch-action:none;background:white;border:1px solid #64748b;border-radius:8px}
+#gk-computer-c3-com-19 .gk-model svg.gk-interactive{touch-action:none;max-height:none;min-height:0}
+#gk-computer-c3-com-19 .gk-model .gk-mini svg{min-height:0;height:76px;max-height:76px}
+#gk-computer-c3-com-19 .gk-grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+#gk-computer-c3-com-19 .gk-grid2>*{min-width:0}
+#gk-computer-c3-com-19 .gk-tile{background:white;border:1px solid #94a3b8;border-radius:12px;padding:10px;min-height:64px;overflow-wrap:anywhere}
+#gk-computer-c3-com-19 .gk-tile small{display:block;font-size:13px;font-weight:400}
+#gk-computer-c3-com-19 .gk-cursor{border-left:3px solid #b45309;padding-left:2px}
+#gk-computer-c3-com-19 .gk-tiny{font-size:13px;line-height:1.5}
+#gk-computer-c3-com-19 .gk-caption{margin:4px 0;font-size:14px;color:#475569}
+#gk-computer-c3-com-19 button:disabled{opacity:.55;cursor:default}
+#gk-computer-c3-com-19 input,#gk-computer-c3-com-19 textarea{box-sizing:border-box;min-width:0}
+#gk-computer-c3-com-19 .gk-model svg text{pointer-events:none}
+#gk-computer-c3-com-19 .gk-model h3{margin:0}
+#gk-computer-c3-com-19 .gk-board p{margin:3px 0}
+#gk-computer-c3-com-19 .gk-nav a{min-height:44px;display:inline-flex;align-items:center}
+#gk-computer-c3-com-19 .gk-range{min-height:44px}
+@media(max-width:600px){#gk-computer-c3-com-19 .gk-board{padding:5px}#gk-computer-c3-com-19 .gk-model{padding:3px}#gk-computer-c3-com-19 .gk-lab{gap:14px}#gk-computer-c3-com-19 .gk-controls{padding:16px}#gk-computer-c3-com-19 .gk-keyboard{gap:4px;padding:2px}#gk-computer-c3-com-19 .gk-row .gk-btn{flex:1 1 auto}}
+@media(prefers-reduced-motion:reduce){#gk-computer-c3-com-19 *,#gk-computer-c3-com-19 *::before,#gk-computer-c3-com-19 *::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+@media(min-width:900px){#gk-computer-c3-com-19 .gk-part-cards,#gk-computer-c3-com-19 .gk-part-slots{grid-template-columns:repeat(3,minmax(0,1fr))}#gk-computer-c3-com-19 .gk-part-cards svg{height:52px;max-height:52px}#gk-computer-c3-com-19 .gk-part-cards button{padding:6px;font-size:13px}#gk-computer-c3-com-19 .gk-part-slots button{padding:6px;font-size:13px}}
+</style>
+ <header class="gk-top" id="gk-computer-c3-com-19-top"><a href="#gk-computer-c3-com-19-top" aria-label="GoKurious lesson home"><div class="gk-brand">Go<span>Kurious</span></div><div class="gk-tagline">Think. Create. Learn.</div></a><nav class="gk-nav" aria-label="Lesson navigation"><a href="#gk-computer-c3-com-19-lab">Play</a><a href="#gk-computer-c3-com-19-article">Read & discover</a><a href="#gk-computer-c3-com-19-quiz">Challenges</a><a href="#gk-computer-c3-com-19-grownups">Parents & teachers</a></nav></header>
+ <main class="gk-main"><div class="gk-crumb">Computer / Class 3 / Unit VII — Internet</div><div class="gk-meta"><span class="gk-pill">Computer</span><span>Class 3</span><span>7 min</span><span>C3-COM-19</span></div><h1>Little Web Window</h1><p class="gk-intro">Visit a supplied school address, follow its library link and use Back to return. Every page stays inside this lesson.</p><p class="gk-question"><strong>Wonder about it:</strong> Where do you enter the website address?</p>
+ <section id="gk-computer-c3-com-19-lab"><div class="gk-section-title"><h2>Interactive activity</h2><span class="gk-subtle">Explore first. Then find out why.</span></div><div class="gk-lab"><div class="gk-card gk-stage-card"><div class="gk-stage"><div class="gk-stage-heading">A browser window with pretend pages</div><div class="gk-model"></div><p class="gk-scene-caption"></p></div><div class="gk-observe" aria-live="polite" aria-atomic="true"><h3>What changed?</h3><p class="gk-observation"></p></div></div><aside class="gk-card gk-controls" aria-label="Simulator controls"><div class="gk-controls-head"><h3>Controls</h3><button type="button" class="gk-btn gk-main-reset">Reset activity</button></div><div class="gk-model-controls"></div></aside></div></section>
+ <article class="gk-content gk-article" id="gk-computer-c3-com-19-article"><h2>What’s going on here?</h2><p>The internet connects computers so that they can share information. A website is a collection of related pages that people can visit using a browser. A browser is a program for viewing and moving between web pages. A website address helps the browser know which site or page you want to reach.</p><p>Our practice browser uses local pretend pages. It does not connect to the real internet. Choose the Browser icon to open its window. Then select school.example from the supplied practice addresses and choose Go. The model shows a pretend school home page with a welcome message. Its labelled address bar helps you connect the chosen address with the page you see.</p><p>Look for the labelled School Library link on the school page. A link takes you to another page or place. Choose this link and notice the library heading, reading-corner text and changed practice address. You have moved from the school&#39;s home page to its library page. The two pages belong to the same pretend school site.</p><p>Choose Back to return to the page you visited earlier. Back follows this model&#39;s visit history. If you have not visited an earlier page, there is nothing to return to yet. You can also choose the supplied museum address and press Go to visit a different pretend site. Compare changing an address with following a link already on a page.</p><p>These example addresses are only labels for the local model. You do not need to type personal information, create an account or visit an unknown site. For real browsing, use an address provided by a trusted adult and follow their guidance. Explain the jobs of the browser, address bar, link and Back control using your school-library journey as an example. Reset clears the practice visit history and closes the pretend browser window.</p><div class="gk-outcome"><strong>Learning outcome</strong>I can use a browser model to visit a provided website.</div></article>
+ <section class="gk-content"><h2>Try this</h2><div class="gk-try-grid"><div class="gk-try"><div class="gk-step">01 · Predict</div><p>Predict where you should choose the website address.</p></div><div class="gk-try"><div class="gk-step">02 · Experiment</div><p>Open the browser, visit school.example, follow the library link and use Back.</p></div><div class="gk-try"><div class="gk-step">03 · Explain</div><p>Explain the different jobs of an address, a link and Back.</p></div></div></section>
+ <section class="gk-content" id="gk-computer-c3-com-19-quiz"><div class="gk-section-title"><h2>Challenge questions</h2><span class="gk-score" aria-live="polite">Score: 0 / 3</span></div><div class="gk-questions"></div><button type="button" class="gk-btn gk-quiz-reset">Try the questions again</button></section>
+ <section class="gk-content"><h2>Make it real</h2><div class="gk-diy"><h3>A paper website</h3><p><strong>You need:</strong> Three sheets of paper and a pencil</p><ol><li>Make pages labelled School home, Library and Museum.</li><li>Draw a Library link on School home and follow it by changing sheets.</li><li>Return to the earlier sheet to act out Back.</li></ol><p>Notice how a link and visit history help you move among pages.</p></div></section>
+ <section class="gk-content"><h2>Little questions, big discoveries</h2><details><summary>Is this lesson browsing real websites?</summary><p>No. It shows supplied local pages. The example addresses do not make network requests.</p></details><details><summary>Why does Back sometimes do nothing?</summary><p>There is no earlier visited page in the model’s history yet. Visit a page and follow a link first.</p></details><details><summary>Are a browser and a website the same thing?</summary><p>No. A browser is the program used to view pages; a website is a collection of pages you can visit.</p></details></section>
+ <section class="gk-content" id="gk-computer-c3-com-19-grownups"><h2>Talk about it: parents & teachers</h2><div class="gk-grown-grid"><div><h3>At home</h3><ul><li>Act out the paper website and ask your child to describe the destination before following each link.</li><li>Let your child explain one change in the model before offering help. Give time for another attempt.</li></ul></div><div><h3>In the classroom</h3><ul><li>Use the school-library journey to distinguish program, website, address and link without introducing obsolete browser names.</li><li>Ask pairs to predict, take turns with the controls, and describe the evidence they observed. Use the three challenges to identify a point to revisit.</li></ul></div></div><p class="gk-source">School reference: KVS Regional Office Guwahati, <em>Class III Computer</em> (undated; school-hosted copy uploaded in 2024), Unit VII — Internet. PDF pp. 42 and 44; Internet; Steps to open Web Browser; website practice. <a href="https://cdnbbsr.s3waas.gov.in/s3kv010d32885b6eb38469cb85178eea00/uploads/2024/06/2024060376.pdf" target="_blank" rel="noopener noreferrer">School reference (PDF)</a>. Original lesson text and illustrations.</p></section>
+ </main><footer class="gk-footer"><div><strong>GoKurious</strong><br>Learn by asking what if.</div><div class="gk-footer-links"><a href="#gk-computer-c3-com-19-lab">Back to the activity</a><a href="#gk-computer-c3-com-19-quiz">Try the challenges</a></div><button type="button" class="gk-btn gk-complete" aria-pressed="false">Mark completed for this visit</button></footer>
+ <script>(function runtime(rootId,data,mount){
+ const root=document.getElementById(rootId),q=s=>root.querySelector(s),e=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+ const stage=q('.gk-model'),controls=q('.gk-model-controls'),observation=q('.gk-observation');
+ const el=(tag,cls,text)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(text!==undefined)n.textContent=text;return n;};
+ const H={root,q,e,stage,controls,el,reset:null,
+  state(obj){stage.dataset.state=JSON.stringify(obj);},
+  board(title){stage.replaceChildren();stage.append(el('h3','',title));const b=el('div','gk-board');stage.append(b);return b;},
+  input(label,value,fn,max=24,multiline=false){const wrap=el('div','gk-control-block'),l=el('label','gk-label',label),n=el(multiline?'textarea':'input','gk-select');n.id=rootId+'-input-'+controls.children.length;l.htmlFor=n.id;if(!multiline)n.type='text';n.value=value;n.maxLength=max;if(multiline)n.rows=3;n.addEventListener('input',()=>fn(n.value));wrap.append(l,n);controls.append(wrap);return n;},
+  press(b,on){b.setAttribute('aria-pressed',String(on));},
+  drag(n,key){n.draggable=true;n.addEventListener('dragstart',e=>{e.dataTransfer.setData('text/plain',rootId+':'+key);e.dataTransfer.effectAllowed='move';});},
+  drop(n,fn){n.addEventListener('dragover',e=>e.preventDefault());n.addEventListener('drop',e=>{e.preventDefault();const v=e.dataTransfer.getData('text/plain');if(v.startsWith(rootId+':'))fn(v.slice(rootId.length+1));});},
+  point(n,event,w=480,h=300){const r=n.getBoundingClientRect();return [Math.max(0,Math.min(w,(event.clientX-r.left)*w/r.width)),Math.max(0,Math.min(h,(event.clientY-r.top)*h/r.height))];},
+  say(text){observation.textContent=text;},
+  caption(text){q('.gk-scene-caption').textContent=text;},
+  svg(markup,label){stage.innerHTML=`<svg viewBox="0 0 480 300" role="img" aria-label="${e(label)}">${markup}</svg>`;},
+  rect(x,y,w,h,fill='#dff7f9',extra=''){return `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="8" fill="${fill}" ${extra}/>`;},
+  circle(x,y,r,fill,extra=''){return `<circle cx="${x}" cy="${y}" r="${r}" fill="${fill}" ${extra}/>`;},
+  line(x,y,x2,y2,color='#15803d',width=7){return `<path d="M${x},${y}L${x2},${y2}" fill="none" stroke="${color}" stroke-width="${width}" stroke-linecap="round"/>`;},
+  text(x,y,text,size=24,fill='#1e293b'){return `<text x="${x}" y="${y}" text-anchor="middle" font-family="system-ui,sans-serif" font-size="${size}" fill="${fill}">${e(text)}</text>`;},
+  leaf(x,y,scale=1,fill='#22a06b',angle=0){return `<g transform="translate(${x} ${y}) rotate(${angle}) scale(${scale})"><path d="M0,0 Q-46,-54 0,-72 Q46,-54 0,0" fill="${fill}"/><path d="M0,0L0,-61" stroke="#166534" stroke-width="3"/></g>`;},
+  button(label,fn,host=controls){const b=el('button','gk-btn',label);b.type='button';b.addEventListener('click',fn);host.append(b);return b;},
+  select(label,values,fn){const id=rootId+'-control-'+controls.children.length,wrap=el('div','gk-control-block');const l=el('label','gk-label',label);l.htmlFor=id;const s=el('select','gk-select');s.id=id;values.forEach((v,i)=>{const o=el('option','',v);o.value=String(i);s.append(o);});s.addEventListener('change',()=>fn(Number(s.value)));wrap.append(l,s);controls.append(wrap);return s;},
+  check(label,fn,checked=false){const wrap=el('label','gk-check'),c=el('input');c.type='checkbox';c.checked=checked;c.addEventListener('change',()=>fn(c.checked));wrap.append(c,document.createTextNode(label));controls.append(wrap);return c;},
+  range(label,min,max,value,fn){const id=rootId+'-range-'+controls.children.length,wrap=el('div','gk-control-block'),l=el('label','gk-label',label),s=el('input','gk-range');l.htmlFor=id;s.id=id;s.type='range';s.min=min;s.max=max;s.step=1;s.value=value;s.addEventListener('input',()=>fn(Number(s.value)));wrap.append(l,s);controls.append(wrap);return s;},
+  note(text){controls.append(el('p','gk-instruction',text));},
+  tiles(items){stage.replaceChildren();const grid=el('div','gk-picture-grid');items.forEach(item=>{const tile=el('div','gk-picture-tile');tile.append(el('span','gk-picture-icon',item[0]),el('strong','',item[1]),el('span','',item[2]||''));grid.append(tile);});stage.append(grid);},
+ };
+ mount(H);
+ q('.gk-main-reset').addEventListener('click',()=>H.reset());
+ root.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',event=>{const target=document.getElementById(a.getAttribute('href').slice(1));if(target&&root.contains(target)){event.preventDefault();target.scrollIntoView({block:'start'});}}));
+ const answers=[null,null,null];
+ const update=()=>{const score=answers.filter((a,i)=>a===data.quiz[i].correct).length;q('.gk-score').textContent=`Score: ${score} / 3`;};
+ data.quiz.forEach((item,i)=>{
+  const wrap=el('div','gk-quiz-item'),heading=el('h3','',`${i+1}. ${item.title}`),group=el('div','gk-answers'),feedback=el('div','gk-feedback');
+  heading.id=rootId+'-question-'+i;group.setAttribute('role','group');group.setAttribute('aria-labelledby',heading.id);feedback.id=rootId+'-feedback-'+i;feedback.setAttribute('aria-live','polite');feedback.hidden=true;
+  item.options.forEach((opt,j)=>{const b=H.button(opt,()=>{answers[i]=j;Array.from(group.children).forEach((x,k)=>{x.setAttribute('aria-pressed',String(k===j));x.classList.toggle('gk-correct',k===j&&j===item.correct);x.classList.toggle('gk-incorrect',k===j&&j!==item.correct);});feedback.hidden=false;feedback.textContent=(j===item.correct?'Correct. ':'Try again. ')+item.feedback[j];feedback.classList.toggle('gk-success',j===item.correct);update();},group);b.className='gk-answer';b.setAttribute('aria-pressed','false');b.setAttribute('aria-describedby',feedback.id);});
+  wrap.append(heading,group,feedback);q('.gk-questions').append(wrap);
+ });
+ q('.gk-quiz-reset').addEventListener('click',()=>{answers.fill(null);root.querySelectorAll('.gk-answer').forEach(b=>{b.setAttribute('aria-pressed','false');b.classList.remove('gk-correct','gk-incorrect');});root.querySelectorAll('.gk-feedback').forEach(f=>{f.hidden=true;f.textContent='';});update();});
+ q('.gk-complete').addEventListener('click',event=>{const b=event.currentTarget,done=b.getAttribute('aria-pressed')!=='true';b.setAttribute('aria-pressed',String(done));b.textContent=done?'Completed for this visit':'Mark completed for this visit';});
+})("gk-computer-c3-com-19",{"quiz":[{"title":"What is a browser used for?","options":["Viewing and moving between web pages","Printing every file automatically","Entering only numbers"],"correct":0,"feedback":["Yes. A browser is a program for viewing web pages and navigating between them.","Look again. A browser is a program for viewing web pages and navigating between them.","Look again. A browser is a program for viewing web pages and navigating between them."]},{"title":"Where do you choose the supplied site address?","options":["The picture colour picker","The practice address control","The Recycle Bin"],"correct":1,"feedback":["Look again. The address control supplies the destination for Go in this browser model.","Yes. The address control supplies the destination for Go in this browser model.","Look again. The address control supplies the destination for Go in this browser model."]},{"title":"What does Back use here?","options":["A random new website","A deleted drawing","The earlier page in visit history"],"correct":2,"feedback":["Look again. Back returns to the previous page recorded in this model’s visit history.","Look again. Back returns to the previous page recorded in this model’s visit history.","Yes. Back returns to the previous page recorded in this model’s visit history."]}]},function(H){
+ const addresses=['school.example','museum.example'],pages={home:['Practice School','Welcome to our pretend school. Visit the library to see our book corner.'],library:['School Library','Picture books, stories and a quiet reading corner.'],museum:['Practice Museum','A pretend collection of old tools and painted pots.']};let open,choice,current,history,address;
+ function visit(key){if(current)history.push(current);current=key;address=key==='library'?'school.example/library':key==='home'?addresses[0]:addresses[1];choice=key==='museum'?1:0;sel.value=choice;draw();H.say(pages[key][0]+' opened inside this lesson.');}function draw(){const b=H.board('Local browser practice');if(!open)H.button('Browser icon',()=>{open=true;draw();H.say('The browser window is open. Choose a supplied address, then Go.');},b);else{b.append(H.el('p','gk-panel','Practice address bar: '+address));if(current){b.append(H.el('h3','',pages[current][0]),H.el('p','gk-paper',pages[current][1]));if(current==='home')H.button('Link: School Library',()=>visit('library'),b);}else b.append(H.el('p','gk-paper','Choose a supplied address to visit a pretend page.'));}H.caption('All addresses and pages are examples inside this lesson. A real browser can show websites reached through the internet, a network of connected computers.');H.state({open,choice,current,history,address});}
+ const sel=H.select('Supplied practice address',addresses,i=>{choice=i;address=addresses[i];draw();H.say('Address chosen. Press Go in the practice browser.');});H.button('Go',()=>{if(!open){H.say('Open the Browser icon first.');return;}visit(choice===0?'home':'museum');});H.button('Back',()=>{if(!open||!history.length){H.say('There is no earlier page in this practice browser yet.');return;}current=history.pop();address=current==='library'?'school.example/library':current==='home'?addresses[0]:addresses[1];choice=current==='museum'?1:0;sel.value=choice;draw();H.say('Back returned to '+pages[current][0]+'.');});H.reset=()=>{open=false;choice=0;current=null;history=[];address=addresses[0];sel.value=0;draw();H.say('Open the Browser icon, then use a supplied address to visit a pretend site.');};H.reset();
+});</script></div></body></html>
