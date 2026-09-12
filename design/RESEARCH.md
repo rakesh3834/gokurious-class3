@@ -6,7 +6,7 @@ This redesign uses independent visuals and code. The references below inform int
 
 | Official reference | Public evidence available | Applied to these lessons |
 | --- | --- | --- |
-| [GoKurious](https://gokurious.com/) and [Fractions](https://gokurious.com/simulators/fractions/) | Public learning sequence and article sections inspected. Interactive play requires sign-in, so no signed-in play session is claimed. | Keep the explanation, experiment prompts, questions, FAQs and grown-up activities together; separate the immersive scene from the reading view. Preserve the existing reading presentation. |
+| [GoKurious](https://gokurious.com/) and [Fractions](https://gokurious.com/simulators/fractions/) | Public learning sequence and article sections inspected. The initial review used public pages. A later signed-in Rainbow Light play session is documented below. | Keep the explanation, experiment prompts, questions, FAQs and grown-up activities together; separate the immersive scene from the reading view. Preserve the existing reading presentation. |
 | [Math Learning Center Number Pieces](https://www.mathlearningcenter.org/apps/number-pieces) | Official app description of base-ten pieces, joining and splitting. | Make value-preserving exchanges visible with hundreds, tens and ones. Keep labels and totals. |
 | [Math Learning Center Fractions](https://www.mathlearningcenter.org/apps/fractions) | Official description of fraction models and overlays. | Keep one whole explicit; compare equal pieces and overlays without introducing later-grade operations. |
 | [Toy Theater Cube](https://toytheater.com/cube/) and [Tally](https://toytheater.com/tally/) | Public tool descriptions and interfaces show reversible object changes and tally controls. | Give immediate visual responses, clear selected tools, reversible experiments and a reset. Avoid timed competition for these concept lessons. |
@@ -22,6 +22,17 @@ This redesign uses independent visuals and code. The references below inform int
 
 [lesson-specs.json](lesson-specs.json) covers all 100 IDs with their original topic, learning outcome, teaching boundary, reference links, adaptation decisions and replay/control notes. Where it reuses earlier research completed on the same day, that provenance is recorded. Those records are not a claim of 200 separate fresh competitor play sessions.
 
-The studio uses three phases: exploration, self-directed missions and the existing assessed questions. A staged tool shelf makes dense activities usable on small screens without shrinking the touch targets. Three-dimensional depth is used for objects and scenes; written language, labels, documents and two-dimensional shapes retain legible flat surfaces when that is what the topic teaches.
+The updated studio uses Play, Try ideas and Quiz. Short tasks, visible choices and direct object interactions help the learner begin. Additional actions are available through a compact More button in dense activities. Three-dimensional depth is used for objects and scenes; written language, labels, documents and two-dimensional shapes retain legible flat surfaces when that is what the topic teaches.
 
 The implementation uses self-hosted [Three.js](https://threejs.org/docs/) 0.180.0. Object geometry, material response and lighting run in WebGL. Motion follows lesson state, responds to reduced-motion preferences and pauses while reading or when the tab is hidden. The aesthetic is stylized, not photographic, and no Blender production workflow is claimed.
+
+
+## Clarity revision: Rainbow Light and visible controls
+
+The user specifically requested [GoKurious Rainbow Light](https://gokurious.com/simulators/rainbow-light/). On 12 September 2026, its actual simulator was inspected and operated using an already signed-in browser session. White-light mode, the incidence-angle slider and the Diamond material button were changed. The illustration and the angle/index/speed readouts updated together. This is direct interface evidence, separate from the earlier public-page research.
+
+The useful patterns were labelled objects, visible material buttons, a slider with a visible value, clear selected states and a short explanation tied to the current result. Those patterns inform this revision. Rainbow Light's later-grade optics calculations are not added to the Class 3 lessons.
+
+The official [Number Pieces description](https://www.mathlearningcenter.org/apps/number-pieces) and [Toy Theater Cube instructions](https://toytheater.com/cube/) were also reread. Their object manipulation, reversible changes and clearly selected tools support the direction. These two sources were inspected as official descriptions/instructions; this revision does not claim a fresh play session in both competitor apps.
+
+Every lesson now has a short goal and an explicit first action in `assets/studio-guides.js`. Native dropdowns are replaced with visible choices, a current-choice tile with arrows, or sliders. Repeated headings and a separate action-paging row were removed on short phones to give the picture more room. Computer artwork is shown closer where a desk and keyboard do not help with the task. All original reading sections and model rules are retained.

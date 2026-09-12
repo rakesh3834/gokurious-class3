@@ -1,28 +1,34 @@
-# 3D studio release · 12 September 2026
+# Clearer interactions · version 2.1 · 12 September 2026
 
-100 lessons, including all 20 Hindi lessons, retain their original topic IDs, learning outcomes and reading content. Existing shared addresses under `lessons/` redirect to the corresponding studio. The site remains organized into five subject galleries with topic search.
+All 100 lessons, including Hindi, now open with a short goal, a concrete playing instruction and visible choices. Buttons, sliders and direct scene interactions replace the old activity dropdowns. Repeated headings and the separate action-paging row were removed on short phones, giving the picture more room. Drawing artwork is shown closer where desktop decoration did not help the task.
+
+Plant building, story sequencing, keyboard practice, the computer routine, note saving and copy/paste have specific controls or guided steps. Additional model controls remain available in Try ideas. The original three questions, articles, FAQs and teacher activities are preserved. Full explanations open with Why; Help includes audio controls and availability status.
 
 ## Verification
 
 | Check | Result |
 | --- | --- |
-| All 100 original article/FAQ/teacher-activity sections and quiz data compared with the prior public commit | Preserved exactly |
-| All 100 lessons across 320×568, 360×640, 390×844, 768×1024, 1024×768 and 667×375 browser viewports | 5,304 layout states checked; no offscreen active controls or document overflow in the matrix |
-| Explore/Missions tool groups and all three Check questions | Included in the layout matrix; active control targets at least 48 CSS pixels, with the whole label used for checkbox targets |
-| Every lesson's live WebGL scene and sample interactions after renderer refinements | 100 rendered without JavaScript page errors |
-| Correct and incorrect answers for all 300 original questions, followed by reset | Passed |
-| English, Hindi and computer text entry with a reduced visible viewport and keyboard-only exit | Passed after waiting for the browser resize event to settle |
-| Native drawing, correct/incorrect computer-part placement, base-ten exchange and jug-volume preservation | Passed |
-| Normal animation, reduced motion and pausing while reading | Targeted checks passed |
-| Topic search, five subject links, enlarged text in a dense Hindi activity and WebGL-disabled fallback | Targeted checks passed |
-| Content hashes, all studio integrations and preview files, 100 legacy redirects, five subject indexes and local portal references | Build and integrity checks passed |
+| All 100 lessons, Play / first Try idea / first Quiz, six browser viewports | 1,800 layout observations passed |
+| All three experiment prompts per lesson on 320×568 | 300 prompts fit |
+| All 300 questions: correct and incorrect answer feedback | Passed; correct-answer layouts also checked |
+| Quiz reset in all 100 lessons | Passed |
+| Final code: every lesson opening on 320×568 | 100 WebGL scenes rendered; no page errors, overflow, offscreen controls or visible dropdowns |
+| Visible control dimensions | At least 48 CSS pixels, allowing subpixel measurement tolerance |
+| Window swiping, snack-cut dragging, slider/keyboard change and reset | Passed |
+| Story ordering, typing targets, eight-step computer routine | Passed |
+| Direct drawing, picture filling and colour sampling | Passed |
+| Named note save/reopen and copy/paste between cards | Passed |
+| Text entry with a reduced 320×320 visible viewport | Field and Done typing fit; scene temporarily gives way to typing |
+| Read, article/FAQ visibility and return to Play | Passed in all five subjects |
+| Lesson HTML and catalogue compared with prior release | All 100 lesson files and catalogue remain byte-for-byte identical |
+| Build, hashes, guides, redirects and local references | Passed |
 
-The machine-readable evidence is in [verification.json](verification.json). Layout checks used Chrome on macOS with headless software WebGL. The renderer was then checked again across all 100 lessons after the shared SVG bridge and selected scene refinements. Screenshots were reviewed for representative scenes and all subject galleries. The gallery uses captures of the actual WebGL visuals; drawing exercises use their actual working canvas.
+The six viewports were 320×568, 360×640, 390×844, 768×1024, 1024×768 and 667×375. Checks used Chrome on macOS through CUA. The main matrix was followed by deeper small-phone checks, a final opening check of all 100 lessons and targeted interaction checks after refinements. These are browser viewport tests, not physical-device or child-usability studies. Full machine-readable evidence and tested interaction details are in [verification.json](verification.json).
 
 ## Scope and limits
 
-The art direction uses procedural, stylized 3D objects with physical materials and soft lighting. It does not claim photorealism, Blender rendering or professionally commissioned art. Flat language/document surfaces remain flat where that supports reading and the teaching objective.
+The art uses stylized procedural 3D, with readable flat surfaces for language and documents. No Blender rendering or photorealistic art claim is made. Some direct interactions apply to selected scenes; visible buttons and sliders provide the corresponding alternative. A compact More button cycles additional actions in dense activities. Reading, Help and the original no-WebGL fallback may scroll.
 
-Controls are staged into tool groups so the current scene and current action fit on small screens. Missions reuse the topic's three experiment prompts and are self-directed. The full article and help can scroll. The original model fallback on devices without WebGL may also need scrolling. Some original drag instructions are fulfilled through equivalent tap controls; native drawing still supports dragging.
+Physical Android, iPhone and iPad checks remain outstanding. No new Safari/Firefox, reduced-motion emulation or full accessibility certification was performed in this revision; the existing reduced-motion and pause behavior remains in the renderer. No new narration was added or certified, and Hindi pronunciation review remains pending. Gallery previews retain captures from the initial 3D release, so some scenes now look more refined when opened.
 
-Physical Android, iPhone and iPad testing remains outstanding. Safari and Firefox were not separately tested. The enlarged-text and keyboard checks are targeted checks, not a complete accessibility certification. No new verified voice recording was added; all Hindi pronunciation-review notices remain in place.
+The earlier release evidence is retained in [RELEASE-3D-INITIAL.md](RELEASE-3D-INITIAL.md) and [verification-3d-initial.json](verification-3d-initial.json). Research includes the directly operated [GoKurious Rainbow Light simulator](https://gokurious.com/simulators/rainbow-light/) and the official competitor descriptions documented in [RESEARCH.md](RESEARCH.md).

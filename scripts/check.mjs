@@ -2,6 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import assert from 'node:assert/strict';
+import {guides} from '../assets/studio-guides.js';
 const root=path.resolve(path.dirname(new URL(import.meta.url).pathname),'..');
 const catalog=JSON.parse(await fs.readFile(path.join(root,'catalog.json'),'utf8'));
 const files=[];async function walk(dir){for(const d of await fs.readdir(dir,{withFileTypes:true})){if(d.name.startsWith('.git')||d.name==='node_modules')continue;const p=path.join(dir,d.name);if(d.isDirectory())await walk(p);else files.push(p);}}
@@ -21,11 +22,13 @@ for(const f of files.filter(x=>x.endsWith('.html'))){
 for(const s of catalog.subjects){
  const index=await fs.readFile(path.join(root,'subjects',s.slug,'index.html'),'utf8');assert.equal((index.match(/class="lesson-card"/g)||[]).length,20);
  for(const [i,l] of s.lessons.entries()){
+  assert.ok(guides[l.id]?.goal && guides[l.id]?.cue, 'Missing clear play instructions: '+l.id);
+  assert.ok(Array.isArray(guides[l.id].fields),'Missing field labels: '+l.id);
   const b=await fs.readFile(path.join(root,'content',s.slug,l.id+'.html'));assert.equal(crypto.createHash('sha256').update(b).digest('hex'),l.sha256);
   const view=await fs.readFile(path.join(root,'lessons',s.slug,l.id+'.html'),'utf8');assert.equal((view.match(/<iframe /g)||[]).length,0);assert.ok(view.includes(`url=../../content/${s.slug}/${l.id}.html`));assert.ok(b.toString().includes('window.GK_LESSON={H,data}'));assert.ok(b.toString().includes('../../assets/studio.js'));await fs.access(path.join(root,'assets','previews',l.id+'.png'));
   if(i>0)assert.ok(view.includes(`href="${s.lessons[i-1].id}.html"`));if(i<19)assert.ok(view.includes(`href="${s.lessons[i+1].id}.html"`));
   if(s.slug==='hindi'){assert.ok(view.includes('Pronunciation review is pending'));assert.ok(l.status.startsWith('Draft'));}else assert.equal(l.status,'Checked locally');lessons++;
  }
 }
-assert.equal(lessons,100);assert.equal(files.filter(x=>x.includes(path.sep+'content'+path.sep)&&x.endsWith('.html')).length,100);
+assert.equal(Object.keys(guides).length,100);assert.equal(lessons,100);assert.equal(files.filter(x=>x.includes(path.sep+'content'+path.sep)&&x.endsWith('.html')).length,100);
 console.log(`Passed: ${lessons} updated lesson hashes, 100 3D studio integrations/previews, 100 redirects, 5 subject indexes, ${links} local references and Hindi draft notices.`);

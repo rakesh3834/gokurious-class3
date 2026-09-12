@@ -36,7 +36,20 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Build a plant with all six parts.",
+      "howToPlay": "Tap a part to add it to the plant.",
+      "fieldButtons": [
+        "Parts",
+        "Roots"
+      ],
+      "directInteraction": "plant",
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "SCI-02",
@@ -75,7 +88,20 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Compare how different plants grow.",
+      "howToPlay": "Choose a plant. Try giving the climber a support.",
+      "fieldButtons": [
+        "Plant",
+        "Support"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "SCI-03",
@@ -114,7 +140,20 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Sort the leaves by what you can see.",
+      "howToPlay": "Choose colour, shape or size. Tap a leaf to inspect it.",
+      "fieldButtons": [
+        "Sort by",
+        "Leaf"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "SCI-04",
@@ -153,7 +192,19 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Help an animal use the tree.",
+      "howToPlay": "Choose a visitor, add what it needs, then tap Visit.",
+      "fieldButtons": [
+        "Visitor"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "SCI-05",
@@ -192,7 +243,20 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Discover what is inside soil.",
+      "howToPlay": "Choose a sample and something to inspect. Record what you find.",
+      "fieldButtons": [
+        "Sample",
+        "Look for"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "SCI-06",
@@ -231,7 +295,19 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Follow a squirrel and its seed.",
+      "howToPlay": "Choose a hiding place. Tap Next to follow the story.",
+      "fieldButtons": [
+        "Place"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "SCI-07",
@@ -270,7 +346,22 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "See where rainwater goes.",
+      "howToPlay": "Choose soil or paving. Tap the cloud to start the rain.",
+      "fieldButtons": [
+        "Surface",
+        "My guess"
+      ],
+      "directInteraction": "Start the same rain",
+      "extraFieldsInTryIdeas": [
+        1
+      ],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "SCI-08",
@@ -309,7 +400,19 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Build a water route to a home.",
+      "howToPlay": "Tap the stops in order, then follow the water.",
+      "fieldButtons": [
+        "Story"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "SCI-09",
@@ -348,7 +451,19 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Try a routine that wastes less water.",
+      "howToPlay": "Run it once. Turn on the careful routine and compare.",
+      "fieldButtons": [
+        "Routine"
+      ],
+      "directInteraction": "Run the routine",
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "SCI-10",
@@ -387,7 +502,19 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Find where a dish's ingredients come from.",
+      "howToPlay": "Choose a dish. Tap it to reveal the ingredients.",
+      "fieldButtons": [
+        "Dish"
+      ],
+      "directInteraction": "Open into ingredients",
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "SCI-11",
@@ -426,7 +553,20 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Find the plant part we eat.",
+      "howToPlay": "Choose a crop and guess its part. Tap Harvest to check.",
+      "fieldButtons": [
+        "Crop",
+        "My guess"
+      ],
+      "directInteraction": "Harvest and check",
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "SCI-12",
@@ -465,7 +605,17 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Make a thali with different kinds of food.",
+      "howToPlay": "Tap food buttons to add or remove foods. Compare the plates.",
+      "fieldButtons": [],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "SCI-13",
@@ -504,7 +654,20 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Build a clean and healthy daily routine.",
+      "howToPlay": "Choose a moment and a suitable action. Add it to the day.",
+      "fieldButtons": [
+        "Moment",
+        "Action"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "SCI-14",
@@ -543,7 +706,19 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Notice breathing during rest and movement.",
+      "howToPlay": "Choose rest, walk or run. Tap the person to watch.",
+      "fieldButtons": [
+        "Activity"
+      ],
+      "directInteraction": "Watch the next moment",
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "SCI-15",
@@ -582,7 +757,20 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Choose a material that suits the object.",
+      "howToPlay": "Choose the object and material. Tap the sample to test it.",
+      "fieldButtons": [
+        "Object",
+        "Material"
+      ],
+      "directInteraction": "Try bending",
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "SCI-16",
@@ -621,7 +809,24 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "See through glass, paper and wood.",
+      "howToPlay": "Swipe the window. Compare covered and uncovered.",
+      "fieldButtons": [
+        "Sample",
+        "My answer"
+      ],
+      "directInteraction": "window",
+      "extraFieldsInTryIdeas": [
+        1
+      ],
+      "extraActionsInTryIdeas": [
+        "Check the label"
+      ],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "SCI-17",
@@ -660,7 +865,20 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Compare a stone, water and air.",
+      "howToPlay": "Choose what to move and a container. Tap to move or pour.",
+      "fieldButtons": [
+        "Object",
+        "Container"
+      ],
+      "directInteraction": "Move or pour",
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "SCI-18",
@@ -699,7 +917,19 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Compare two ways to arrange a wall.",
+      "howToPlay": "Choose the brick pattern. Tap the wall to give it a push.",
+      "fieldButtons": [
+        "Pattern"
+      ],
+      "directInteraction": "Apply the same",
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "SCI-19",
@@ -738,7 +968,19 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Find a suitable place for each waste item.",
+      "howToPlay": "Choose an item. Tap Compost, Recycle or Adult help.",
+      "fieldButtons": [
+        "Item"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "SCI-20",
@@ -777,7 +1019,17 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Plan a party that makes less waste.",
+      "howToPlay": "Tap the reuse choices. Watch what changes on the table.",
+      "fieldButtons": [],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "MATH-01",
@@ -816,7 +1068,19 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Keep track of cows leaving and coming home.",
+      "howToPlay": "Tap a cow to send one out. Bring one back with the return button.",
+      "fieldButtons": [
+        "Herd"
+      ],
+      "directInteraction": "One cow leaves",
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "MATH-02",
@@ -855,7 +1119,22 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Build a toy from solid shapes.",
+      "howToPlay": "Choose a shape and add it. Turn the toy to inspect it.",
+      "fieldButtons": [
+        "Shape"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [
+        "Replace last shape",
+        "Highlight flat surfaces"
+      ],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "MATH-03",
@@ -894,7 +1173,22 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Build a number with blocks.",
+      "howToPlay": "Slide to choose a number. Tap +100, +10 or +1.",
+      "fieldButtons": [
+        "Number"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [
+        "Exchange",
+        "Unpack"
+      ],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "MATH-04",
@@ -933,7 +1227,24 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Put the number cards in order.",
+      "howToPlay": "Choose a card. Move it left or right.",
+      "fieldButtons": [
+        "Card",
+        "Number"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [
+        1
+      ],
+      "extraActionsInTryIdeas": [
+        "Zoom to the cards"
+      ],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "MATH-05",
@@ -972,7 +1283,19 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Combine two sapling deliveries.",
+      "howToPlay": "Tap to combine the bundles. Trade groups of ten when you can.",
+      "fieldButtons": [
+        "Deliveries"
+      ],
+      "directInteraction": "Combine the sapling",
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "MATH-06",
@@ -1011,7 +1334,19 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Pack exactly the requested number of saplings.",
+      "howToPlay": "Unpack a bundle when needed. Put saplings into the order.",
+      "fieldButtons": [
+        "Order"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "MATH-07",
@@ -1050,7 +1385,20 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Make equal rows of beads.",
+      "howToPlay": "Slide to change the rows or beads per row. Count equal groups.",
+      "fieldButtons": [
+        "Rows",
+        "Beads per row"
+      ],
+      "directInteraction": "range:0",
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "MATH-08",
@@ -1089,7 +1437,20 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Share all the sweets fairly.",
+      "howToPlay": "Choose sweets and plates. Tap the sweets to deal one equal round.",
+      "fieldButtons": [
+        "Sweets",
+        "Plates"
+      ],
+      "directInteraction": "Give one equal round",
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "MATH-09",
@@ -1128,7 +1489,19 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Cut one snack into two equal halves.",
+      "howToPlay": "Slide across the snack to move the cut. Fold to check the halves.",
+      "fieldButtons": [
+        "Cut"
+      ],
+      "directInteraction": "range:0",
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "MATH-10",
@@ -1167,7 +1540,17 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Fold a quilt into four equal parts.",
+      "howToPlay": "Tap the quilt to fold. Open it and join the quarters.",
+      "fieldButtons": [],
+      "directInteraction": "Fold in half",
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "MATH-11",
@@ -1206,7 +1589,20 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Build a shape on the dot grid.",
+      "howToPlay": "Choose a shape. Tap the grid to add the next side or curve.",
+      "fieldButtons": [
+        "Shape",
+        "Size"
+      ],
+      "directInteraction": "Add the next side",
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "MATH-12",
@@ -1245,7 +1641,19 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Find a pattern made with equal jumps.",
+      "howToPlay": "Choose a jump. Tap the track to reveal the next number.",
+      "fieldButtons": [
+        "Jump"
+      ],
+      "directInteraction": "Reveal the next jump",
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "MATH-13",
@@ -1284,7 +1692,19 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Measure with the same unit each time.",
+      "howToPlay": "Choose a unit. Tap the table to place units with no gaps.",
+      "fieldButtons": [
+        "Unit"
+      ],
+      "directInteraction": "Place the next unit",
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "MATH-14",
@@ -1323,7 +1743,19 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Compare an object with a one-metre rope.",
+      "howToPlay": "Choose an object. Align the left ends, then fold the rope.",
+      "fieldButtons": [
+        "Object"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "MATH-15",
@@ -1362,7 +1794,19 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Fill the jug using equal cupfuls.",
+      "howToPlay": "Choose a cup. Tap the jug to pour. Compare the same water in a wide jug.",
+      "fieldButtons": [
+        "Cup"
+      ],
+      "directInteraction": "Pour one full cup",
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "MATH-16",
@@ -1401,7 +1845,20 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Make the two sides of the balance equal.",
+      "howToPlay": "Choose a side and packet. Add it and watch the balance.",
+      "fieldButtons": [
+        "Side",
+        "Packet"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "MATH-17",
@@ -1440,7 +1897,19 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Pay the exact price using rupees.",
+      "howToPlay": "Tap the money buttons. Make the amount match the price.",
+      "fieldButtons": [
+        "Price"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "MATH-18",
@@ -1479,7 +1948,19 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Follow the picnic date through a calendar.",
+      "howToPlay": "Choose a month. Tap the calendar to move one day forward.",
+      "fieldButtons": [
+        "Month"
+      ],
+      "directInteraction": "Move the picnic",
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "MATH-19",
@@ -1518,7 +1999,19 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Move the clock a quarter of an hour.",
+      "howToPlay": "Tap the clock to move 15 minutes. Watch both hands.",
+      "fieldButtons": [
+        "Start hour"
+      ],
+      "directInteraction": "Move forward 15",
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "MATH-20",
@@ -1557,7 +2050,21 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Make both sides match across the mirror.",
+      "howToPlay": "Choose a bead position. Place beads and fold to check.",
+      "fieldButtons": [
+        "Row",
+        "Distance",
+        "Colour"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "ENG-01",
@@ -1596,7 +2103,20 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Join sounds to make a real word.",
+      "howToPlay": "Choose a beginning and an ending. Tap the blocks to join them.",
+      "fieldButtons": [
+        "Beginning",
+        "Ending"
+      ],
+      "directInteraction": "Join the sounds",
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": true,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "ENG-02",
@@ -1635,7 +2155,20 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Put the words in alphabetical order.",
+      "howToPlay": "Tap a word card, then choose its place. Check your order.",
+      "fieldButtons": [
+        "Word",
+        "Place"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "ENG-03",
@@ -1674,7 +2207,20 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Join two words to make a new word.",
+      "howToPlay": "Choose the two words. Tap the picture to join them.",
+      "fieldButtons": [
+        "First word",
+        "Second word"
+      ],
+      "directInteraction": "Join the words",
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "ENG-04",
@@ -1713,7 +2259,20 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Make a sentence about yesterday.",
+      "howToPlay": "Choose an action. Add the ending and read the sentence.",
+      "fieldButtons": [
+        "Action",
+        "Time"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "ENG-05",
@@ -1752,7 +2311,20 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Put the card-making story in order.",
+      "howToPlay": "Tap a scene. Move it earlier or later in the story.",
+      "fieldButtons": [
+        "Scene",
+        "Place"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "ENG-06",
@@ -1791,7 +2363,19 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Finish the sentence with the right mark.",
+      "howToPlay": "Read the sentence. Tap a full stop or a question mark.",
+      "fieldButtons": [
+        "Sentence"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "ENG-07",
@@ -1830,7 +2414,19 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Choose a or an by listening to the first sound.",
+      "howToPlay": "Look at the object. Say its name, then choose a or an.",
+      "fieldButtons": [
+        "Object"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": true,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "ENG-08",
@@ -1869,7 +2465,20 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Make the character play an action.",
+      "howToPlay": "Choose an object and action. Tap the scene to play it.",
+      "fieldButtons": [
+        "Object",
+        "Action"
+      ],
+      "directInteraction": "Play this action",
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "ENG-09",
@@ -1908,7 +2517,22 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Choose a word that describes this toy.",
+      "howToPlay": "Change its colour, size or material. Pick a describing word.",
+      "fieldButtons": [
+        "Colour",
+        "Size",
+        "Material",
+        "Word"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "ENG-10",
@@ -1947,7 +2571,20 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Name one toy or more than one.",
+      "howToPlay": "Slide to change the number. Choose the matching word ending.",
+      "fieldButtons": [
+        "Toy",
+        "How many"
+      ],
+      "directInteraction": "range:0",
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "ENG-11",
@@ -1986,7 +2623,19 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Replace a character's name with he or she.",
+      "howToPlay": "Read the introduction. Choose the matching word.",
+      "fieldButtons": [
+        "Character"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "ENG-12",
@@ -2025,7 +2674,19 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Describe where the ball is.",
+      "howToPlay": "Move the ball. Choose in, on or under to match its position.",
+      "fieldButtons": [
+        "Position"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "ENG-13",
@@ -2064,7 +2725,20 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Match the two animal names.",
+      "howToPlay": "Choose an animal and its partner. Join the pair.",
+      "fieldButtons": [
+        "Animal",
+        "Partner"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "ENG-14",
@@ -2103,7 +2777,21 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Make a change and find the opposite word.",
+      "howToPlay": "Slide the object between opposites. Choose the word you see.",
+      "fieldButtons": [
+        "Compare",
+        "Change",
+        "Word"
+      ],
+      "directInteraction": "range:0",
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "ENG-15",
@@ -2142,7 +2830,20 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Use is for one and are for more than one.",
+      "howToPlay": "Choose an object. Slide the count, then finish the sentence.",
+      "fieldButtons": [
+        "Object",
+        "How many"
+      ],
+      "directInteraction": "range:0",
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "ENG-16",
@@ -2181,7 +2882,19 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Join two ideas with and or but.",
+      "howToPlay": "Read both ideas. Tap the word that connects them.",
+      "fieldButtons": [
+        "Ideas"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "ENG-17",
@@ -2220,7 +2933,20 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Put each food word in its matching basket.",
+      "howToPlay": "Choose a word and a basket. Put it in, then check.",
+      "fieldButtons": [
+        "Word",
+        "Basket"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "ENG-18",
@@ -2259,7 +2985,19 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Use clues to identify the object.",
+      "howToPlay": "Choose an object. Add colour or shape clues and make a guess.",
+      "fieldButtons": [
+        "Object"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "ENG-19",
@@ -2298,7 +3036,20 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Write a short postcard about the Moon.",
+      "howToPlay": "Choose a picture. Write what you see in your own words.",
+      "fieldButtons": [
+        "Picture",
+        "My writing"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "ENG-20",
@@ -2337,7 +3088,20 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Put the days of the week in order.",
+      "howToPlay": "Choose a day and its place. Move it, then check the week.",
+      "fieldButtons": [
+        "Day",
+        "Place"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "HIN-01",
@@ -2376,7 +3140,20 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "एक जैसे अर्थ वाले शब्दों की जोड़ी बनाओ।",
+      "howToPlay": "चित्र देखो। साथी शब्द चुनकर जोड़ी मिलाओ।",
+      "fieldButtons": [
+        "चित्र",
+        "साथी शब्द"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "HIN-02",
@@ -2415,7 +3192,21 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "सुनकर सही शब्द पहचानो।",
+      "howToPlay": "जोड़ी चुनो। ध्वनि सुनो और सही शब्द पर टैप करो।",
+      "fieldButtons": [
+        "शब्द-जोड़ी"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [
+        "ड़ और ढ़ बदलें"
+      ],
+      "listeningInPlay": true,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "HIN-03",
@@ -2454,7 +3245,19 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "तुक वाले शब्दों की रेल बनाओ।",
+      "howToPlay": "पहली पंक्ति सुनो। तुक वाला शब्द चुनकर पंक्ति पूरी करो।",
+      "fieldButtons": [
+        "पंक्तियाँ"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": true,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "HIN-04",
@@ -2493,7 +3296,22 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "एक संख्या को तीन तरह से पहचानो।",
+      "howToPlay": "गेंदों की गिनती बदलो। तीनों रूप मिलाकर जाँचो।",
+      "fieldButtons": [
+        "गिनती",
+        "शब्द",
+        "देवनागरी",
+        "अंक"
+      ],
+      "directInteraction": "range:0",
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "HIN-05",
@@ -2532,7 +3350,21 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "बदलते दृश्य के लिए उलटा अर्थ वाला शब्द चुनो।",
+      "howToPlay": "स्थिति बदलो। चित्र से मेल खाता शब्द चुनो।",
+      "fieldButtons": [
+        "दृश्य",
+        "स्थिति",
+        "शब्द"
+      ],
+      "directInteraction": "range:0",
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "HIN-06",
@@ -2571,7 +3403,20 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "एक और अनेक के लिए सही शब्द चुनो।",
+      "howToPlay": "वस्तु चुनो। गिनती बदलो और उसका सही नाम बताओ।",
+      "fieldButtons": [
+        "वस्तु",
+        "गिनती"
+      ],
+      "directInteraction": "range:0",
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "HIN-07",
@@ -2610,7 +3455,20 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "बीज बोने के चरण सही क्रम में रखो।",
+      "howToPlay": "चरण चुनो। उसे पहले या बाद में रखकर क्रम बनाओ।",
+      "fieldButtons": [
+        "चरण",
+        "जगह"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "HIN-08",
@@ -2649,7 +3507,22 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "नाम और काम बताने वाले शब्द पहचानो।",
+      "howToPlay": "वाक्य देखो। शब्द को उसके सही समूह में रखो।",
+      "fieldButtons": [
+        "पात्र",
+        "काम",
+        "कार्ड",
+        "समूह"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "HIN-09",
@@ -2688,7 +3561,21 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "चित्र का सही वर्णन करो।",
+      "howToPlay": "रंग या आकार बदलो। मेल खाता शब्द चुनो।",
+      "fieldButtons": [
+        "रंग",
+        "आकार",
+        "शब्द"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "HIN-10",
@@ -2727,7 +3614,19 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "वाक्य में छूटी छोटी कड़ी जोड़ो।",
+      "howToPlay": "वाक्य पढ़ो। सही शब्द पर टैप करके उसे पूरा करो।",
+      "fieldButtons": [
+        "वाक्य"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "HIN-11",
@@ -2766,7 +3665,22 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "मित्र के लिए एक छोटा पत्र बनाओ।",
+      "howToPlay": "संबोधन, अपनी बातें और समापन सही जगह रखो।",
+      "fieldButtons": [
+        "भाग",
+        "जगह",
+        "संदेश",
+        "मेरी बातें"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "HIN-12",
@@ -2805,7 +3719,20 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "अक्षरों को जोड़कर नया अक्षर बनाओ।",
+      "howToPlay": "अक्षर चुनो। उन्हें जोड़ो और शब्द में लगाओ।",
+      "fieldButtons": [
+        "अक्षर",
+        "शब्द"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": true,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "HIN-13",
@@ -2844,7 +3771,19 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "देखो, मात्रा हटने से अर्थ कैसे बदलता है।",
+      "howToPlay": "शब्द चुनो। चित्र पर टैप करके मात्रा हटाओ।",
+      "fieldButtons": [
+        "शब्द-जोड़ी"
+      ],
+      "directInteraction": "चुनी मात्रा हटाएँ",
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "HIN-14",
@@ -2883,7 +3822,21 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "अक्षर-समूह जोड़कर चित्र का नाम बनाओ।",
+      "howToPlay": "चित्र देखो। अक्षर-समूह सही जगह रखो और जाँचो।",
+      "fieldButtons": [
+        "चित्र",
+        "अक्षर-समूह",
+        "जगह"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "HIN-15",
@@ -2922,7 +3875,20 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "कहानी में कारण खोजो।",
+      "howToPlay": "एक दृश्य पढ़ो। सोचो कि पात्र ने ऐसा क्यों किया।",
+      "fieldButtons": [
+        "कहानी",
+        "दृश्य"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "HIN-16",
@@ -2961,7 +3927,19 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "वाक्य के अंत में सही चिह्न लगाओ।",
+      "howToPlay": "वाक्य पढ़ो। पूर्ण विराम या प्रश्न चिह्न पर टैप करो।",
+      "fieldButtons": [
+        "वाक्य"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "HIN-17",
@@ -3000,7 +3978,21 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "वाक्य देखकर शब्द का अर्थ पहचानो।",
+      "howToPlay": "दो दृश्य देखो। इस वाक्य के लिए सही अर्थ चुनो।",
+      "fieldButtons": [
+        "शब्द",
+        "दृश्य",
+        "अर्थ"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "HIN-18",
@@ -3039,7 +4031,19 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "यान जोड़कर यात्रा का नया नाम बनाओ।",
+      "howToPlay": "पहला शब्द चुनो। चित्र पर टैप करके यान जोड़ो।",
+      "fieldButtons": [
+        "पहला शब्द"
+      ],
+      "directInteraction": "यान जोड़ें",
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "HIN-19",
@@ -3078,7 +4082,17 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "शब्दों में चंद्रबिंदु खोजो।",
+      "howToPlay": "पूरी बात पढ़ो या सुनो। चंद्रबिंदु वाला शब्द चुनो।",
+      "fieldButtons": [],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": true,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "HIN-20",
@@ -3117,7 +4131,19 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "नाम से मेल खाता वाक्य पूरा करो।",
+      "howToPlay": "पात्र चुनो। गया या गई जैसे सही शब्द पर टैप करो।",
+      "fieldButtons": [
+        "पात्र"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "C3-COM-01",
@@ -3156,7 +4182,19 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Build a computer team from six parts.",
+      "howToPlay": "Choose a part. Tap its matching place in the picture.",
+      "fieldButtons": [
+        "Task"
+      ],
+      "directInteraction": "parts",
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "C3-COM-02",
@@ -3195,7 +4233,20 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Send a message from input to output.",
+      "howToPlay": "Type a short message. Tap Input, Process and Output in order.",
+      "fieldButtons": [
+        "Message",
+        "Output"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "C3-COM-03",
@@ -3234,7 +4285,17 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Put a computer routine in the right order.",
+      "howToPlay": "Tap each step in order to start or shut down safely.",
+      "fieldButtons": [],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "C3-COM-04",
@@ -3273,7 +4334,20 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Type the target with the keys.",
+      "howToPlay": "Tap letters. Use 123 for numbers.",
+      "fieldButtons": [
+        "Type",
+        "Target"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "C3-COM-05",
@@ -3312,7 +4386,21 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Fix the message to match the goal.",
+      "howToPlay": "Try cursor arrows, Backspace, Shift and Enter.",
+      "fieldButtons": [
+        "My guess"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [
+        0
+      ],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "C3-COM-06",
@@ -3351,7 +4439,17 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Explore what the mouse buttons do.",
+      "howToPlay": "Tap a picture to select it. Try the right button and wheel.",
+      "fieldButtons": [],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "C3-COM-07",
@@ -3390,7 +4488,20 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Make the computer desk ready to use.",
+      "howToPlay": "Fix each unsafe choice. Ask an adult about the loose cable.",
+      "fieldButtons": [
+        "Hands",
+        "Keys"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "C3-COM-08",
@@ -3429,7 +4540,20 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Draw a picture and improve it.",
+      "howToPlay": "Choose Pencil, Brush or Eraser. Drag on the white canvas.",
+      "fieldButtons": [
+        "Tool",
+        "Width"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "C3-COM-09",
@@ -3468,7 +4592,20 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Fill the picture and reuse a colour.",
+      "howToPlay": "Choose a colour and tool. Tap a numbered region.",
+      "fieldButtons": [
+        "Colour",
+        "Tool"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "C3-COM-10",
@@ -3507,7 +4644,21 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Make a sign for the park.",
+      "howToPlay": "Choose a shape. Add a text box and type a short sign.",
+      "fieldButtons": [
+        "Shape",
+        "Width",
+        "My words"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "C3-COM-11",
@@ -3546,7 +4697,19 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Move the flower into the target box.",
+      "howToPlay": "Select the flower, then drag it to the dashed target.",
+      "fieldButtons": [
+        "Action"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "C3-COM-12",
@@ -3585,7 +4748,19 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Find a tiny detail without changing the picture.",
+      "howToPlay": "Change the zoom. Move the view and inspect a wing.",
+      "fieldButtons": [
+        "Zoom"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "C3-COM-13",
@@ -3624,7 +4799,17 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Open an app from the practice desktop.",
+      "howToPlay": "Tap an app icon. Try switching, minimising and closing.",
+      "fieldButtons": [],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "C3-COM-14",
@@ -3663,7 +4848,19 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Rescue a drawing from the practice bin.",
+      "howToPlay": "Open a folder. Delete the practice file, then restore it.",
+      "fieldButtons": [
+        "Folder"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "C3-COM-15",
@@ -3702,7 +4899,20 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Create, save and reopen a practice note.",
+      "howToPlay": "Start a new note. Give it a name, write and save it.",
+      "fieldButtons": [
+        "My note",
+        "Name"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "C3-COM-16",
@@ -3741,7 +4951,19 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Copy or move a word between two cards.",
+      "howToPlay": "Select a word. Copy or cut it, choose a gap, then paste.",
+      "fieldButtons": [
+        "Gap"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "C3-COM-17",
@@ -3780,7 +5002,21 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Make the heading stand out.",
+      "howToPlay": "Tap the heading to select it. Change its size, font or colour.",
+      "fieldButtons": [
+        "Size",
+        "Font",
+        "Colour"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "C3-COM-18",
@@ -3819,7 +5055,21 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Make a clear picnic list.",
+      "howToPlay": "Choose bullets or numbers. Try moving the heading.",
+      "fieldButtons": [
+        "Packing",
+        "Actions",
+        "Heading"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "C3-COM-19",
@@ -3858,7 +5108,19 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Visit a page in the practice browser.",
+      "howToPlay": "Open the browser. Choose a supplied address and tap Go.",
+      "fieldButtons": [
+        "Address"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   },
   {
     "id": "C3-COM-20",
@@ -3897,6 +5159,18 @@
       "captions": "Visible feedback is paginated without discarding text; Help retains the original tool instructions."
     },
     "save": "Activity state for this visit. No new account, tracking, cloud save or persistent mastery data.",
-    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed."
+    "productionLimits": "Browser emulation is tested; physical Android/iPhone/iPad and new voice certification are not claimed.",
+    "clarityRevision": {
+      "goal": "Find and save a matching picture.",
+      "howToPlay": "Choose a search phrase. Search, tap a picture, then save.",
+      "fieldButtons": [
+        "Keywords"
+      ],
+      "directInteraction": null,
+      "extraFieldsInTryIdeas": [],
+      "extraActionsInTryIdeas": [],
+      "listeningInPlay": false,
+      "reference": "https://gokurious.com/simulators/rainbow-light/"
+    }
   }
 ]

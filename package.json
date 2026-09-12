@@ -1,8 +1,8 @@
 {
   "name": "gokurious-class3",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "private": true,
-  "description": "100 mobile and tablet learning studios with interactive 3D scenes",
+  "description": "100 clear, touch-friendly learning studios with interactive 3D scenes",
   "type": "module",
   "scripts": {
     "build": "node scripts/upgrade.mjs && node scripts/build.mjs",

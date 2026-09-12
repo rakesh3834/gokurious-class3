@@ -1,0 +1,2001 @@
+{
+  "date": "2026-09-12",
+  "environment": "macOS Chrome headless with software WebGL; browser viewports, not physical devices",
+  "baselineCommit": "bf7de924974d6dc57a9fb435ebfe0f217eb2f89e",
+  "viewportSizes": [
+    [
+      320,
+      568
+    ],
+    [
+      360,
+      640
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      1024,
+      768
+    ],
+    [
+      667,
+      375
+    ]
+  ],
+  "layoutChecks": 5304,
+  "layoutResults": [
+    {
+      "id": "SCI-01",
+      "tests": 67,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "SCI-02",
+      "tests": 30,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "SCI-03",
+      "tests": 59,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "SCI-04",
+      "tests": 50,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "SCI-05",
+      "tests": 42,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "SCI-06",
+      "tests": 42,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "SCI-07",
+      "tests": 42,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "SCI-08",
+      "tests": 47,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "SCI-09",
+      "tests": 42,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "SCI-10",
+      "tests": 47,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "SCI-11",
+      "tests": 42,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "SCI-12",
+      "tests": 58,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "SCI-13",
+      "tests": 42,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "SCI-14",
+      "tests": 30,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "SCI-15",
+      "tests": 42,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "SCI-16",
+      "tests": 42,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "SCI-17",
+      "tests": 42,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "SCI-18",
+      "tests": 30,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "SCI-19",
+      "tests": 42,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "SCI-20",
+      "tests": 38,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "MATH-01",
+      "tests": 42,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "MATH-02",
+      "tests": 47,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "MATH-03",
+      "tests": 59,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "MATH-04",
+      "tests": 50,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "MATH-05",
+      "tests": 42,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "MATH-06",
+      "tests": 50,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "MATH-07",
+      "tests": 42,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "MATH-08",
+      "tests": 42,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "MATH-09",
+      "tests": 42,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "MATH-10",
+      "tests": 52,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "MATH-11",
+      "tests": 42,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "MATH-12",
+      "tests": 42,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "MATH-13",
+      "tests": 42,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "MATH-14",
+      "tests": 42,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "MATH-15",
+      "tests": 42,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "MATH-16",
+      "tests": 47,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "MATH-17",
+      "tests": 76,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "MATH-18",
+      "tests": 42,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "MATH-19",
+      "tests": 42,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "MATH-20",
+      "tests": 59,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "ENG-01",
+      "tests": 59,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "ENG-02",
+      "tests": 93,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "ENG-03",
+      "tests": 42,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "ENG-04",
+      "tests": 42,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "ENG-05",
+      "tests": 81,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "ENG-06",
+      "tests": 42,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "ENG-07",
+      "tests": 47,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "ENG-08",
+      "tests": 42,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "ENG-09",
+      "tests": 54,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "ENG-10",
+      "tests": 47,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "ENG-11",
+      "tests": 47,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "ENG-12",
+      "tests": 47,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "ENG-13",
+      "tests": 42,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "ENG-14",
+      "tests": 54,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "ENG-15",
+      "tests": 47,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "ENG-16",
+      "tests": 42,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "ENG-17",
+      "tests": 93,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "ENG-18",
+      "tests": 59,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "ENG-19",
+      "tests": 59,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "ENG-20",
+      "tests": 110,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "HIN-01",
+      "tests": 47,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "HIN-02",
+      "tests": 47,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "HIN-03",
+      "tests": 47,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "HIN-04",
+      "tests": 54,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "HIN-05",
+      "tests": 54,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "HIN-06",
+      "tests": 47,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "HIN-07",
+      "tests": 76,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "HIN-08",
+      "tests": 54,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "HIN-09",
+      "tests": 54,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "HIN-10",
+      "tests": 47,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "HIN-11",
+      "tests": 66,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "HIN-12",
+      "tests": 47,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "HIN-13",
+      "tests": 42,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "HIN-14",
+      "tests": 76,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "HIN-15",
+      "tests": 76,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "HIN-16",
+      "tests": 42,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "HIN-17",
+      "tests": 54,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "HIN-18",
+      "tests": 42,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "HIN-19",
+      "tests": 86,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "HIN-20",
+      "tests": 42,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "C3-COM-01",
+      "tests": 84,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "C3-COM-02",
+      "tests": 47,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "C3-COM-03",
+      "tests": 72,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "C3-COM-04",
+      "tests": 114,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "C3-COM-05",
+      "tests": 124,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "C3-COM-06",
+      "tests": 47,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "C3-COM-07",
+      "tests": 50,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "C3-COM-08",
+      "tests": 42,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "C3-COM-09",
+      "tests": 47,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "C3-COM-10",
+      "tests": 54,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "C3-COM-11",
+      "tests": 59,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "C3-COM-12",
+      "tests": 54,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "C3-COM-13",
+      "tests": 47,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "C3-COM-14",
+      "tests": 42,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "C3-COM-15",
+      "tests": 59,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "C3-COM-16",
+      "tests": 86,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "C3-COM-17",
+      "tests": 59,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "C3-COM-18",
+      "tests": 42,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "C3-COM-19",
+      "tests": 42,
+      "fail": [],
+      "errors": []
+    },
+    {
+      "id": "C3-COM-20",
+      "tests": 64,
+      "fail": [],
+      "errors": []
+    }
+  ],
+  "quizAndRendererResults": [
+    {
+      "id": "SCI-01",
+      "fail": [],
+      "errors": [],
+      "meshes": "7"
+    },
+    {
+      "id": "SCI-02",
+      "fail": [],
+      "errors": [],
+      "meshes": "16"
+    },
+    {
+      "id": "SCI-03",
+      "fail": [],
+      "errors": [],
+      "meshes": "29"
+    },
+    {
+      "id": "SCI-04",
+      "fail": [],
+      "errors": [],
+      "meshes": "20"
+    },
+    {
+      "id": "SCI-05",
+      "fail": [],
+      "errors": [],
+      "meshes": "49"
+    },
+    {
+      "id": "SCI-06",
+      "fail": [],
+      "errors": [],
+      "meshes": "26"
+    },
+    {
+      "id": "SCI-07",
+      "fail": [],
+      "errors": [],
+      "meshes": "9"
+    },
+    {
+      "id": "SCI-08",
+      "fail": [],
+      "errors": [],
+      "meshes": "19"
+    },
+    {
+      "id": "SCI-09",
+      "fail": [],
+      "errors": [],
+      "meshes": "7"
+    },
+    {
+      "id": "SCI-10",
+      "fail": [],
+      "errors": [],
+      "meshes": "6"
+    },
+    {
+      "id": "SCI-11",
+      "fail": [],
+      "errors": [],
+      "meshes": "12"
+    },
+    {
+      "id": "SCI-12",
+      "fail": [],
+      "errors": [],
+      "meshes": "9"
+    },
+    {
+      "id": "SCI-13",
+      "fail": [],
+      "errors": [],
+      "meshes": "15"
+    },
+    {
+      "id": "SCI-14",
+      "fail": [],
+      "errors": [],
+      "meshes": "17"
+    },
+    {
+      "id": "SCI-15",
+      "fail": [],
+      "errors": [],
+      "meshes": "5"
+    },
+    {
+      "id": "SCI-16",
+      "fail": [],
+      "errors": [],
+      "meshes": "52"
+    },
+    {
+      "id": "SCI-17",
+      "fail": [],
+      "errors": [],
+      "meshes": "6"
+    },
+    {
+      "id": "SCI-18",
+      "fail": [],
+      "errors": [],
+      "meshes": "19"
+    },
+    {
+      "id": "SCI-19",
+      "fail": [],
+      "errors": [],
+      "meshes": "15"
+    },
+    {
+      "id": "SCI-20",
+      "fail": [],
+      "errors": [],
+      "meshes": "17"
+    },
+    {
+      "id": "MATH-01",
+      "fail": [],
+      "errors": [],
+      "meshes": "92"
+    },
+    {
+      "id": "MATH-02",
+      "fail": [],
+      "errors": [],
+      "meshes": "8"
+    },
+    {
+      "id": "MATH-03",
+      "fail": [],
+      "errors": [],
+      "meshes": "83"
+    },
+    {
+      "id": "MATH-04",
+      "fail": [],
+      "errors": [],
+      "meshes": "14"
+    },
+    {
+      "id": "MATH-05",
+      "fail": [],
+      "errors": [],
+      "meshes": "34"
+    },
+    {
+      "id": "MATH-06",
+      "fail": [],
+      "errors": [],
+      "meshes": "79"
+    },
+    {
+      "id": "MATH-07",
+      "fail": [],
+      "errors": [],
+      "meshes": "15"
+    },
+    {
+      "id": "MATH-08",
+      "fail": [],
+      "errors": [],
+      "meshes": "8"
+    },
+    {
+      "id": "MATH-09",
+      "fail": [],
+      "errors": [],
+      "meshes": "5"
+    },
+    {
+      "id": "MATH-10",
+      "fail": [],
+      "errors": [],
+      "meshes": "3"
+    },
+    {
+      "id": "MATH-11",
+      "fail": [],
+      "errors": [],
+      "meshes": "83"
+    },
+    {
+      "id": "MATH-12",
+      "fail": [],
+      "errors": [],
+      "meshes": "19"
+    },
+    {
+      "id": "MATH-13",
+      "fail": [],
+      "errors": [],
+      "meshes": "6"
+    },
+    {
+      "id": "MATH-14",
+      "fail": [],
+      "errors": [],
+      "meshes": "10"
+    },
+    {
+      "id": "MATH-15",
+      "fail": [],
+      "errors": [],
+      "meshes": "9"
+    },
+    {
+      "id": "MATH-16",
+      "fail": [],
+      "errors": [],
+      "meshes": "11"
+    },
+    {
+      "id": "MATH-17",
+      "fail": [],
+      "errors": [],
+      "meshes": "4"
+    },
+    {
+      "id": "MATH-18",
+      "fail": [],
+      "errors": [],
+      "meshes": "44"
+    },
+    {
+      "id": "MATH-19",
+      "fail": [],
+      "errors": [],
+      "meshes": "19"
+    },
+    {
+      "id": "MATH-20",
+      "fail": [],
+      "errors": [],
+      "meshes": "25"
+    },
+    {
+      "id": "ENG-01",
+      "fail": [],
+      "errors": [],
+      "meshes": "7"
+    },
+    {
+      "id": "ENG-02",
+      "fail": [],
+      "errors": [],
+      "meshes": "12"
+    },
+    {
+      "id": "ENG-03",
+      "fail": [],
+      "errors": [],
+      "meshes": "4"
+    },
+    {
+      "id": "ENG-04",
+      "fail": [],
+      "errors": [],
+      "meshes": "13"
+    },
+    {
+      "id": "ENG-05",
+      "fail": [],
+      "errors": [],
+      "meshes": "16"
+    },
+    {
+      "id": "ENG-06",
+      "fail": [],
+      "errors": [],
+      "meshes": "16"
+    },
+    {
+      "id": "ENG-07",
+      "fail": [],
+      "errors": [],
+      "meshes": "7"
+    },
+    {
+      "id": "ENG-08",
+      "fail": [],
+      "errors": [],
+      "meshes": "14"
+    },
+    {
+      "id": "ENG-09",
+      "fail": [],
+      "errors": [],
+      "meshes": "14"
+    },
+    {
+      "id": "ENG-10",
+      "fail": [],
+      "errors": [],
+      "meshes": "13"
+    },
+    {
+      "id": "ENG-11",
+      "fail": [],
+      "errors": [],
+      "meshes": "14"
+    },
+    {
+      "id": "ENG-12",
+      "fail": [],
+      "errors": [],
+      "meshes": "10"
+    },
+    {
+      "id": "ENG-13",
+      "fail": [],
+      "errors": [],
+      "meshes": "8"
+    },
+    {
+      "id": "ENG-14",
+      "fail": [],
+      "errors": [],
+      "meshes": "4"
+    },
+    {
+      "id": "ENG-15",
+      "fail": [],
+      "errors": [],
+      "meshes": "4"
+    },
+    {
+      "id": "ENG-16",
+      "fail": [],
+      "errors": [],
+      "meshes": "24"
+    },
+    {
+      "id": "ENG-17",
+      "fail": [],
+      "errors": [],
+      "meshes": "15"
+    },
+    {
+      "id": "ENG-18",
+      "fail": [],
+      "errors": [],
+      "meshes": "4"
+    },
+    {
+      "id": "ENG-19",
+      "fail": [],
+      "errors": [],
+      "meshes": "12"
+    },
+    {
+      "id": "ENG-20",
+      "fail": [],
+      "errors": [],
+      "meshes": "16"
+    },
+    {
+      "id": "HIN-01",
+      "fail": [],
+      "errors": [],
+      "meshes": "15"
+    },
+    {
+      "id": "HIN-02",
+      "fail": [],
+      "errors": [],
+      "meshes": "7"
+    },
+    {
+      "id": "HIN-03",
+      "fail": [],
+      "errors": [],
+      "meshes": "20"
+    },
+    {
+      "id": "HIN-04",
+      "fail": [],
+      "errors": [],
+      "meshes": "8"
+    },
+    {
+      "id": "HIN-05",
+      "fail": [],
+      "errors": [],
+      "meshes": "9"
+    },
+    {
+      "id": "HIN-06",
+      "fail": [],
+      "errors": [],
+      "meshes": "7"
+    },
+    {
+      "id": "HIN-07",
+      "fail": [],
+      "errors": [],
+      "meshes": "24"
+    },
+    {
+      "id": "HIN-08",
+      "fail": [],
+      "errors": [],
+      "meshes": "17"
+    },
+    {
+      "id": "HIN-09",
+      "fail": [],
+      "errors": [],
+      "meshes": "7"
+    },
+    {
+      "id": "HIN-10",
+      "fail": [],
+      "errors": [],
+      "meshes": "10"
+    },
+    {
+      "id": "HIN-11",
+      "fail": [],
+      "errors": [],
+      "meshes": "13"
+    },
+    {
+      "id": "HIN-12",
+      "fail": [],
+      "errors": [],
+      "meshes": "14"
+    },
+    {
+      "id": "HIN-13",
+      "fail": [],
+      "errors": [],
+      "meshes": "14"
+    },
+    {
+      "id": "HIN-14",
+      "fail": [],
+      "errors": [],
+      "meshes": "7"
+    },
+    {
+      "id": "HIN-15",
+      "fail": [],
+      "errors": [],
+      "meshes": "6"
+    },
+    {
+      "id": "HIN-16",
+      "fail": [],
+      "errors": [],
+      "meshes": "20"
+    },
+    {
+      "id": "HIN-17",
+      "fail": [],
+      "errors": [],
+      "meshes": "16"
+    },
+    {
+      "id": "HIN-18",
+      "fail": [],
+      "errors": [],
+      "meshes": "3"
+    },
+    {
+      "id": "HIN-19",
+      "fail": [],
+      "errors": [],
+      "meshes": "8"
+    },
+    {
+      "id": "HIN-20",
+      "fail": [],
+      "errors": [],
+      "meshes": "15"
+    },
+    {
+      "id": "C3-COM-01",
+      "fail": [],
+      "errors": [],
+      "meshes": "80"
+    },
+    {
+      "id": "C3-COM-02",
+      "fail": [],
+      "errors": [],
+      "meshes": "44"
+    },
+    {
+      "id": "C3-COM-03",
+      "fail": [],
+      "errors": [],
+      "meshes": "43"
+    },
+    {
+      "id": "C3-COM-04",
+      "fail": [],
+      "errors": [],
+      "meshes": "41"
+    },
+    {
+      "id": "C3-COM-05",
+      "fail": [],
+      "errors": [],
+      "meshes": "42"
+    },
+    {
+      "id": "C3-COM-06",
+      "fail": [],
+      "errors": [],
+      "meshes": "47"
+    },
+    {
+      "id": "C3-COM-07",
+      "fail": [],
+      "errors": [],
+      "meshes": "43"
+    },
+    {
+      "id": "C3-COM-08",
+      "fail": [],
+      "errors": [],
+      "meshes": "39"
+    },
+    {
+      "id": "C3-COM-09",
+      "fail": [],
+      "errors": [],
+      "meshes": "39"
+    },
+    {
+      "id": "C3-COM-10",
+      "fail": [],
+      "errors": [],
+      "meshes": "41"
+    },
+    {
+      "id": "C3-COM-11",
+      "fail": [],
+      "errors": [],
+      "meshes": "39"
+    },
+    {
+      "id": "C3-COM-12",
+      "fail": [],
+      "errors": [],
+      "meshes": "45"
+    },
+    {
+      "id": "C3-COM-13",
+      "fail": [],
+      "errors": [],
+      "meshes": "43"
+    },
+    {
+      "id": "C3-COM-14",
+      "fail": [],
+      "errors": [],
+      "meshes": "41"
+    },
+    {
+      "id": "C3-COM-15",
+      "fail": [],
+      "errors": [],
+      "meshes": "44"
+    },
+    {
+      "id": "C3-COM-16",
+      "fail": [],
+      "errors": [],
+      "meshes": "43"
+    },
+    {
+      "id": "C3-COM-17",
+      "fail": [],
+      "errors": [],
+      "meshes": "42"
+    },
+    {
+      "id": "C3-COM-18",
+      "fail": [],
+      "errors": [],
+      "meshes": "46"
+    },
+    {
+      "id": "C3-COM-19",
+      "fail": [],
+      "errors": [],
+      "meshes": "40"
+    },
+    {
+      "id": "C3-COM-20",
+      "fail": [],
+      "errors": [],
+      "meshes": "57"
+    }
+  ],
+  "targetedChecks": [
+    {
+      "name": "C3-COM-02 keyboard layout",
+      "pass": true,
+      "detail": {
+        "keyboard": true,
+        "bottom": 422,
+        "inputBottom": 356,
+        "height": 430,
+        "scroll": 0
+      }
+    },
+    {
+      "name": "C3-COM-02 keyboard exit",
+      "pass": true
+    },
+    {
+      "name": "ENG-19 keyboard layout",
+      "pass": true,
+      "detail": {
+        "keyboard": true,
+        "bottom": 422,
+        "inputBottom": 356,
+        "height": 430,
+        "scroll": 0
+      }
+    },
+    {
+      "name": "ENG-19 keyboard exit",
+      "pass": true
+    },
+    {
+      "name": "HIN-11 keyboard layout",
+      "pass": true,
+      "detail": {
+        "keyboard": true,
+        "bottom": 422,
+        "inputBottom": 356,
+        "height": 430,
+        "scroll": 0
+      }
+    },
+    {
+      "name": "HIN-11 keyboard exit",
+      "pass": true
+    },
+    {
+      "name": "Base-ten exchange preserves value",
+      "pass": true,
+      "detail": {
+        "before": 230,
+        "after": 230,
+        "hundreds": 1,
+        "tens": 13
+      }
+    },
+    {
+      "name": "Jug shape preserves water; full jug stops pours",
+      "pass": true,
+      "detail": {
+        "before": {
+          "cup": 1,
+          "amount": 4,
+          "pours": 2,
+          "wide": false
+        },
+        "after": {
+          "cup": 1,
+          "amount": 4,
+          "pours": 2,
+          "wide": true
+        },
+        "disabled": true
+      }
+    },
+    {
+      "name": "Parts require correct place; six-part assembly",
+      "pass": true,
+      "detail": {
+        "wrongAccepted": false,
+        "placed": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "name": "Native drawing responds to pointer",
+      "pass": true
+    },
+    {
+      "name": "Three material states render",
+      "pass": true,
+      "detail": [
+        {
+          "material": 0,
+          "covered": true,
+          "meshes": "52"
+        },
+        {
+          "material": 1,
+          "covered": true,
+          "meshes": "52"
+        },
+        {
+          "material": 2,
+          "covered": true,
+          "meshes": "26"
+        }
+      ]
+    },
+    {
+      "name": "Rain animates in normal motion",
+      "pass": true,
+      "detail": {
+        "y1": 0,
+        "y2": -4.70888888888889
+      }
+    },
+    {
+      "name": "Reduced motion holds rain still",
+      "pass": true
+    },
+    {
+      "name": "Reading pauses renderer",
+      "pass": true
+    },
+    {
+      "name": "Five subject links",
+      "pass": true
+    },
+    {
+      "name": "Topic search isolates matching lesson",
+      "pass": true
+    },
+    {
+      "name": "Enlarged text at 320px",
+      "pass": true,
+      "detail": {
+        "scroll": 0,
+        "overflow": false
+      }
+    },
+    {
+      "name": "WebGL fallback shows original model",
+      "pass": true
+    },
+    {
+      "name": "Fallback retains tools",
+      "pass": true
+    }
+  ],
+  "contentPreservation": [
+    {
+      "id": "SCI-01",
+      "articleAndFollowingSectionsSha256": "0697498ad1c98f1a1d7b6b41ae8bded3c926897f336503c498588c630b15ca4a",
+      "quizDataSha256": "536a432c03547ac4954b492bb3bdc65fc2a15a2679a8ac4dd7d5e3af5d2b2f5c",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "SCI-02",
+      "articleAndFollowingSectionsSha256": "fa51783ca42971ee615addf6768ed7d67f7a1a528e91109a81a9a66db83e4220",
+      "quizDataSha256": "98cb90003f21769c37dac9b5a2343183720016cc17458e400448e0d1e8c43c35",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "SCI-03",
+      "articleAndFollowingSectionsSha256": "ad286449d7da372e809b4f7f93f93fe98a1fa39e7320a511a0b7e7bb06c211d3",
+      "quizDataSha256": "86f9eb1935ae594f9f478f27c44e94517e0d71b46352434958ad35f76d204b9a",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "SCI-04",
+      "articleAndFollowingSectionsSha256": "8c3ad07901f92297ae094693c3588f8ba1116f0511c9e8aea533e8c6efe7d4eb",
+      "quizDataSha256": "d71829c0e94c483094695ef30b7b75639b22729c5f2fa6c023e5181bf7d232c2",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "SCI-05",
+      "articleAndFollowingSectionsSha256": "f9f26ceb51d9ccc1d17d166f05bb151dfb00377ee7113944f7a93321fffda668",
+      "quizDataSha256": "cb56a921b40728d8adff5e6a4c9cd1ef7c6209173c96a0d35b1f01a442e338fa",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "SCI-06",
+      "articleAndFollowingSectionsSha256": "1432e0dcf3660e3110858d1fea708dcf3f9a888d738116b305bec6ae20f1e7eb",
+      "quizDataSha256": "50bba87aa0b0ddbd330e919e6ea961836d4b8995aa8ea582d0cc22dbd3b9c722",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "SCI-07",
+      "articleAndFollowingSectionsSha256": "946fb4283160466f54bbfedc74c94e4f70b2e9d1d6d76c1d20cab976b92321a9",
+      "quizDataSha256": "a0b763e36d3621e88f9aaae024ee3c37ce809fe547c9c18dcfdac6f78fe8db5c",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "SCI-08",
+      "articleAndFollowingSectionsSha256": "4c16e7183dd2b3be64d56b9031f691564985169cc8fb13dce887d9ba6f395694",
+      "quizDataSha256": "829196bfa4112be68dda2638dc8e1ea0b5e24b2c4d2911c3c2ed989d9763de94",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "SCI-09",
+      "articleAndFollowingSectionsSha256": "84cf6cbd8695f7104f32d703e9ab60d7d8676fa023d6f589cc05b3abbed9d593",
+      "quizDataSha256": "8b316283aed430000e709e143779b5f55e6bb91a25206dff8b576ec6700df9ce",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "SCI-10",
+      "articleAndFollowingSectionsSha256": "371dd325668d0025f5d07e0f3147f405ee0ff6d5a32fbee9260ba679e008164b",
+      "quizDataSha256": "ac1731eb9360c249a094c34e9b666056fb927307f7d8d29eac8beb67e7a94191",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "SCI-11",
+      "articleAndFollowingSectionsSha256": "894143080210fd87445a9b4302e7cf75c2999ff0fe823b0e6212ae740b5b93a3",
+      "quizDataSha256": "b2f3de26c2e808c80ffe95c1534bd37c0de074d7f54d9590dce082b722f8885b",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "SCI-12",
+      "articleAndFollowingSectionsSha256": "cc7edd9f2370d4407b005402ecf977a4f2f3704f0fcc4a803a8855948e528588",
+      "quizDataSha256": "9901796ded4d7f9468dacb58b781dac2ecfb55741b78b5f352129ea018abc2fb",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "SCI-13",
+      "articleAndFollowingSectionsSha256": "9c518cf36c4500257924b85cf53902f782821ba6b4c7cff1eb5b313cc9d69547",
+      "quizDataSha256": "eb5153c0322a3c68945156f3077159f608c01382f0aa79468b720b437b8e8ed5",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "SCI-14",
+      "articleAndFollowingSectionsSha256": "61f0193e18f6ed75eba2cef1ecf89816e312127109e2475649ee9d21e1692c4b",
+      "quizDataSha256": "d212fdba11d7c4d4a2291b3738cfb60faa0b3dd75a663d1cc06f33dc75e57e8b",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "SCI-15",
+      "articleAndFollowingSectionsSha256": "c8b411637c99b6a1357562a2207f2eaecf335daa0003abfbc64718bc118f7c3c",
+      "quizDataSha256": "107d6b86b77769d687acf05a740648b98b3a8f77b5b1717f8d00a8eeeef933f1",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "SCI-16",
+      "articleAndFollowingSectionsSha256": "90fb01a5206886c8585d6a3ccea91a0d68d3e6c1a8f5d0e97971b34d706bfd0e",
+      "quizDataSha256": "465009676908579a325499465ca64af8688059118bdcb3adbf061b1560cb6d01",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "SCI-17",
+      "articleAndFollowingSectionsSha256": "c4205a31b0374c2b3b3f05c000ad68e10e08b4aea5ec4d0ed368af3497b22555",
+      "quizDataSha256": "16413290ec1e73c3ff7d494ffeccd4600f1fda6d6f9a78e53f19aaf8f93be4fc",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "SCI-18",
+      "articleAndFollowingSectionsSha256": "e110d6f5d2dd6ae14a1f7a311363705373ec18c2bb82503c579dcbb35609298f",
+      "quizDataSha256": "a3413364831b91629b34c4b4828e96ceca232fd2a29d6d15e1b0325d1b86c999",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "SCI-19",
+      "articleAndFollowingSectionsSha256": "ae2d1be459ca1e0ca515d68784a010e26f4219847c9de3974dfdbd0acb5165d7",
+      "quizDataSha256": "8b8ffe8dfb7f859d5da2e809b3e5a4397dc99d2063cc604add3baadb995079a0",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "SCI-20",
+      "articleAndFollowingSectionsSha256": "6b424567cb01ff40d278791d2dd2743f0b2a4237f9fc4c482e8e75024a86bfb7",
+      "quizDataSha256": "d0a230fc77814ff8f11707675a7d36c456fc29c6bc938ff9d9ccd0fbacf99e33",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "MATH-01",
+      "articleAndFollowingSectionsSha256": "626416ebb914cf16096e7490b3c03e770716f2ab34d6a5a5448830d5cd5f98b0",
+      "quizDataSha256": "a01a703f639655b877c8e52f49c0af1a4a719cdac92e64966e5fc62fb88e97dc",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "MATH-02",
+      "articleAndFollowingSectionsSha256": "7b24f382a1bd1964c0850a61651a7fc185972160efc2ea939f49209842efb620",
+      "quizDataSha256": "b5f3c893f3a7e5210f970ca459a8e30ab14fc2bdc394478ef3077e4e520270f3",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "MATH-03",
+      "articleAndFollowingSectionsSha256": "223867b73e92b0171def6c6bddf458ee297dd410028571b11e72ed7f57fa1738",
+      "quizDataSha256": "8a129d65feb55faf99f5f538a8618f7f04ffa42a2c479caf181dfe91e843f9db",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "MATH-04",
+      "articleAndFollowingSectionsSha256": "cb78930ed344e3618da964671fa41806029e2a0ad5d888d06502500dced99dd8",
+      "quizDataSha256": "16169c29009e03b00c8c96be14f6606fe2280be7ce0c700ae08b2b7744cb668f",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "MATH-05",
+      "articleAndFollowingSectionsSha256": "4f9ad22248a96a48cabe331334af0e16e3451a52f7b0987342faf0fbcc3adace",
+      "quizDataSha256": "def629fe6590d3d15ccc063026a8ea3fb1b5918d5c355f768e6a1e9fa19f0766",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "MATH-06",
+      "articleAndFollowingSectionsSha256": "c901d080c0308e3a8b6ad243b2d9d0688bec7e33091494362041f49e09273385",
+      "quizDataSha256": "f12714d0b2e246ea9067c450cfd610ba1422c212610eaf52188ed23d91d870cc",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "MATH-07",
+      "articleAndFollowingSectionsSha256": "271806d2104008430ab214b7ed53813e34f5813bb9f1e2683bf94100cd2963c1",
+      "quizDataSha256": "38460b400bcb2fed722d19d5d834691cff7a02443fb13e2f0c1cd2d94f67d574",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "MATH-08",
+      "articleAndFollowingSectionsSha256": "f9bd486698992cb5ee04d959bba2a4ea3d06579a79dc0fc0719e3f4bc478930f",
+      "quizDataSha256": "b00e02479f4c82eaaf817faac8ee05363ba2829938464a70e794b29f67ba69e5",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "MATH-09",
+      "articleAndFollowingSectionsSha256": "44f5007b3d7e193e07932a4e790729681a5c91f35f1f6c7edcff17384c7a1196",
+      "quizDataSha256": "96c67da92ea4718322d6a1dade2c19faf57aeafeadc3637cd2d6cbe4a1295cee",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "MATH-10",
+      "articleAndFollowingSectionsSha256": "7780fdd01ed35f21907218d403ab64873879045e6c4c07fe63fd87cee66c17dd",
+      "quizDataSha256": "175674e8cc069c94961f32f91ce6421f62a3c47dcc280cbdfe96cfa16f9530f4",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "MATH-11",
+      "articleAndFollowingSectionsSha256": "856837ba4fb42a90c3acfe87ce17eca948c70e255a7afb00e6e1f4647a4f51c6",
+      "quizDataSha256": "ca06c1d341ccd74d3978861c85728ba1304197706f9bd43e5a2859735c916a4a",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "MATH-12",
+      "articleAndFollowingSectionsSha256": "da0f497ff25992167b218c81a8116528702337d55bc8aa7033f790aca908db9d",
+      "quizDataSha256": "01cc4b356465ce10a3e0c6e2aaf1d2f23450a48334602d17e583a70544318fc8",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "MATH-13",
+      "articleAndFollowingSectionsSha256": "0f94177b389039ad5b41b84cdb99af83deb26be04a4860b82dfe85d15c0780c3",
+      "quizDataSha256": "2bccb990814a78c83a96698443002c93f0d07674ef7210461aa358680b0a9edc",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "MATH-14",
+      "articleAndFollowingSectionsSha256": "382105be8a99d4a71adbe2d48664ac1848ede1e3263468e46d79a19a4e7d54ec",
+      "quizDataSha256": "8dc8177dfbbbaac741b1ad90b62a9b784655eb6d1fb86e5fbdfd7de778899f77",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "MATH-15",
+      "articleAndFollowingSectionsSha256": "5648c8cc2d6cf135045ebe23e4d5b431f59bc6a55ac0363487f093fde82176c2",
+      "quizDataSha256": "bb7bdb293edb8d22ac42cec6c33b9262cae66ed2c6508d5f0209b522db25521a",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "MATH-16",
+      "articleAndFollowingSectionsSha256": "884ffb0df9840df9f82370f674597a653b6455c694baf977c29391c760e97395",
+      "quizDataSha256": "5df079876ef84ceebe838dbfddc75b3417b2adbaa90459aca5fc05c7d5cba932",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "MATH-17",
+      "articleAndFollowingSectionsSha256": "d452ea032865d8474ceb27750a11633a350e88319b8b5307e7cfc26ffe7eaacd",
+      "quizDataSha256": "0ddecf210e1c904143605e971edf28a5bf67c85254469432f1bc1577a119d9ba",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "MATH-18",
+      "articleAndFollowingSectionsSha256": "b9d9e054101c96f239684276a915129cb0aab03fc2bebbc59508989156a57383",
+      "quizDataSha256": "dbd06eb53b66dc99908149e2bc11880832ce1158a5ef37005d71a9306b017643",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "MATH-19",
+      "articleAndFollowingSectionsSha256": "4f5161e03e2bcc20cb8a12e525b50bc595ed513d33252d51619602c55a514bbf",
+      "quizDataSha256": "42c2c596f5a88583793d0ecb0b31e2aa8361b8f1f0c5a6a1f14b679a4b323302",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "MATH-20",
+      "articleAndFollowingSectionsSha256": "525ee76a973089fe843a25a689e75fd1f9462000fa8769d351fad7b53b6983c9",
+      "quizDataSha256": "2374959131cf4e035bb13e33b981fcca4da2114a0ea4b909eab71ab6951a3f1d",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "ENG-01",
+      "articleAndFollowingSectionsSha256": "a14e1e64722eced7651b7c900345244662e1a68ddf7999320e7a9ff5c7c286db",
+      "quizDataSha256": "0ad89fa1c9264c9c1c0d72a48578de9b46412e0b459dd46f1951691ebcb9ab53",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "ENG-02",
+      "articleAndFollowingSectionsSha256": "43121419275f2dd9d356f9ceb53c091c9b0d2afda8ca05d3769a1e2a7b3c939b",
+      "quizDataSha256": "b9825ea05dff4b90b68631e62ef6ea47901158632ca870d1d2b82677fc381ac4",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "ENG-03",
+      "articleAndFollowingSectionsSha256": "ad9c81eb1187da08f436241230d7169d84a4ba38379c3fcbcceab543e8e5158c",
+      "quizDataSha256": "10961fbdcff3fb92e02de954dfb2022a481ff51804c002441de4a913bdef386d",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "ENG-04",
+      "articleAndFollowingSectionsSha256": "21cf6619f021bb42d2b80abda8b3b5c25803a72d4c61518aa0319ba58dad0fec",
+      "quizDataSha256": "c0d7989e923030dfa798e868345986ecd379c76cb1ed120d71fbc6e98b91e768",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "ENG-05",
+      "articleAndFollowingSectionsSha256": "e7a57f5184f9ccd949f7a9feb754ab8325423f3fee1e859a87a546f113da1209",
+      "quizDataSha256": "fc24f18d9f673309c496cef8f6506a6e8e43fb6ac72c42390689c30124907f29",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "ENG-06",
+      "articleAndFollowingSectionsSha256": "fdc3f3b4c20be290f96c85fd788a0afc2aff6cdcdcead975147c4557d204c1dd",
+      "quizDataSha256": "c705a00f20f8234fc37c6ca87738d3ae8320af2150eaceec9cd324d41a4a7511",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "ENG-07",
+      "articleAndFollowingSectionsSha256": "5f03c3d4646ba2c4553a9fca46b631a08d2f1ff6426bd44406e6193a34fb06bf",
+      "quizDataSha256": "08ab585eed702097f6713a36985a3a93b0ee5e70a3076b9eb593c6acbc3822b2",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "ENG-08",
+      "articleAndFollowingSectionsSha256": "bbe4704bfa9556b1b91e10a57273eeed5da7a81b131d3e3317bc570eea4fd4f3",
+      "quizDataSha256": "adc45555b0b8d1b9dd1d869071f4f14288e5b7049c70163ec0743bd98d04814b",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "ENG-09",
+      "articleAndFollowingSectionsSha256": "96a78d54ad65af7a3e72b98f3c8df8674caab889b658aed0a5dfb8b772397443",
+      "quizDataSha256": "e3755b5c1b0315a8f0c9698243006d5f0b93474ebe12bab2bb55346d15501ce2",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "ENG-10",
+      "articleAndFollowingSectionsSha256": "86f43fb7091973ef2f7dcdd72099207ae66175ff3764beb7166e05be5e7c6271",
+      "quizDataSha256": "2f821fee2f906cb725d094de9bcf77f3643d436f20d98a3cfcc7fad663377eb7",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "ENG-11",
+      "articleAndFollowingSectionsSha256": "9f6500f15317d9bd7e73587f3b37aeb54c18d4519603f20e5cad61bc22c43cfb",
+      "quizDataSha256": "f5c1ce70dd280a8dd29041c098541ea9046636ae5c71ffec48f1aeb99519ad29",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "ENG-12",
+      "articleAndFollowingSectionsSha256": "6aa26dad2d9b3b8bc391b902aa4ab2f6706385d0d1d56e2763c447f53727941b",
+      "quizDataSha256": "63b89a8129cdc4bcb8beccbf79ac6e3b8bc10660a64b256da6ae4991a5bed542",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "ENG-13",
+      "articleAndFollowingSectionsSha256": "d97b653034b94135e20bbcf84c33e3386912681d6438a1f391b9d47d813ee9ad",
+      "quizDataSha256": "910150e99ad3521c5466188546a347387eb35d89cd82a3ddb8b101a895c168f7",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "ENG-14",
+      "articleAndFollowingSectionsSha256": "5516dc9c210dfa5f8b59e084ec78873a1dffd34d1b0cc7a9ecb86bf22e963af3",
+      "quizDataSha256": "235afeeb9aca96a16fb03b4907fa480fca35091835fc73831540b86096c15ba8",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "ENG-15",
+      "articleAndFollowingSectionsSha256": "fd9a361c324e5f715f3a8d07d87bf8d9b84338691ccb26ba4d6ef5a253868b9b",
+      "quizDataSha256": "5f77ee8230975e6bd1c116686985bb9ac1ea634667b0b3ce654cebb03616bd38",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "ENG-16",
+      "articleAndFollowingSectionsSha256": "93e421e2a8ae169d201230467bba71e5490a706fc40f66a4d6ab3d259c2bbcbd",
+      "quizDataSha256": "c8dac1fade59825c5964a19d6529a8fa3cca21bb0ed2a0d9f1528b7e740f5ad4",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "ENG-17",
+      "articleAndFollowingSectionsSha256": "6d28ca791445edcff1dd15c77ee4d4a0b8085221d4617f07cd44372fbf8cc5e8",
+      "quizDataSha256": "e063ee7f0e78421e8b22f19858474d0acaacb888f6d149d4135640f2db0d2ae0",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "ENG-18",
+      "articleAndFollowingSectionsSha256": "1148fbb5c00e9f9665cd0f7f162ce8348419f4875837ee66e736fff36ce248fb",
+      "quizDataSha256": "16271476fde2a5c62343234cc34af0654bd767cf0d819c297cc88f33f168107f",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "ENG-19",
+      "articleAndFollowingSectionsSha256": "d15944bf11e7e3f1bfeb34ca60644bce9764cabeddba06a5c138b4ac6df1aff4",
+      "quizDataSha256": "0c07751b75fc2588a67a7402689294e9ce3b3d91e1e7b8a8d5edb268f38b27e3",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "ENG-20",
+      "articleAndFollowingSectionsSha256": "22b93f686ba113ca98a8e8777267eb83da5f4f9ae73cdbc9ef82e34eff35fb0d",
+      "quizDataSha256": "78cb07dc1e7f2f4f00a2ac96ea6297aff61cd5ba5aa891b5955cd9466d5475ae",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "HIN-01",
+      "articleAndFollowingSectionsSha256": "850acdba0673fa3f3a9cf9d675313b650c543fb611aafee291d0d5f7fad10ded",
+      "quizDataSha256": "d212c7fbffd12e67a071b6c24f6d7114e090c170f748697af31874b5489b4095",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "HIN-02",
+      "articleAndFollowingSectionsSha256": "307506826fb61b84d914d0f3ace25fa1044460af03acabf2d2632c62070de08a",
+      "quizDataSha256": "6fb9d074405f7b864c5669dde02ab70024389fd2630e866504477df57502cfe9",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "HIN-03",
+      "articleAndFollowingSectionsSha256": "1e6d4a16a5e6bec448870a581a6242934d31d03b1b5d86920abd7e44770dcddf",
+      "quizDataSha256": "ffcfd50691df9ce6f1f79d6ac1aa0dd142433e5e27c3bc0ca3b13472a582a1bd",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "HIN-04",
+      "articleAndFollowingSectionsSha256": "ac52dbea3b0c0b73b543eb7d5b78f3aefc87654933d4f021d2dab093dd3bf855",
+      "quizDataSha256": "6e6eafaeea6946e1ec1f2b1e021167356b2770eb89d832ed1f32fdc7f962c147",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "HIN-05",
+      "articleAndFollowingSectionsSha256": "d402e4d9bb733d33ff37cf1fa83e5f60828ea0c10d7932448cf2aa36a81e6893",
+      "quizDataSha256": "2efd7502dbc951f99b7c659f33a36248761f3d1b1a8e6733c34cfe6558111ccc",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "HIN-06",
+      "articleAndFollowingSectionsSha256": "d21070eecec7d3d8c790f87008b9a0da67cb62b816cbd9bddea355b9f66bd93a",
+      "quizDataSha256": "66b0ed7bd981a22462d948e310a5c70606d5b5237eecf344347ff8ba6c37308a",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "HIN-07",
+      "articleAndFollowingSectionsSha256": "f5681061a39457e6a70324692c066fa04a00a09a4126df7cb20d40b0fe102f31",
+      "quizDataSha256": "82cea90e3b46c6aa5d96945d2e727a749b15960efdb2e56d65434a2de4cd6a56",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "HIN-08",
+      "articleAndFollowingSectionsSha256": "b8f240151f9290123c42658bdb77e065ec268b155dbaa04a67677c43f37ee7c8",
+      "quizDataSha256": "a5a4f3b5a2efe7bf46b840f7c6f2f5a76c6310706d6884984b6bae10b8cbeb01",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "HIN-09",
+      "articleAndFollowingSectionsSha256": "2cd18cff9aa1dbc5e14384eafc838d2a73492b4f1312ae371683253381e393fe",
+      "quizDataSha256": "9cb8f4905f22b114b064d8df66fad176c79e1b4f890365911e686a30de71eebb",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "HIN-10",
+      "articleAndFollowingSectionsSha256": "017401e598964d8d9f9fdb6be16740b724403fede6354dbc2194da61498e04bf",
+      "quizDataSha256": "1b7d67cebcb9095d70d665ef6b94138e83f70b3718ec7a956b7abcb6884c7495",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "HIN-11",
+      "articleAndFollowingSectionsSha256": "23bf553b5758eebafd90ebd134690a3b578486068226230d132f0fe4ea1d5463",
+      "quizDataSha256": "e124f698c75dee4e9bc15f337a4ac6bae77c476288ff66beddb6188b020a97db",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "HIN-12",
+      "articleAndFollowingSectionsSha256": "443ccce5a61a09aba8db1ae69b6c53fb8bc8311547caa524621a0ca423252371",
+      "quizDataSha256": "9e789229825a748672dff67884c777e5348c2d67c9c27229914162d1ca5e8d56",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "HIN-13",
+      "articleAndFollowingSectionsSha256": "3d65031c6ed81a5d47d83f17d70bf09ee3ade49b6e59738a4150a8cf59547a49",
+      "quizDataSha256": "4dfc7102d6addc023594f3640cfbb05e36965bc5b727bc1f52227e35db41c4e4",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "HIN-14",
+      "articleAndFollowingSectionsSha256": "e9b64dfde3b607ce21f05d240cadcad0997f5cf7777a3b22556b45f07050827c",
+      "quizDataSha256": "beffb39151db968eeb9d680b522acd33c43aa29ed8e2e2072dd0c157bfa00d56",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "HIN-15",
+      "articleAndFollowingSectionsSha256": "21e7f6b00d2f712ae3205dbd9a83acd3f315c4c1f95534b7df7545cab205908f",
+      "quizDataSha256": "3e28f82f04a456cb85da8bdf02bcfbb940f566c15b5573409cbfb5882873965f",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "HIN-16",
+      "articleAndFollowingSectionsSha256": "18d83d36181e79b61521c6b5af718219f378173f45cabe489d9c8626b7f538a9",
+      "quizDataSha256": "eaa757d1eea8e67626205bb1a94a0bfd01af9d622e399bd367e6c8ede76fac1b",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "HIN-17",
+      "articleAndFollowingSectionsSha256": "d5c197821ca65e664d2643bfd84e50f18861e5aad89d0c4685f2badf082eaaf4",
+      "quizDataSha256": "bc2ad777a505e3a9841fb80fc544644aca3f00f970a29f59fdbca8fe2cac1d68",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "HIN-18",
+      "articleAndFollowingSectionsSha256": "688c362c3469483e728fd34411544b37ffd8158b92644c87a473d0c96cc05896",
+      "quizDataSha256": "eb7fcc98afd6bb6883da6802b4c19a4123f2e736a93d921bfb7403f08dbbd95c",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "HIN-19",
+      "articleAndFollowingSectionsSha256": "880be9d8ffd8e45c71eb73ddca1a05c0898ec9f939fa1172b4be752e5adf3016",
+      "quizDataSha256": "84638aa210faa67f5b3ed9d376abc58038881b286d5c413ba7b4c56164402c70",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "HIN-20",
+      "articleAndFollowingSectionsSha256": "e6b5df68c519fbed262797b710a22879a7769569383407510743f86260bdbaca",
+      "quizDataSha256": "8b0921dfebce8c0ad7fc1ffbe7a09db383b9d54d96e92f79ffa878d0f399ca92",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "C3-COM-01",
+      "articleAndFollowingSectionsSha256": "4476b92ffe80bdc32d502bec5b98ae8f8ef6af5f2f70da7eff23d52edb4373c4",
+      "quizDataSha256": "e3348b78b7b442edb23b277807bb27ad9fbad13a1e3d7e16af439cad1e4ac8cd",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "C3-COM-02",
+      "articleAndFollowingSectionsSha256": "3aba572eaa7f9a21a789ef985bba64275cdb894a6d8bd1b96aabe2d583ef5b99",
+      "quizDataSha256": "efd4ee3bdaaa27fb17060b90a3e82f9bbd443ca161549c52ee783ab899270d1c",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "C3-COM-03",
+      "articleAndFollowingSectionsSha256": "19c8a8f8198f927ee603bacfa45a922d69b7a903b2cf8c70005e6ef8e607aebe",
+      "quizDataSha256": "d2ab62132ef10279728e9961b603f66e9713792a93ba60bfed21ae3f4ac4b31d",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "C3-COM-04",
+      "articleAndFollowingSectionsSha256": "a80558a6486e102a7a8f6b0aac82a70af354129e4f6bbf5d7567e4737829aa69",
+      "quizDataSha256": "e2e0bc99b3c49d7d2e5aca900220a5b2100c2ba6ff63394c9609a97f1be09083",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "C3-COM-05",
+      "articleAndFollowingSectionsSha256": "24b549849756b9f226023ab69ecbac17bd8499ca6e89eb359c54a7be21c3baac",
+      "quizDataSha256": "4519f1ec8b1c46d8aa8496d33c797076b55f5ec56413faf5cace8231cf1b7e7d",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "C3-COM-06",
+      "articleAndFollowingSectionsSha256": "8959a9c7a20e91faade58c312a7c8e3bb1de87777028faef01f88584b042d0bd",
+      "quizDataSha256": "74d6389cafe4846b250ef978377d3d68cd20a5f6ca176480504e5ee75d781890",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "C3-COM-07",
+      "articleAndFollowingSectionsSha256": "a89edc3d523ac774d939cfa71ece0315b490cb61305c415ec0efc2d812feb0df",
+      "quizDataSha256": "46aa5e56099c5c992cd8a339b403d4f7f3863e9a0476722df4e7be389e4863a4",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "C3-COM-08",
+      "articleAndFollowingSectionsSha256": "8f64513557f8e52882eb889f87a7e06405bb826ba75d20b53d80e15bc8c7157d",
+      "quizDataSha256": "cf1ad756f205590e99c5f054627b19cc9f1a3963155fff3cd0424ef65f6b5a00",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "C3-COM-09",
+      "articleAndFollowingSectionsSha256": "37f35544d0c5f79c9b916fb58ba830ea8becd19a4c8da3dc92739cfa0e1185d0",
+      "quizDataSha256": "aa969ef41600b4d4d4c4f7563da3b35bc1450d57b48419e078cb09fa706b69f8",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "C3-COM-10",
+      "articleAndFollowingSectionsSha256": "3d38965f4de076021b1a017dcef5a612a02c91d7639b9ca886ea72722af79e0a",
+      "quizDataSha256": "44fbacd76a3d244910eaff3d0b44136632b55098f392959052df0cddbf48a192",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "C3-COM-11",
+      "articleAndFollowingSectionsSha256": "2116fdbd35c04267669eea1f92a57a8b37ef1447590be8d614dbee45166cb75c",
+      "quizDataSha256": "90db1fbd75e4e1495f154f7357b7780d3dbacd7b0f350c288e1cdded6c976f34",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "C3-COM-12",
+      "articleAndFollowingSectionsSha256": "3b2390a7bc7f51f331cc2ec5d524784b73c1d52814c9a2a92f5365653ae6b01c",
+      "quizDataSha256": "5971a772487ab27a4db0fac1cb3125688266c9cd3303b63974c40bd0b8c668ec",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "C3-COM-13",
+      "articleAndFollowingSectionsSha256": "ab8b7b9e6e02c5b8ce4a5241a81bc10ed58920bc24ed9f3a8a7b734cdd32374a",
+      "quizDataSha256": "81bdc72be9ca74ad5b834c16152e8f0377949693ba39c65a853c15e81b0c5337",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "C3-COM-14",
+      "articleAndFollowingSectionsSha256": "377b2407e219e0c36fe282a8e91b8a7fa638e2c812183cd3079e92279d37d54b",
+      "quizDataSha256": "0496ec028135eec0e3cb9c2febe0b05229ecdfed6a65d47964fecb5ab31b5eff",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "C3-COM-15",
+      "articleAndFollowingSectionsSha256": "7118a68e0b762b74ba6c3d53a64e6630459f68f73796b4a989fd5d0808073ae9",
+      "quizDataSha256": "fd1b6c44710a1f22ba0e27fcbef6fe425f9faac4b2750664e4be87bf74733745",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "C3-COM-16",
+      "articleAndFollowingSectionsSha256": "8bbf8a54be548b18ebafbdbf6d40004550a61114cedb814e484e4d7eda643d50",
+      "quizDataSha256": "d4af9044ab213c8dcd1fc308dc1c58cf2c4d7fbeba568d4f5f56bd2d6b3c2891",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "C3-COM-17",
+      "articleAndFollowingSectionsSha256": "c3b2e3cdb45f8d4cb7db2025e978496b3a3409a87aab304fd37bd78bb75b1e55",
+      "quizDataSha256": "e48fc1fc4e1a9946f4633b80f41a065e00a5808bc07c2c72e5270dc104aa0c44",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "C3-COM-18",
+      "articleAndFollowingSectionsSha256": "841b7558e13cae6e2b6ca4cac11282cc60f37dd97402c6b7193785e8b94165df",
+      "quizDataSha256": "46fb3627d4dc07dbacb39638411aead5a315ceea5bacfe150fa7bc2c6941d8ac",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "C3-COM-19",
+      "articleAndFollowingSectionsSha256": "4345006a896e39c994582346019dbf1a730fa31342dc28b834b241e15c3f4c1c",
+      "quizDataSha256": "588ded6553591656a4a5bc708375335afdc99cf415c2b19fee420af2f333e503",
+      "equalToPublishedBaseline": true
+    },
+    {
+      "id": "C3-COM-20",
+      "articleAndFollowingSectionsSha256": "dc374223114429ebeeda50eab72cf7f1ec2f3619970b4c50776fb0f67bbe0744",
+      "quizDataSha256": "716570677a490617bd954839407335fab6891c4cd4c53b7f92718de9d437eaca",
+      "equalToPublishedBaseline": true
+    }
+  ],
+  "limits": [
+    "No physical Android, iPhone or iPad checks",
+    "No claim of Safari or Firefox testing",
+    "Hindi pronunciation review pending; existing browser voices retained",
+    "No photorealism or Blender-rendered assets claimed",
+    "WebGL fallback may require scrolling; enlarged-text check was targeted, not an exhaustive accessibility audit"
+  ]
+}

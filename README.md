@@ -8,12 +8,14 @@ The September 2026 redesign adds real WebGL 3D scenes, soft shadows, dimensional
 
 ## Playing and reading
 
-- **Explore:** change a tool and inspect the result. The tool selector and arrows reveal further controls without leaving the active scene. The turn button changes the viewing angle.
-- **Missions:** three topic-specific ideas to predict, experiment and explain. These are self-directed prompts, not automatically assessed mastery scores.
-- **Check:** the original three questions, with answer-specific explanations and retry.
-- **Read:** the original GoKurious article, challenges, FAQs and grown-up activities. Current activity state is retained while reading.
+- **Play:** read one short task and start with visible buttons, sliders or a direct tap/drag on the picture. No activity dropdowns are shown. Purple choices show what is selected.
+- **Try ideas:** explore the original three prompts with the full set of controls. Tap **Next idea** to move through them.
+- **Quiz:** answer the original three questions, read answer-specific feedback and retry.
+- **Read:** open the original GoKurious article, challenges, FAQs and grown-up activities. Activity state is retained while reading.
 
-Phone and tablet layouts keep the current scene, active tools and feedback together. Longer explanations have a continue button. Text entry has a focused editing layout. The article scrolls normally. Reloading or restarting clears activity progress; the site does not save personal information or progress remotely.
+The current picture, controls and short feedback share one phone/tablet screen. Field buttons switch between inputs; a small **More** button cycles additional actions in dense activities. **Why?** opens the complete explanation. **Help** explains the activity, offers the original audio controls and lets you turn the 3D view. Listening buttons remain in Play when hearing a word is part of the task.
+
+Plant-building uses six visible part buttons. Story sequencing uses scene choices and Earlier/Later buttons. Keyboard activities show usable keys and the target text. Selected scenes also support direct taps or dragging, with visible button/slider alternatives. Text entry has a focused layout and a **Done typing** button. The article and help scroll normally. Reloading or resetting clears activity progress; the site does not save personal information or progress remotely.
 
 ## Hindi and audio
 
@@ -22,10 +24,11 @@ All 20 Hindi lessons are included. Hindi pronunciation review remains pending. T
 ## Structure and content preservation
 
 - `content/`: the 100 original lesson models and complete reading sections, with state hooks and the new studio entry point.
-- `assets/studio.js`, `studio.css`: responsive tools, reading navigation, missions and quiz presentation.
+- `assets/studio.js`, `studio.css`: responsive controls, reading navigation, exploration prompts and quiz presentation.
+- `assets/studio-guides.js`: short goals, playing instructions and opening-control choices for every lesson.
 - `assets/studio-scene.js`: topic-aware Three.js scene renderer.
 - `assets/vendor/`: self-hosted Three.js 0.180.0 and SVGLoader, with the MIT license. No runtime CDN is required.
-- `assets/previews/`: screenshots of the actual lesson visuals.
+- `assets/previews/`: captures of the lesson visuals from the initial 3D release; individual scenes may have since been refined.
 - `catalog.json`: subject and topic metadata, original and current content hashes.
 - `subjects/`: five searchable subject indexes.
 - `lessons/`: redirects preserving all previously shared lesson addresses.
