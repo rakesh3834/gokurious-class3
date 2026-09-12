@@ -22,10 +22,10 @@ for(const s of catalog.subjects){
  const index=await fs.readFile(path.join(root,'subjects',s.slug,'index.html'),'utf8');assert.equal((index.match(/class="lesson-card"/g)||[]).length,20);
  for(const [i,l] of s.lessons.entries()){
   const b=await fs.readFile(path.join(root,'content',s.slug,l.id+'.html'));assert.equal(crypto.createHash('sha256').update(b).digest('hex'),l.sha256);
-  const view=await fs.readFile(path.join(root,'lessons',s.slug,l.id+'.html'),'utf8');assert.equal((view.match(/<iframe /g)||[]).length,1);assert.ok(view.includes(`src="../../content/${s.slug}/${l.id}.html"`));
+  const view=await fs.readFile(path.join(root,'lessons',s.slug,l.id+'.html'),'utf8');assert.equal((view.match(/<iframe /g)||[]).length,0);assert.ok(view.includes(`url=../../content/${s.slug}/${l.id}.html`));assert.ok(b.toString().includes('window.GK_LESSON={H,data}'));assert.ok(b.toString().includes('../../assets/studio.js'));await fs.access(path.join(root,'assets','previews',l.id+'.png'));
   if(i>0)assert.ok(view.includes(`href="${s.lessons[i-1].id}.html"`));if(i<19)assert.ok(view.includes(`href="${s.lessons[i+1].id}.html"`));
-  if(s.slug==='hindi'){assert.ok(view.includes('pronunciation review pending'));assert.ok(l.status.startsWith('Draft'));}else assert.equal(l.status,'Checked locally');lessons++;
+  if(s.slug==='hindi'){assert.ok(view.includes('Pronunciation review is pending'));assert.ok(l.status.startsWith('Draft'));}else assert.equal(l.status,'Checked locally');lessons++;
  }
 }
 assert.equal(lessons,100);assert.equal(files.filter(x=>x.includes(path.sep+'content'+path.sep)&&x.endsWith('.html')).length,100);
-console.log(`Passed: ${lessons} original lesson hashes, 100 viewers, 5 subject indexes, ${links} local references, previous/next navigation and Hindi draft notices.`);
+console.log(`Passed: ${lessons} updated lesson hashes, 100 3D studio integrations/previews, 100 redirects, 5 subject indexes, ${links} local references and Hindi draft notices.`);

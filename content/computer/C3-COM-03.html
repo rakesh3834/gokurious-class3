@@ -181,6 +181,9 @@
   note(text){controls.append(el('p','gk-instruction',text));},
   tiles(items){stage.replaceChildren();const grid=el('div','gk-picture-grid');items.forEach(item=>{const tile=el('div','gk-picture-tile');tile.append(el('span','gk-picture-icon',item[0]),el('strong','',item[1]),el('span','',item[2]||''));grid.append(tile);});stage.append(grid);},
  };
+ window.GK_LESSON={H,data};
+ /* GK_ASSET_TAGS: retain the original SVG for fallback; attach semantic mesh metadata. */
+ for(const method of ['toy','person','leaf'])if(H[method]){const original=H[method];H[method]=function(...args){return '<g data-gk-asset="'+method+'" data-gk-args="'+H.e(JSON.stringify(args))+'">'+original(...args)+'</g>';};}
  mount(H);
  q('.gk-main-reset').addEventListener('click',()=>H.reset());
  root.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',event=>{const target=document.getElementById(a.getAttribute('href').slice(1));if(target&&root.contains(target)){event.preventDefault();target.scrollIntoView({block:'start'});}}));
@@ -199,4 +202,5 @@
  function action(k){if(k!==step){H.say('Look at the current step. '+(step<3?'Complete the start routine first.':step===3?'Make a drawing next.':step===4?'Save the drawing before closing.':step===5?'Close the saved drawing next.':step===6?'Choose Shut down from this practice menu.':step===7?'Wait for shutdown to finish.':'The routine is complete. Reset to try again.'));return;}step++;draw();H.say(steps[step]+'. '+(step===8?'You saved, closed and shut down in order.':'Follow the next visible step.'));}
  function draw(){const b=H.board('A pretend computer session'),row=H.el('div','gk-row');b.append(row);cards.forEach((c,i)=>H.button(c,()=>{if(i!==order.length){H.say('For the start plan, ask an adult first, press power next, then wait.');return;}order.push(i);draw();H.say(order.length===3?'Start plan ready. Follow it with the controls.':c+' added to your plan.');},row));b.append(H.el('p','gk-panel',order.length?order.map(i=>cards[i]).join(' → '):'Arrange a start plan by tapping the cards.'));b.append(H.el('p','gk-readout','Step '+step+' / 8: '+steps[step]));if(step>=4&&step<6)b.append(H.el('div','gk-paper','☀\nA sunny practice drawing'+(step===5?' — saved':'')));H.caption('This page never switches a real computer on or off. An adult handles plugs and power supplies.');H.state({order,step});}
  const labels=['Adult readiness checked','Pretend power','Wait for desktop','Make drawing','Save drawing','Close drawing','Menu: Shut down','Wait until off'];labels.forEach((l,i)=>H.button(l,()=>{if(order.length!==3){H.say('Arrange the three start cards first.');return;}action(i);}));H.reset=()=>{order=[];step=0;draw();H.say('Make a start plan. This whole session uses a pretend computer.');};H.reset();
-});</script></div></body></html>
+});</script></div>
+<!-- GK-STUDIO-START --><link rel="stylesheet" href="../../assets/studio.css"><script>window.GK_META={"id":"C3-COM-03","title":"Ready, Work, Rest","subject":"computer","name":"Computer","language":"en","index":2,"topic":"Starting and shutting down","outcome":"Order a supervised start and shutdown routine.","previous":"C3-COM-02","next":"C3-COM-04"};</script><script type="module" src="../../assets/studio.js"></script><!-- GK-STUDIO-END --></body></html>

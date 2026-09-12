@@ -149,6 +149,9 @@
  const motion=matchMedia('(prefers-reduced-motion: reduce)');
  H.animate=(node,frames)=>{if(node&&!motion.matches)node.animate(frames,{duration:650,easing:'ease-out'});};
  motion.addEventListener('change',()=>{if(motion.matches)root.getAnimations({subtree:true}).forEach(a=>a.cancel());});
+ window.GK_LESSON={H,data};
+ /* GK_ASSET_TAGS: retain the original SVG for fallback; attach semantic mesh metadata. */
+ for(const method of ['toy','person','leaf'])if(H[method]){const original=H[method];H[method]=function(...args){return '<g data-gk-asset="'+method+'" data-gk-args="'+H.e(JSON.stringify(args))+'">'+original(...args)+'</g>';};}
  mount(H);
  q('.gk-main-reset').addEventListener('click',()=>H.reset());
  root.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',event=>{const target=document.getElementById(a.getAttribute('href').slice(1));if(target&&root.contains(target)){event.preventDefault();target.scrollIntoView({block:'start'});}}));
@@ -167,4 +170,5 @@
  const go=H.button('One cow leaves · make a mark',()=>{left++;draw();});const home=H.button('One cow returns · cross a mark',()=>{back++;draw();});
  function draw(){H.stage.replaceChildren();H.stage.append(H.el('div','gk-readout',`${total-left+back} at home · ${left-back} still outside`));const g=H.el('div','gk-chip-row');for(let i=0;i<total;i++){const c=H.el('span','gk-picture-tile',i<left?(i<back?'🐄 ✓':'🐄 |'):'🐄');c.setAttribute('aria-label',`Cow ${i+1}: ${i<left?(i<back?'returned, mark crossed':'outside, mark open'):'has not left'}`);g.append(c);}H.stage.append(g);go.disabled=left===total;home.disabled=back===left;H.caption(`${left} departure marks · ${back} crossed · ${left-back} unmatched`);H.say(left===0?'Send cows through the gate one at a time. Each departure makes exactly one mark.':left===back?'Every cow that left has returned. All departure marks are crossed.':`${left-back} unmatched mark${left-back===1?'':'s'} means ${left-back} cow${left-back===1?' is':'s are'} still outside. ${total-left} have not left the shed.`);H.stage.dataset.state=JSON.stringify({total,left,back});}
  H.note('Changing the herd starts a fresh counting trip. A cow that has not left cannot return.');draw();}H.reset=init;init();
-});</script></div></body></html>
+});</script></div>
+<!-- GK-STUDIO-START --><link rel="stylesheet" href="../../assets/studio.css"><script>window.GK_META={"id":"MATH-01","title":"Count Them Home","subject":"maths","name":"Maths","language":"en","index":0,"topic":"Counting and recording a group with one mark per object","outcome":"I can use marks to check whether every animal has returned.","next":"MATH-02"};</script><script type="module" src="../../assets/studio.js"></script><!-- GK-STUDIO-END --></body></html>

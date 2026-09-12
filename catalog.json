@@ -17,8 +17,10 @@
           "minutes": 7,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "8a4bcf1ef7190e97c2318682f4ee5b09275469bfa50d50d31baf7e98314d4e38",
-          "bytes": 31348
+          "sha256": "18cb36da2a8c2cce452bda953d469148c52f5ecd3e405dc6a74cfd9e13277db9",
+          "bytes": 32218,
+          "originalSha256": "8a4bcf1ef7190e97c2318682f4ee5b09275469bfa50d50d31baf7e98314d4e38",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "SCI-02",
@@ -28,8 +30,10 @@
           "minutes": 8,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "bb0f1570e2766e208a71d7d0541cff65490d7fd749a467206bc18e6fc403f34f",
-          "bytes": 30690
+          "sha256": "f8794022361d8438ee72a47a01ab5f017bcd57a04e0005b26491719504878a2c",
+          "bytes": 31576,
+          "originalSha256": "bb0f1570e2766e208a71d7d0541cff65490d7fd749a467206bc18e6fc403f34f",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "SCI-03",
@@ -39,8 +43,10 @@
           "minutes": 6,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "0fe5f33c08f63391077cb37eadfc1bf4cf2b17e27c892b1f32eec0c06433df35",
-          "bytes": 30768
+          "sha256": "5c41ad7ee10304f7cae194e99aa23d60b14812a94994ecf0d7c381fa7b5a45ca",
+          "bytes": 31634,
+          "originalSha256": "0fe5f33c08f63391077cb37eadfc1bf4cf2b17e27c892b1f32eec0c06433df35",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "SCI-04",
@@ -50,8 +56,10 @@
           "minutes": 8,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "b406ba28b320ef75dd39b79f03edbe4f7d60c3ac413d26731d89f402a6637a6a",
-          "bytes": 30600
+          "sha256": "cfcdae09da3d72c1ee77a0df7db90e6022be7cdc2aea3789bf27fcb3b205081c",
+          "bytes": 31492,
+          "originalSha256": "b406ba28b320ef75dd39b79f03edbe4f7d60c3ac413d26731d89f402a6637a6a",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "SCI-05",
@@ -61,8 +69,10 @@
           "minutes": 7,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "d2f825cf1a5b2ddb07acf01a80b36fb2a0f65055bd778a6dc0e51526e136a832",
-          "bytes": 30872
+          "sha256": "33eacb112137f4f8e8a310022e208a1bc592293f4100a4b5d6321da2468a8742",
+          "bytes": 31761,
+          "originalSha256": "d2f825cf1a5b2ddb07acf01a80b36fb2a0f65055bd778a6dc0e51526e136a832",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "SCI-06",
@@ -72,8 +82,10 @@
           "minutes": 6,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "ccd1fff39a75a6d6b44bc92a2c9654e34ed2d5e2177980a6cbb3dc534b129f75",
-          "bytes": 30472
+          "sha256": "d5d5b819872134ece9b7c5cf9fe7b4c9f7691838dd13ac50501ccfe88c3f6a02",
+          "bytes": 31350,
+          "originalSha256": "ccd1fff39a75a6d6b44bc92a2c9654e34ed2d5e2177980a6cbb3dc534b129f75",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "SCI-07",
@@ -83,8 +95,10 @@
           "minutes": 7,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "bd93eb5af112e070cefea2ed2b97159bf4604e6d912b4955a8d2946700011c59",
-          "bytes": 30709
+          "sha256": "a8c9d7c0f664e80aa805c821ee7a3f4e950f5e4925ca88f006c706e3dc9b9b07",
+          "bytes": 31597,
+          "originalSha256": "bd93eb5af112e070cefea2ed2b97159bf4604e6d912b4955a8d2946700011c59",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "SCI-08",
@@ -94,8 +108,10 @@
           "minutes": 7,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "460047756789960735e857c093eff9c3e7d9a862571797d66eb2eda306e6fbb7",
-          "bytes": 30703
+          "sha256": "179a40ddd50195ceafb93613ab33f01ebb91c94f175aa7c825c49dac665955de",
+          "bytes": 31575,
+          "originalSha256": "460047756789960735e857c093eff9c3e7d9a862571797d66eb2eda306e6fbb7",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "SCI-09",
@@ -105,8 +121,10 @@
           "minutes": 6,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "254ae5a513d8734b48089b2e32d3479c671dd82eec59f0b933cd40db70fccdbe",
-          "bytes": 30430
+          "sha256": "2259f3d05abbf1a344e84224813c17357deea8100c93a8f1e9ad469cabfb3c25",
+          "bytes": 31305,
+          "originalSha256": "254ae5a513d8734b48089b2e32d3479c671dd82eec59f0b933cd40db70fccdbe",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "SCI-10",
@@ -116,8 +134,10 @@
           "minutes": 7,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "aacd44e5b043658b9707244ad2b4e802df4ecc5a96dcad31f8dd3868c059fcd5",
-          "bytes": 30396
+          "sha256": "130f8d0b71a7e532b22beec069c33f48cb73183553a1eca31b148e934ced4a94",
+          "bytes": 31268,
+          "originalSha256": "aacd44e5b043658b9707244ad2b4e802df4ecc5a96dcad31f8dd3868c059fcd5",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "SCI-11",
@@ -127,8 +147,10 @@
           "minutes": 6,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "d78532d1ea029e9c4c3107cf7fa81ee5340fcc961a0c57187f7ebdb2da2e6e57",
-          "bytes": 30551
+          "sha256": "fd823d589f0c16d578098b74d24874fca246ee777d097e9a515e99d1a2af5696",
+          "bytes": 31417,
+          "originalSha256": "d78532d1ea029e9c4c3107cf7fa81ee5340fcc961a0c57187f7ebdb2da2e6e57",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "SCI-12",
@@ -138,8 +160,10 @@
           "minutes": 7,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "3e6ac94fff38f389366f212b70bb4a168cbc72e23c73b903170fbae19308bd19",
-          "bytes": 30552
+          "sha256": "e0725fa97c646810fb5e605ec5faa97616944b2bf555fcce83adc9d9852a53e1",
+          "bytes": 31421,
+          "originalSha256": "3e6ac94fff38f389366f212b70bb4a168cbc72e23c73b903170fbae19308bd19",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "SCI-13",
@@ -149,8 +173,10 @@
           "minutes": 6,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "620d7abb8d1e85d6cf7cd1f951dd17d9a4d6f09148e2dd7ec98482159dab625d",
-          "bytes": 30417
+          "sha256": "838b0ac9ae16a9499d4be364b56ccd7c098d19aa1ee6e42f3dd3a88e34a469eb",
+          "bytes": 31308,
+          "originalSha256": "620d7abb8d1e85d6cf7cd1f951dd17d9a4d6f09148e2dd7ec98482159dab625d",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "SCI-14",
@@ -160,8 +186,10 @@
           "minutes": 6,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "c7f2dd9f4b1e1645d9ba599e79cf8666d13660e4f3d6b265049e0540d1a32859",
-          "bytes": 30307
+          "sha256": "2afaba976d4c2708d602d9e5e7ddb308d7c4dc4198531e9133a8d2fa1651dbdb",
+          "bytes": 31207,
+          "originalSha256": "c7f2dd9f4b1e1645d9ba599e79cf8666d13660e4f3d6b265049e0540d1a32859",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "SCI-15",
@@ -171,8 +199,10 @@
           "minutes": 7,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "cc56e27666d18846e17fffd7a75df4149a3c7e3512de7b74a113fc8aca2ffd11",
-          "bytes": 30815
+          "sha256": "d5f63af1776875fd0f15df62d943e5d6c643bd5c0a27bdf6a8ef0edc8b4ec219",
+          "bytes": 31700,
+          "originalSha256": "cc56e27666d18846e17fffd7a75df4149a3c7e3512de7b74a113fc8aca2ffd11",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "SCI-16",
@@ -182,8 +212,10 @@
           "minutes": 6,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "5ed94d7c8cdf3b655b19e0cfc2ffe00564f312b9af8abceab94ff0efc1cb468f",
-          "bytes": 30783
+          "sha256": "7692077e6e120fb798cbe2ef139442f29b504013a672e128a262e1c2c32fe48e",
+          "bytes": 31675,
+          "originalSha256": "5ed94d7c8cdf3b655b19e0cfc2ffe00564f312b9af8abceab94ff0efc1cb468f",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "SCI-17",
@@ -193,8 +225,10 @@
           "minutes": 7,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "987a6297202eeae62c84cc8999ca3d9589a8dcb06ae2fafd202239384072b583",
-          "bytes": 30969
+          "sha256": "54f940a5685b6a230e7c0d63883e3bb14e30f0ae4b44a5cf3a2af778f2643639",
+          "bytes": 31869,
+          "originalSha256": "987a6297202eeae62c84cc8999ca3d9589a8dcb06ae2fafd202239384072b583",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "SCI-18",
@@ -204,8 +238,10 @@
           "minutes": 8,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "69cec862a99805e0b5f8c0468549d99be9dbaba0bb8ec579e2765c457e1ee16a",
-          "bytes": 30598
+          "sha256": "1805eea63d9458c474139112400f50e5787b862dfcd5fdd1a19579d64aaaffe4",
+          "bytes": 31480,
+          "originalSha256": "69cec862a99805e0b5f8c0468549d99be9dbaba0bb8ec579e2765c457e1ee16a",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "SCI-19",
@@ -215,8 +251,10 @@
           "minutes": 7,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "311a822442e2c38bd9ae1d23d47f6bef2af50a2bd9f55d33d7bb8d05aa3ca2b1",
-          "bytes": 31223
+          "sha256": "6f884782c8e07386d913223e2f99b92874ab87817887b252b4ebfed138f197ed",
+          "bytes": 32126,
+          "originalSha256": "311a822442e2c38bd9ae1d23d47f6bef2af50a2bd9f55d33d7bb8d05aa3ca2b1",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "SCI-20",
@@ -226,8 +264,10 @@
           "minutes": 8,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "31c474abcb4825b0a9ea3c2a680b03bb746bf15e71fe7e2d5349153568796f7c",
-          "bytes": 30487
+          "sha256": "2c127f3aeb09ec9cc28d07bc01518a8cb45e94eb769f684074817d273d7f1117",
+          "bytes": 31338,
+          "originalSha256": "31c474abcb4825b0a9ea3c2a680b03bb746bf15e71fe7e2d5349153568796f7c",
+          "presentation": "Interactive 3D studio"
         }
       ]
     },
@@ -247,8 +287,10 @@
           "minutes": 5,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "948c6c3990accb47a57090ce99a733f07a98137d515658b1e1e573bb16b4d0a1",
-          "bytes": 33899
+          "sha256": "2f486a6ffd1a31f0b940d58a98b304797d6825a2e6d80eb55d17ccfa4bd0c9b7",
+          "bytes": 34694,
+          "originalSha256": "948c6c3990accb47a57090ce99a733f07a98137d515658b1e1e573bb16b4d0a1",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "MATH-02",
@@ -258,8 +300,10 @@
           "minutes": 8,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "dd923bc04de6a45db19464b87987fb69944278a9b5528566076023fd272e080e",
-          "bytes": 34566
+          "sha256": "1c7b4a5ed19cefab0509ca703daee291bcd3aa320685b24e9afb8678b57cef9c",
+          "bytes": 35372,
+          "originalSha256": "dd923bc04de6a45db19464b87987fb69944278a9b5528566076023fd272e080e",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "MATH-03",
@@ -269,8 +313,10 @@
           "minutes": 8,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "0e23723fd9ed9ac8d08275ceb4df25c37d8c26eb456d738d613a9c26c239105b",
-          "bytes": 35437
+          "sha256": "e106a1c524406d4e0cdc700b83e960914e6abf9f9bc309b6dcc49c3519230b93",
+          "bytes": 36235,
+          "originalSha256": "0e23723fd9ed9ac8d08275ceb4df25c37d8c26eb456d738d613a9c26c239105b",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "MATH-04",
@@ -280,8 +326,10 @@
           "minutes": 7,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "179cc4d6907aec4d36399f071726e6ae3afc98f9420f49f533042777075c9ff8",
-          "bytes": 34620
+          "sha256": "2dc7c2584e49c5609b89b5a5df608663adc494738e377f45e0e61ad3a4674f23",
+          "bytes": 35422,
+          "originalSha256": "179cc4d6907aec4d36399f071726e6ae3afc98f9420f49f533042777075c9ff8",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "MATH-05",
@@ -291,8 +339,10 @@
           "minutes": 8,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "9309a0484165d1d3f7fe90dd22390acb1d3a2acc7cc6613d2785a2c7e3b741fa",
-          "bytes": 34194
+          "sha256": "18d1c2625e8cde81eb151d6594e59e223399c49462fb02007fbddb5fe2aa6467",
+          "bytes": 35001,
+          "originalSha256": "9309a0484165d1d3f7fe90dd22390acb1d3a2acc7cc6613d2785a2c7e3b741fa",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "MATH-06",
@@ -302,8 +352,10 @@
           "minutes": 8,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "03c31125b63acf366895b1dc3e9135969a7658a32701818ae81da2456183699d",
-          "bytes": 33986
+          "sha256": "07b406b9c8aa98cfa5b8701f3ff6ac5e8f931220bf2a109deb3a9caf7470a7a3",
+          "bytes": 34785,
+          "originalSha256": "03c31125b63acf366895b1dc3e9135969a7658a32701818ae81da2456183699d",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "MATH-07",
@@ -313,8 +365,10 @@
           "minutes": 7,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "399cc4acc1e5f13bfe3a70f91abbb4cbe3c1ec7c1fc138a4295596a4e42aa37b",
-          "bytes": 33375
+          "sha256": "0b2992533194d79d0a0c2b4a52e3e8f8ef6cfe8997288cf156e44e3be5a0ef5a",
+          "bytes": 34185,
+          "originalSha256": "399cc4acc1e5f13bfe3a70f91abbb4cbe3c1ec7c1fc138a4295596a4e42aa37b",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "MATH-08",
@@ -324,8 +378,10 @@
           "minutes": 7,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "c8be9277718c2dc09726682b5baf3dfc0f6d26b1aa8caee80285c27f07370af8",
-          "bytes": 34455
+          "sha256": "e20b7949c97a3762afeccf2cdd3a859da0d44ec2a171604bafdd0d90425fb12e",
+          "bytes": 35246,
+          "originalSha256": "c8be9277718c2dc09726682b5baf3dfc0f6d26b1aa8caee80285c27f07370af8",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "MATH-09",
@@ -335,8 +391,10 @@
           "minutes": 6,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "a061e28c0fcfc362af1eb67a4fb75f3209ddb77ffa5364e389eaeedf686db218",
-          "bytes": 34274
+          "sha256": "746495ec2dc6076394ed236cd55e9138101803bd574c57105c45a15d539722bb",
+          "bytes": 35076,
+          "originalSha256": "a061e28c0fcfc362af1eb67a4fb75f3209ddb77ffa5364e389eaeedf686db218",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "MATH-10",
@@ -346,8 +404,10 @@
           "minutes": 6,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "6a1ce55728f857ba504abedcc89f1099f132eb3a64fb5a50ea63e673cc550fd6",
-          "bytes": 34642
+          "sha256": "d6aefa4bc8eebe99fb7027b47b4e7f7e75fc593e654c6e7d4006486ca900fc5b",
+          "bytes": 35456,
+          "originalSha256": "6a1ce55728f857ba504abedcc89f1099f132eb3a64fb5a50ea63e673cc550fd6",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "MATH-11",
@@ -357,8 +417,10 @@
           "minutes": 8,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "a4806f3e8c7dfa02369f9cfc1d2cf2044cdb411f9d81d420063b5eab4172fbdc",
-          "bytes": 34446
+          "sha256": "6999a85737b4f1391fd1d2888463b7fd2c844a82403db969f8c49bf421e79de1",
+          "bytes": 35254,
+          "originalSha256": "a4806f3e8c7dfa02369f9cfc1d2cf2044cdb411f9d81d420063b5eab4172fbdc",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "MATH-12",
@@ -368,8 +430,10 @@
           "minutes": 6,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "3ccc56e072b8968aa020bb255d749f29eb16610c50ea1e23c24c64ae24bb2059",
-          "bytes": 34139
+          "sha256": "faa69a43fd05d74a39ec0676a9beb3498e33fe57cb5052bac6c641acb18042d0",
+          "bytes": 34946,
+          "originalSha256": "3ccc56e072b8968aa020bb255d749f29eb16610c50ea1e23c24c64ae24bb2059",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "MATH-13",
@@ -379,8 +443,10 @@
           "minutes": 7,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "10f34ad3aa6175269a2ab4fe092d4396581e6333ceac364c104da9b5937564dd",
-          "bytes": 34063
+          "sha256": "2c606df4d1560c712bb454cfc8ff9d38ec4bf45be578e74ee16b0c12b27035e3",
+          "bytes": 34881,
+          "originalSha256": "10f34ad3aa6175269a2ab4fe092d4396581e6333ceac364c104da9b5937564dd",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "MATH-14",
@@ -390,8 +456,10 @@
           "minutes": 7,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "bbf9e8cb18686e7e9d03986a2484ed2cf6896cd66355228e2c0a19903be0959d",
-          "bytes": 34358
+          "sha256": "8d04a6f79ba775d05233ca1509f45d099847a54f4a894622be54b36346d5c28c",
+          "bytes": 35187,
+          "originalSha256": "bbf9e8cb18686e7e9d03986a2484ed2cf6896cd66355228e2c0a19903be0959d",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "MATH-15",
@@ -401,8 +469,10 @@
           "minutes": 8,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "023f9826d604754692eb5df001d76f10779c4a0a00a175a22425eaffa3c4d8e7",
-          "bytes": 34137
+          "sha256": "a7f5a744da07a3577e922856a6d87303ec3e56573c8554a2863bae8cd2794925",
+          "bytes": 34950,
+          "originalSha256": "023f9826d604754692eb5df001d76f10779c4a0a00a175a22425eaffa3c4d8e7",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "MATH-16",
@@ -412,8 +482,10 @@
           "minutes": 7,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "87c24bf0b35b63b0415b9ba29efeeb539f612a082982e041248b3cea146fff22",
-          "bytes": 35270
+          "sha256": "e39ad5a9b04143bfa5c4dd62dc6b09bdb127ae09f2a02f9b487a50aba28f4574",
+          "bytes": 36074,
+          "originalSha256": "87c24bf0b35b63b0415b9ba29efeeb539f612a082982e041248b3cea146fff22",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "MATH-17",
@@ -423,8 +495,10 @@
           "minutes": 7,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "da669e55415d2ffe7ff30e5a1bfb8eb9b8fc42fb18d0ea2fd7d4d0a37bb5f233",
-          "bytes": 34680
+          "sha256": "81b18925e8c8176226309d1f6235664df96aa5e03141d79eaab946785ba25429",
+          "bytes": 35495,
+          "originalSha256": "da669e55415d2ffe7ff30e5a1bfb8eb9b8fc42fb18d0ea2fd7d4d0a37bb5f233",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "MATH-18",
@@ -434,8 +508,10 @@
           "minutes": 6,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "fd9a02c4f6f61ca32ae7521349d55d23e1c58731355bca80a5173f067258c315",
-          "bytes": 34491
+          "sha256": "e72d1fd18427251d47f4ddd8b98b3c2d033c6b6977ef0c34fa169267f3ba4c3f",
+          "bytes": 35288,
+          "originalSha256": "fd9a02c4f6f61ca32ae7521349d55d23e1c58731355bca80a5173f067258c315",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "MATH-19",
@@ -445,8 +521,10 @@
           "minutes": 6,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "9c7d3fc7e190f47493c870ffd2ff507ab47ff0d78b3668968b855448fc3c56ea",
-          "bytes": 34396
+          "sha256": "a8e728994e51a99f23d5644d2a9386d885ec9439ce0a9b8ef8adc0501a4084f3",
+          "bytes": 35212,
+          "originalSha256": "9c7d3fc7e190f47493c870ffd2ff507ab47ff0d78b3668968b855448fc3c56ea",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "MATH-20",
@@ -456,8 +534,10 @@
           "minutes": 8,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "34a030171596fad04a72ff57bd74463f16e8b2cfa27b14937564401cdf08979b",
-          "bytes": 35434
+          "sha256": "befc8b39031ee093f14c82909b853487b8999f231866a85478567f95ebf8e1e4",
+          "bytes": 36205,
+          "originalSha256": "34a030171596fad04a72ff57bd74463f16e8b2cfa27b14937564401cdf08979b",
+          "presentation": "Interactive 3D studio"
         }
       ]
     },
@@ -477,8 +557,10 @@
           "minutes": 6,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "28cd6e60bb812e97a65e88d50ca41a6f5f2dc446373b335f455f2e2d916200ee",
-          "bytes": 37952
+          "sha256": "af6ef568d52a5b033376f97f0d32a5d9b8957d47ab5594098743280c547d779a",
+          "bytes": 38738,
+          "originalSha256": "28cd6e60bb812e97a65e88d50ca41a6f5f2dc446373b335f455f2e2d916200ee",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "ENG-02",
@@ -488,8 +570,10 @@
           "minutes": 5,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "e454026d7efb1171342b4027a46714d677bbb9ce8ab7b11debb9a8db66a10c13",
-          "bytes": 37543
+          "sha256": "cc6b3f320464105cef217920ded63dabaa45123b04009bcec2aee0b5b4b883f5",
+          "bytes": 38323,
+          "originalSha256": "e454026d7efb1171342b4027a46714d677bbb9ce8ab7b11debb9a8db66a10c13",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "ENG-03",
@@ -499,8 +583,10 @@
           "minutes": 6,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "3914a67ce6141de15605d328edb4b55fb3312ded065c050b909bbebc04dda139",
-          "bytes": 37854
+          "sha256": "a32780f71b43853660d6dac49a2ed1b43a8699637410f0e41aac0ea827798132",
+          "bytes": 38666,
+          "originalSha256": "3914a67ce6141de15605d328edb4b55fb3312ded065c050b909bbebc04dda139",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "ENG-04",
@@ -510,8 +596,10 @@
           "minutes": 6,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "61a44c8feda60a4358ff93bf42e2ebab0d6a218278f1c483f4653c017ab2331f",
-          "bytes": 38094
+          "sha256": "8dd208e025ae6cfb5e1a7a30e1c231410204e828d37a04a59b64974bcbc7a838",
+          "bytes": 38893,
+          "originalSha256": "61a44c8feda60a4358ff93bf42e2ebab0d6a218278f1c483f4653c017ab2331f",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "ENG-05",
@@ -521,8 +609,10 @@
           "minutes": 8,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "ae46b4d25f918c1e8503b18ad05298192dcdcc1fd3274d5e059fb824bc36d8d6",
-          "bytes": 38291
+          "sha256": "d9e1186126aa1ea4a03cd9763c1e001fe5b50773fd1a0e40f15fb6643a1f6ffb",
+          "bytes": 39074,
+          "originalSha256": "ae46b4d25f918c1e8503b18ad05298192dcdcc1fd3274d5e059fb824bc36d8d6",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "ENG-06",
@@ -532,8 +622,10 @@
           "minutes": 5,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "37ecda92314b94db4d5a7b8d0cd4faa43c504d4fab931a53e1e45da159b8bcd2",
-          "bytes": 37025
+          "sha256": "924299f0a704639234887fcf972977f301ae1647d9b1b4480873f072cc680301",
+          "bytes": 37830,
+          "originalSha256": "37ecda92314b94db4d5a7b8d0cd4faa43c504d4fab931a53e1e45da159b8bcd2",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "ENG-07",
@@ -543,8 +635,10 @@
           "minutes": 6,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "c027d709d118bfd3616a59efc3b82683b4648298ee4210ed0e55e5596e044c18",
-          "bytes": 37028
+          "sha256": "7137d549c3fcc05de59e00e1e2adc83a9394472a0607a0325c05d4e39d00e715",
+          "bytes": 37847,
+          "originalSha256": "c027d709d118bfd3616a59efc3b82683b4648298ee4210ed0e55e5596e044c18",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "ENG-08",
@@ -554,8 +648,10 @@
           "minutes": 6,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "e067c71911b926232e990d48b0ae245433f745426aa12761c6960e19d1dc1350",
-          "bytes": 37929
+          "sha256": "8a8dbbd7adb89e5894213c505d97c17ec6128b6c72d9bd67f08482a35987819c",
+          "bytes": 38715,
+          "originalSha256": "e067c71911b926232e990d48b0ae245433f745426aa12761c6960e19d1dc1350",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "ENG-09",
@@ -565,8 +661,10 @@
           "minutes": 6,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "80fc1362e17733647bc2a5476345331872037210ef00b738fcb045b1d2439228",
-          "bytes": 37314
+          "sha256": "4a1055442b49651978ad41dd8c6e00eebe4b46fb76b8198f16f0d65267698cc0",
+          "bytes": 38123,
+          "originalSha256": "80fc1362e17733647bc2a5476345331872037210ef00b738fcb045b1d2439228",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "ENG-10",
@@ -576,8 +674,10 @@
           "minutes": 6,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "89c6687ec07679506513bc2b7b59d18c5e310cb5eff5058cd316c8bc15ec8bf2",
-          "bytes": 36956
+          "sha256": "887debae0d4048837a810390090c10fb152840b7c8185e5fc359ac57c1ff8361",
+          "bytes": 37745,
+          "originalSha256": "89c6687ec07679506513bc2b7b59d18c5e310cb5eff5058cd316c8bc15ec8bf2",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "ENG-11",
@@ -587,8 +687,10 @@
           "minutes": 5,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "4ea402e6708a06a7074956575f477b6be66f5cfea57128b1d0e3b85c663e406d",
-          "bytes": 37326
+          "sha256": "510cd9034b8a023d144a362c2171c5aab7ed9eb518682c3b5d84755f827a308c",
+          "bytes": 38130,
+          "originalSha256": "4ea402e6708a06a7074956575f477b6be66f5cfea57128b1d0e3b85c663e406d",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "ENG-12",
@@ -598,8 +700,10 @@
           "minutes": 6,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "195d1f0a33ef248e59b328a104652a4bc835f4efd287fdf76707cfc38a99c7b7",
-          "bytes": 37087
+          "sha256": "b5bd21516edf6ba5cf1319c85ef5a9461c7fe46394b598b285a7d33ee6e740e1",
+          "bytes": 37896,
+          "originalSha256": "195d1f0a33ef248e59b328a104652a4bc835f4efd287fdf76707cfc38a99c7b7",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "ENG-13",
@@ -609,8 +713,10 @@
           "minutes": 5,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "e0952b343914868ca1071eb3ee2a579c5870f4f764bc0ce2ce55b363f459f805",
-          "bytes": 37174
+          "sha256": "8baafa4ad4b08b244f9bb2b06653a34f5417f7f1ea0da6166b38e76d4d3bbe7c",
+          "bytes": 37992,
+          "originalSha256": "e0952b343914868ca1071eb3ee2a579c5870f4f764bc0ce2ce55b363f459f805",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "ENG-14",
@@ -620,8 +726,10 @@
           "minutes": 5,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "eaac5a518a8259887ca19dc18967f5fa0e0d59fe12885ba819f26c4f7ac52cc5",
-          "bytes": 38023
+          "sha256": "93060fa4c00bd24a554cffa8641b32886c5434c0539009757ba1b1f7fbcf8a91",
+          "bytes": 38829,
+          "originalSha256": "eaac5a518a8259887ca19dc18967f5fa0e0d59fe12885ba819f26c4f7ac52cc5",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "ENG-15",
@@ -631,8 +739,10 @@
           "minutes": 5,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "7fae0bf7cbfc62308a0e1ed5193629ba93b31779fa4c45d8c2845f1212bb0853",
-          "bytes": 36817
+          "sha256": "bab4cd234ae213d8c819b13b4e46b70de380f3d60dc9e9523852c35272834bd5",
+          "bytes": 37628,
+          "originalSha256": "7fae0bf7cbfc62308a0e1ed5193629ba93b31779fa4c45d8c2845f1212bb0853",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "ENG-16",
@@ -642,8 +752,10 @@
           "minutes": 7,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "d946b1d4ab8aa7193cf9fd20b4ab28d7b432914caafca68ccefa0007681c65cf",
-          "bytes": 37592
+          "sha256": "91b4640b18f7d3213f0074204b3426e777099c83915d186c96c83629cc865278",
+          "bytes": 38397,
+          "originalSha256": "d946b1d4ab8aa7193cf9fd20b4ab28d7b432914caafca68ccefa0007681c65cf",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "ENG-17",
@@ -653,8 +765,10 @@
           "minutes": 5,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "0608a9c4a274b5cd39e346639a402e709e48b2aaedab8e2db253af52f07f7aaf",
-          "bytes": 37909
+          "sha256": "fbc8d99b21f54934a25b356766587816c3773eb402ada3e1ec775813e16162e9",
+          "bytes": 38716,
+          "originalSha256": "0608a9c4a274b5cd39e346639a402e709e48b2aaedab8e2db253af52f07f7aaf",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "ENG-18",
@@ -664,8 +778,10 @@
           "minutes": 6,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "f9b9c1f56cabc29279f23abde57c17767cb7c6e02d07a9d84d4a4fd638477b61",
-          "bytes": 38009
+          "sha256": "741f4883f9951a2a1267e9c030414dffbb44f04299b89a2224b15e24d5b7ffa6",
+          "bytes": 38825,
+          "originalSha256": "f9b9c1f56cabc29279f23abde57c17767cb7c6e02d07a9d84d4a4fd638477b61",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "ENG-19",
@@ -675,8 +791,10 @@
           "minutes": 8,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "3776b6dbf853cd405eb9e5a0bd88b392f47f9484b6fe64f48716c3a22eabd219",
-          "bytes": 38282
+          "sha256": "f948166764167d2a664c9b927fc0da3c71ff08cbe967f9bf345a48e43aac6b3f",
+          "bytes": 39094,
+          "originalSha256": "3776b6dbf853cd405eb9e5a0bd88b392f47f9484b6fe64f48716c3a22eabd219",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "ENG-20",
@@ -686,8 +804,10 @@
           "minutes": 6,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "734a92b9f92924640644089aeba3d6b464671254e813a28f85663b1fb0c08fdc",
-          "bytes": 37869
+          "sha256": "aac50bde70fdd0d5ec9e31cf65b8b36659971f4f805bd9fe792755c84a234226",
+          "bytes": 38689,
+          "originalSha256": "734a92b9f92924640644089aeba3d6b464671254e813a28f85663b1fb0c08fdc",
+          "presentation": "Interactive 3D studio"
         }
       ]
     },
@@ -707,8 +827,10 @@
           "minutes": 6,
           "language": "hi",
           "status": "Draft - Hindi pronunciation review",
-          "sha256": "3d4c5256cb07d42744c725a5d5f5c890a58f393ac4c766b31147d3ef11e99456",
-          "bytes": 42680
+          "sha256": "0191feb4a27ea40d91ef8e326025698850a22cfd6910462ca54d0f3129b5c070",
+          "bytes": 43631,
+          "originalSha256": "3d4c5256cb07d42744c725a5d5f5c890a58f393ac4c766b31147d3ef11e99456",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "HIN-02",
@@ -718,8 +840,10 @@
           "minutes": 6,
           "language": "hi",
           "status": "Draft - Hindi pronunciation review",
-          "sha256": "9e7566e0c2aa95dd5c92a833df13c45435c8d4f3cf7b1aa46fdb7a2ed803ea6a",
-          "bytes": 43790
+          "sha256": "620993568d2d6b6b51265d6537e17288e7111b68f1b1b1b85358eae88b64c79b",
+          "bytes": 44762,
+          "originalSha256": "9e7566e0c2aa95dd5c92a833df13c45435c8d4f3cf7b1aa46fdb7a2ed803ea6a",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "HIN-03",
@@ -729,8 +853,10 @@
           "minutes": 6,
           "language": "hi",
           "status": "Draft - Hindi pronunciation review",
-          "sha256": "a3be6f750636bb535e12bd5837cc9971cd031288990b54b048bdf6443370e5dd",
-          "bytes": 42740
+          "sha256": "eafc2239f55f8f473068091f71d1f0ec26d63575f8df7639cf8eda5a35a8765e",
+          "bytes": 43674,
+          "originalSha256": "a3be6f750636bb535e12bd5837cc9971cd031288990b54b048bdf6443370e5dd",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "HIN-04",
@@ -740,8 +866,10 @@
           "minutes": 5,
           "language": "hi",
           "status": "Draft - Hindi pronunciation review",
-          "sha256": "3497340a43698688d3aabb2b8c41d4c247a6e78da80a498bc2d312457502effb",
-          "bytes": 41670
+          "sha256": "460d87f5c2fcd8231b9810807243dd4f739d6b7f595696920ae8a1e686bba09e",
+          "bytes": 42662,
+          "originalSha256": "3497340a43698688d3aabb2b8c41d4c247a6e78da80a498bc2d312457502effb",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "HIN-05",
@@ -751,8 +879,10 @@
           "minutes": 5,
           "language": "hi",
           "status": "Draft - Hindi pronunciation review",
-          "sha256": "fd82c2dbf6285394cddc7d4f760e4c1e8cdad6dd196de8c344203d64bd3c947d",
-          "bytes": 42037
+          "sha256": "cbb2e6c92d925aad5fcfca2104eb4bbaab9c455be99aa96e251f14dcb3f22e88",
+          "bytes": 42974,
+          "originalSha256": "fd82c2dbf6285394cddc7d4f760e4c1e8cdad6dd196de8c344203d64bd3c947d",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "HIN-06",
@@ -762,8 +892,10 @@
           "minutes": 6,
           "language": "hi",
           "status": "Draft - Hindi pronunciation review",
-          "sha256": "294b5ebea63c110c979784a2a2c7dfb40f1d4489da97d78310431964da24ff64",
-          "bytes": 41452
+          "sha256": "c185e9582f0cfa9ccb5141cdbbe1009a525c5f51598bb66e17d39c10fb25d8b1",
+          "bytes": 42426,
+          "originalSha256": "294b5ebea63c110c979784a2a2c7dfb40f1d4489da97d78310431964da24ff64",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "HIN-07",
@@ -773,8 +905,10 @@
           "minutes": 7,
           "language": "hi",
           "status": "Draft - Hindi pronunciation review",
-          "sha256": "b3da3ea8c16f1cae103df2477633df9e99bb097d245e1585f962dee14185d8c8",
-          "bytes": 43259
+          "sha256": "fbe1629dd8937739d013b71d9640c4bb43d7cfdc1836422f3315c714d955322e",
+          "bytes": 44253,
+          "originalSha256": "b3da3ea8c16f1cae103df2477633df9e99bb097d245e1585f962dee14185d8c8",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "HIN-08",
@@ -784,8 +918,10 @@
           "minutes": 6,
           "language": "hi",
           "status": "Draft - Hindi pronunciation review",
-          "sha256": "0112177b5743339c20e7464a304254270306b6583cdec65957ee80f72d97c003",
-          "bytes": 42262
+          "sha256": "583d6a4d2250da1e2b5335473ecad7f29e284905314c2a5e05374791dda223ef",
+          "bytes": 43230,
+          "originalSha256": "0112177b5743339c20e7464a304254270306b6583cdec65957ee80f72d97c003",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "HIN-09",
@@ -795,8 +931,10 @@
           "minutes": 6,
           "language": "hi",
           "status": "Draft - Hindi pronunciation review",
-          "sha256": "2a2ff42d008c83f039182f354b905c8effb2717a9b4d9ed128f6f2fe19dcb3e8",
-          "bytes": 41885
+          "sha256": "9c014140bb31c698877d00c49b9eb64c4d0fdcf26999e30bb10027c8a60bde94",
+          "bytes": 42861,
+          "originalSha256": "2a2ff42d008c83f039182f354b905c8effb2717a9b4d9ed128f6f2fe19dcb3e8",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "HIN-10",
@@ -806,8 +944,10 @@
           "minutes": 6,
           "language": "hi",
           "status": "Draft - Hindi pronunciation review",
-          "sha256": "b4dcdaec22dd5265724bef184c8e76362fbca24e506dc75232486be11157f7cf",
-          "bytes": 41884
+          "sha256": "3046e4b1d4ff38f34e35a82928a01548a727913c47fcc3d50ef02735bb983338",
+          "bytes": 42901,
+          "originalSha256": "b4dcdaec22dd5265724bef184c8e76362fbca24e506dc75232486be11157f7cf",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "HIN-11",
@@ -817,8 +957,10 @@
           "minutes": 8,
           "language": "hi",
           "status": "Draft - Hindi pronunciation review",
-          "sha256": "fac39b162b3a9c58f92d287331037a8e32b52cc1579a4fe73ad537f135777b90",
-          "bytes": 43595
+          "sha256": "9abc9c55f34b4671b763888cc53091388b8016f4b610755cfbc5ff892078c3cd",
+          "bytes": 44569,
+          "originalSha256": "fac39b162b3a9c58f92d287331037a8e32b52cc1579a4fe73ad537f135777b90",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "HIN-12",
@@ -828,8 +970,10 @@
           "minutes": 6,
           "language": "hi",
           "status": "Draft - Hindi pronunciation review",
-          "sha256": "5c92270111c145c4d99f3f68a46535c3a72fd54a169809da12f06f44baded588",
-          "bytes": 42572
+          "sha256": "5c0ee69a24e46c0b134d5bea9ec564d6bedec708b9d6f78f95ee4417db07791e",
+          "bytes": 43532,
+          "originalSha256": "5c92270111c145c4d99f3f68a46535c3a72fd54a169809da12f06f44baded588",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "HIN-13",
@@ -839,8 +983,10 @@
           "minutes": 6,
           "language": "hi",
           "status": "Draft - Hindi pronunciation review",
-          "sha256": "46f8a28d17e5db087311bf1e70ab8ea215c4b1435aa8d1c77e42dade84553687",
-          "bytes": 42880
+          "sha256": "bc02ace3419c0432716e2728019a00fac4d0c99fd056280e9e96be563010e05a",
+          "bytes": 43854,
+          "originalSha256": "46f8a28d17e5db087311bf1e70ab8ea215c4b1435aa8d1c77e42dade84553687",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "HIN-14",
@@ -850,8 +996,10 @@
           "minutes": 5,
           "language": "hi",
           "status": "Draft - Hindi pronunciation review",
-          "sha256": "6463e2b03b3ea9d289b8d2e3f3933d00796d42a80e8f14d56378fbf77f805fc5",
-          "bytes": 43088
+          "sha256": "5799faf709d3880fc2c0859ea8701b5c41a1300bf3f3da9a9728e9fb53b90974",
+          "bytes": 44054,
+          "originalSha256": "6463e2b03b3ea9d289b8d2e3f3933d00796d42a80e8f14d56378fbf77f805fc5",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "HIN-15",
@@ -861,8 +1009,10 @@
           "minutes": 8,
           "language": "hi",
           "status": "Draft - Hindi pronunciation review",
-          "sha256": "c9873776c944d985cfbaaca4f4ce1fdcd3d78697e9dee5e6163edfba125b0275",
-          "bytes": 44753
+          "sha256": "6d2dc3ab38124d4e2fba26981bc4c85e7fabecfa84a3a34a66f049871f701eed",
+          "bytes": 45703,
+          "originalSha256": "c9873776c944d985cfbaaca4f4ce1fdcd3d78697e9dee5e6163edfba125b0275",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "HIN-16",
@@ -872,8 +1022,10 @@
           "minutes": 5,
           "language": "hi",
           "status": "Draft - Hindi pronunciation review",
-          "sha256": "9490ca5e33feeb1d0e82c41ee291f151681bd6bdf8414ab35dfd8db04ec133a5",
-          "bytes": 41883
+          "sha256": "c91b6cf8a6ebc21ec74a8ecd5bb7116e99ca266d025a8d16ea34f5f901226b09",
+          "bytes": 42843,
+          "originalSha256": "9490ca5e33feeb1d0e82c41ee291f151681bd6bdf8414ab35dfd8db04ec133a5",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "HIN-17",
@@ -883,8 +1035,10 @@
           "minutes": 7,
           "language": "hi",
           "status": "Draft - Hindi pronunciation review",
-          "sha256": "b45ce7918d9c8b73dd0d60afe0d0c8de57c3eee7a4f3739a4c8c5ce64678eb03",
-          "bytes": 42546
+          "sha256": "a068ec91197a9e7d1a840a9a4c9bd772593a9f826f9b9748dc1465b338af6efb",
+          "bytes": 43538,
+          "originalSha256": "b45ce7918d9c8b73dd0d60afe0d0c8de57c3eee7a4f3739a4c8c5ce64678eb03",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "HIN-18",
@@ -894,8 +1048,10 @@
           "minutes": 5,
           "language": "hi",
           "status": "Draft - Hindi pronunciation review",
-          "sha256": "cf47dfc7e582fa25cff974a9e14304c86693e08dc4c1aea68adb5de6b9eed84a",
-          "bytes": 42485
+          "sha256": "fa22e7c646bf3f894a66d4aa8fa2d91b14c7998058c2a94799a6909053c19733",
+          "bytes": 43438,
+          "originalSha256": "cf47dfc7e582fa25cff974a9e14304c86693e08dc4c1aea68adb5de6b9eed84a",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "HIN-19",
@@ -905,8 +1061,10 @@
           "minutes": 5,
           "language": "hi",
           "status": "Draft - Hindi pronunciation review",
-          "sha256": "a0cdf5ada2418c81df2d6143d407764156affd6b859787b80d59da728e5c91d6",
-          "bytes": 44063
+          "sha256": "2f0d276204e56aee9b492a34300d406ab0f54cbdd23d52994bc1636c10029e72",
+          "bytes": 45024,
+          "originalSha256": "a0cdf5ada2418c81df2d6143d407764156affd6b859787b80d59da728e5c91d6",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "HIN-20",
@@ -916,8 +1074,10 @@
           "minutes": 6,
           "language": "hi",
           "status": "Draft - Hindi pronunciation review",
-          "sha256": "e4c55aed973fee91dfd8a52a91e2d13817f3f7a07624ded679e74c4008fe4d75",
-          "bytes": 42337
+          "sha256": "a44e3b4f9a9c2648fae97aa6b5a716107991b2da0cfdfd05604573ca3a4a04e3",
+          "bytes": 43367,
+          "originalSha256": "e4c55aed973fee91dfd8a52a91e2d13817f3f7a07624ded679e74c4008fe4d75",
+          "presentation": "Interactive 3D studio"
         }
       ]
     },
@@ -937,8 +1097,10 @@
           "minutes": 7,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "a07afa75cd78b140427c1bc833f45eccbcf9dfd4743594e2e143f7a61aafb211",
-          "bytes": 38265
+          "sha256": "d5c531848155f15c109af916d3726ae4aac8eb84edd265afde65cbd5d0ef1047",
+          "bytes": 39035,
+          "originalSha256": "a07afa75cd78b140427c1bc833f45eccbcf9dfd4743594e2e143f7a61aafb211",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "C3-COM-02",
@@ -948,8 +1110,10 @@
           "minutes": 7,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "4a64628cdc2fc2639876c73c1283e26f41a7abc9a8e2f77b0373adb6688eb305",
-          "bytes": 36977
+          "sha256": "741a547929bac0f37ee9f84957243eaabf37333e35f260e93d8ed3a7e7c79189",
+          "bytes": 37767,
+          "originalSha256": "4a64628cdc2fc2639876c73c1283e26f41a7abc9a8e2f77b0373adb6688eb305",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "C3-COM-03",
@@ -959,8 +1123,10 @@
           "minutes": 6,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "ed5c995f658abfd541fcd5b8e9b140cf5184e33205df7cae8209691116303ae1",
-          "bytes": 37222
+          "sha256": "c2d3ebf9b496f97faa53bbc8ec517ab1f051b4a59dbd0de2878fe37dab86d0f3",
+          "bytes": 38010,
+          "originalSha256": "ed5c995f658abfd541fcd5b8e9b140cf5184e33205df7cae8209691116303ae1",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "C3-COM-04",
@@ -970,8 +1136,10 @@
           "minutes": 6,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "ec7ce01d01adcff1ea08feec1409a11673e42698a9d23702b4ba1ddf50e8e0f1",
-          "bytes": 36567
+          "sha256": "07f847f77c192a055a66fb7d8e901fe60b6d4b5fe2bf24841b65c5c7bb6a5fa4",
+          "bytes": 37353,
+          "originalSha256": "ec7ce01d01adcff1ea08feec1409a11673e42698a9d23702b4ba1ddf50e8e0f1",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "C3-COM-05",
@@ -981,8 +1149,10 @@
           "minutes": 8,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "3b681c141ee6af6c61b8848b5a3cd2c14667fcb148b557d449967202f614f939",
-          "bytes": 37638
+          "sha256": "9adc6a3077ee9b698085715dc6d86d6d436cf81102c43eb47d6a901856fdeaec",
+          "bytes": 38432,
+          "originalSha256": "3b681c141ee6af6c61b8848b5a3cd2c14667fcb148b557d449967202f614f939",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "C3-COM-06",
@@ -992,8 +1162,10 @@
           "minutes": 6,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "55839a65d2e284ff8b31b67e20ec22d174743621eef6ce70e3e4072c5cc3ea21",
-          "bytes": 37101
+          "sha256": "5070dfd66de85aa5c67b4b3e464c64f4f0bfdc906e01a67a80b8683f72bc978a",
+          "bytes": 37902,
+          "originalSha256": "55839a65d2e284ff8b31b67e20ec22d174743621eef6ce70e3e4072c5cc3ea21",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "C3-COM-07",
@@ -1003,8 +1175,10 @@
           "minutes": 6,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "a5a805367765bf1e8c41b2b3a8d9d3bda39ec6250dc8cc2cf2da67155630e000",
-          "bytes": 37118
+          "sha256": "92a095198cf7224084b8e69f2ba290b854b633f6c9b120ca44e401cac3d791ea",
+          "bytes": 37914,
+          "originalSha256": "a5a805367765bf1e8c41b2b3a8d9d3bda39ec6250dc8cc2cf2da67155630e000",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "C3-COM-08",
@@ -1014,8 +1188,10 @@
           "minutes": 8,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "6168e41a3702b79eed82bbde450cbfee941230cefae613878d96860953f2b2eb",
-          "bytes": 37656
+          "sha256": "cf196db7bd83421c9b5280edc346b30e6d60b35bfdd03f1c0bd004c51c384d5a",
+          "bytes": 38456,
+          "originalSha256": "6168e41a3702b79eed82bbde450cbfee941230cefae613878d96860953f2b2eb",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "C3-COM-09",
@@ -1025,8 +1201,10 @@
           "minutes": 7,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "4140dfb233fd8bb04575ccf6af6b70716ddd348e94486dc1953d4fafb5812bd6",
-          "bytes": 36815
+          "sha256": "fe37fff38675c8e20a06dd9b93a5e14d2834562309badd2289cebfd6a4b1790c",
+          "bytes": 37605,
+          "originalSha256": "4140dfb233fd8bb04575ccf6af6b70716ddd348e94486dc1953d4fafb5812bd6",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "C3-COM-10",
@@ -1036,8 +1214,10 @@
           "minutes": 8,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "e481ba0c4b9a34867ec1e77120c08593bb29413f49f91fc404f63763e7060e07",
-          "bytes": 37677
+          "sha256": "f35ae994a6e0f61dae67261a781307b19b3e0c18ee2b6a00588c9778e0f8bd75",
+          "bytes": 38472,
+          "originalSha256": "e481ba0c4b9a34867ec1e77120c08593bb29413f49f91fc404f63763e7060e07",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "C3-COM-11",
@@ -1047,8 +1227,10 @@
           "minutes": 8,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "8a1157be89467efd39715f1c58e36b63f57c4fd6b3e39c07874d42b82d455c92",
-          "bytes": 39259
+          "sha256": "81b18413f65ebc048c2c963ef117cd871c4189638d7cf141548a981a3dca3f6d",
+          "bytes": 40059,
+          "originalSha256": "8a1157be89467efd39715f1c58e36b63f57c4fd6b3e39c07874d42b82d455c92",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "C3-COM-12",
@@ -1058,8 +1240,10 @@
           "minutes": 6,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "5273a975e5fa2098b1000a08af109c5d2b8d30088ec48188c35d93833ce1e0cb",
-          "bytes": 37721
+          "sha256": "8a36295d9b6221c8be6c522a4334f4a9d4ccf22f673d0c139e9342f6f77fa68e",
+          "bytes": 38516,
+          "originalSha256": "5273a975e5fa2098b1000a08af109c5d2b8d30088ec48188c35d93833ce1e0cb",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "C3-COM-13",
@@ -1069,8 +1253,10 @@
           "minutes": 7,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "c44bd0a4af781d991784b32d7702e2bf54f89532ea3e22a7236e5c59374a615d",
-          "bytes": 37219
+          "sha256": "cc66df2d3aa6125212a9a5b4f3f98a16d8b22ad9ae15455a47cc06aae869445e",
+          "bytes": 38021,
+          "originalSha256": "c44bd0a4af781d991784b32d7702e2bf54f89532ea3e22a7236e5c59374a615d",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "C3-COM-14",
@@ -1080,8 +1266,10 @@
           "minutes": 6,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "6f5110a98857e63872d3549e43e04fdf1a1c2d35e988a52a36e14b844201255e",
-          "bytes": 36716
+          "sha256": "5ed1ef29f2f42b74ff6ba6e8235c0538135e96ee0b9f58c646198ecbbf8eea46",
+          "bytes": 37516,
+          "originalSha256": "6f5110a98857e63872d3549e43e04fdf1a1c2d35e988a52a36e14b844201255e",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "C3-COM-15",
@@ -1091,8 +1279,10 @@
           "minutes": 8,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "6e34efd66a260141f931c3131c3d2b7e4763b273b65103b051c518cb31fc2655",
-          "bytes": 38422
+          "sha256": "436a1d557b3179a5876c695a9ae0d3cfd78beef69a7d994d040e1ce1bf0d0a1c",
+          "bytes": 39223,
+          "originalSha256": "6e34efd66a260141f931c3131c3d2b7e4763b273b65103b051c518cb31fc2655",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "C3-COM-16",
@@ -1102,8 +1292,10 @@
           "minutes": 8,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "95958b4a5a519d15e6e809030b28aef5f32de7ae81ac8706b64b26da66bb665c",
-          "bytes": 37518
+          "sha256": "d314d7ba8fb3455ecbacfa2c8557dfeb89f8d2ad206f861c1e272914533947af",
+          "bytes": 38322,
+          "originalSha256": "95958b4a5a519d15e6e809030b28aef5f32de7ae81ac8706b64b26da66bb665c",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "C3-COM-17",
@@ -1113,8 +1305,10 @@
           "minutes": 7,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "22eb994b0d1633b0ce98c8a07c07f5dc23d97f0742ffd8d873004bc1f9dc80b7",
-          "bytes": 37085
+          "sha256": "f06266988b28893902dae620f3c02809a54825c65c1d8e4b2361e430b1c4bb13",
+          "bytes": 37877,
+          "originalSha256": "22eb994b0d1633b0ce98c8a07c07f5dc23d97f0742ffd8d873004bc1f9dc80b7",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "C3-COM-18",
@@ -1124,8 +1318,10 @@
           "minutes": 7,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "21738f19619be38eea5dae92fa1fd683cd048f554b4a31d473d2d6b9b2ffb41b",
-          "bytes": 37037
+          "sha256": "3a08d37ea9a81e52cfde9b2553f685bd701104879e4df948ed4060f0b1d2a55d",
+          "bytes": 37837,
+          "originalSha256": "21738f19619be38eea5dae92fa1fd683cd048f554b4a31d473d2d6b9b2ffb41b",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "C3-COM-19",
@@ -1135,8 +1331,10 @@
           "minutes": 7,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "f0125c97c0eb1c3da70e945371e42217a4fa5be9c19902e67a0b878f4bbcbb13",
-          "bytes": 37542
+          "sha256": "4772a904b75650ad914fd37538b3bc351acadad82ebe4803c48d4124e5abcff4",
+          "bytes": 38341,
+          "originalSha256": "f0125c97c0eb1c3da70e945371e42217a4fa5be9c19902e67a0b878f4bbcbb13",
+          "presentation": "Interactive 3D studio"
         },
         {
           "id": "C3-COM-20",
@@ -1146,10 +1344,13 @@
           "minutes": 8,
           "language": "en",
           "status": "Checked locally",
-          "sha256": "0789ecfaa75d8567687c46d25d7179f5381ce562ffc81ee78d4508e3d3871980",
-          "bytes": 38979
+          "sha256": "79bbf45ec106d614828bb874de37ac43256e4285f8c031da5be609529f5db5f5",
+          "bytes": 39771,
+          "originalSha256": "0789ecfaa75d8567687c46d25d7179f5381ce562ffc81ee78d4508e3d3871980",
+          "presentation": "Interactive 3D studio"
         }
       ]
     }
-  ]
+  ],
+  "version": 2
 }

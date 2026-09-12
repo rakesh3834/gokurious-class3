@@ -1,29 +1,41 @@
 # GoKurious · Class 3
 
-100 interactive lessons across Science, Maths, English, Hindi and Computer, with 20 lessons per subject.
+[Open the public learning site](https://rakesh3834.github.io/gokurious-class3/)
 
-**Public website:** https://rakesh3834.github.io/gokurious-class3/
+100 interactive lessons: 20 each in Science, Maths, English, Hindi and Computer. Choose a subject, search for a topic and open a lesson without an account.
 
-Choose a subject, open an activity, explore its controls, read the explanation and try the challenges. Each lesson has a shareable page, previous/next navigation and a link back to its subject. No account is required.
+The September 2026 redesign adds real WebGL 3D scenes, soft shadows, dimensional objects and responsive activity tools. The visual style is a stylized educational diorama; these are procedural browser models, not Blender renders or photorealistic assets. Drawing and selection exercises retain their working touch canvases within the studio.
 
-## Hindi audio status
+## Playing and reading
 
-All 20 Hindi lessons are included. They remain drafts pending Hindi pronunciation review. The portal displays this status on the Hindi subject page and each Hindi lesson. Spoken audio uses the browser's available voices, so availability and pronunciation can vary by device. This release does not promote the Hindi drafts to fully reviewed status.
+- **Explore:** change a tool and inspect the result. The tool selector and arrows reveal further controls without leaving the active scene. The turn button changes the viewing angle.
+- **Missions:** three topic-specific ideas to predict, experiment and explain. These are self-directed prompts, not automatically assessed mastery scores.
+- **Check:** the original three questions, with answer-specific explanations and retry.
+- **Read:** the original GoKurious article, challenges, FAQs and grown-up activities. Current activity state is retained while reading.
 
-## Source and structure
+Phone and tablet layouts keep the current scene, active tools and feedback together. Longer explanations have a continue button. Text entry has a focused editing layout. The article scrolls normally. Reloading or restarting clears activity progress; the site does not save personal information or progress remotely.
 
-- `content/`: the 100 complete, original, self-contained lesson HTML files, preserved byte for byte from the saved workbook exports.
-- `catalog.json`: subject order, titles, topics, duration, QA status and original lesson SHA-256 hashes.
-- `subjects/`: the five subject indexes.
-- `lessons/`: a navigation frame for each original interactive lesson.
-- `assets/portal.css`: responsive portal styling.
-- `scripts/`: dependency-free portal build, integrity checks and a local preview server.
+## Hindi and audio
 
-Curriculum source links and original illustration credits remain inside each lesson. External reference documents retain their own rights; this repository does not bundle the source PDFs.
+All 20 Hindi lessons are included. Hindi pronunciation review remains pending. The portal and lesson help retain that notice. Audio uses the existing browser speech facilities, whose voices vary by device. This redesign does not add or claim a newly verified narration track.
 
-## Build and check
+## Structure and content preservation
 
-Requires Node.js 20 or newer. No dependency installation is needed.
+- `content/`: the 100 original lesson models and complete reading sections, with state hooks and the new studio entry point.
+- `assets/studio.js`, `studio.css`: responsive tools, reading navigation, missions and quiz presentation.
+- `assets/studio-scene.js`: topic-aware Three.js scene renderer.
+- `assets/vendor/`: self-hosted Three.js 0.180.0 and SVGLoader, with the MIT license. No runtime CDN is required.
+- `assets/previews/`: screenshots of the actual lesson visuals.
+- `catalog.json`: subject and topic metadata, original and current content hashes.
+- `subjects/`: five searchable subject indexes.
+- `lessons/`: redirects preserving all previously shared lesson addresses.
+- `design/`: research, all 100 topic specifications and release verification.
+
+All article/FAQ/teacher-activity sections and original quiz data were compared against the previous public release and preserved exactly. The HTML files themselves have changed to integrate the studio and are no longer standalone exports: serve them with the shared assets. Source workbooks were not modified. Original curriculum links and credits remain in the lessons; source PDFs are not bundled.
+
+## Build and serve
+
+Requires Node.js 20 or later. No package installation is needed.
 
 ```sh
 npm run build
@@ -31,6 +43,6 @@ npm run check
 npm start
 ```
 
-The build regenerates navigation pages while verifying that the original lesson contents match their stored hashes. The check verifies lesson counts, hashes, local links, previous/next navigation and Hindi review labels.
+Open the address printed by the server. The upgrade script is idempotent. The build refreshes hashes and regenerates the portal; the check verifies counts, hashes, local links, studio integrations, previews, redirects and Hindi draft notices.
 
-GitHub Pages publishes the root of `main`. `.nojekyll` keeps the static files unchanged. To update the portal, rebuild and check before pushing to `main`.
+GitHub Pages publishes the root of `main`. See [the research record](design/RESEARCH.md) and [release verification](design/RELEASE.md) for evidence and testing limits. Browser viewport checks do not substitute for hands-on testing on physical Android, iPhone and iPad devices. Devices without WebGL use the original model fallback, which may require scrolling.

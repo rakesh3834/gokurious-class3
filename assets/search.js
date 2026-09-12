@@ -1,0 +1,2 @@
+const input=document.querySelector('#topic-search');
+if(input){const cards=[...document.querySelectorAll('.lesson-grid>li')],status=document.querySelector('#search-result');input.addEventListener('input',()=>{const query=input.value.normalize('NFC').toLocaleLowerCase().trim();let count=0;for(const card of cards){const match=card.textContent.normalize('NFC').toLocaleLowerCase().includes(query);card.hidden=!match;if(match)count++;}status.textContent=query?`${count} of 20 lessons match` : '';});}

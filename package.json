@@ -1,11 +1,11 @@
 {
   "name": "gokurious-class3",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
-  "description": "100 GoKurious Class 3 interactive lessons, organised by subject",
+  "description": "100 mobile and tablet learning studios with interactive 3D scenes",
   "type": "module",
   "scripts": {
-    "build": "node scripts/build.mjs",
+    "build": "node scripts/upgrade.mjs && node scripts/build.mjs",
     "check": "node scripts/check.mjs",
     "start": "node scripts/serve.mjs"
   }
